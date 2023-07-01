@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import {createTheme, ThemeProvider} from "@mui/material/styles";
 
 // Set new color palette

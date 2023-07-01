@@ -1,8 +1,8 @@
 import React from 'react';
 import {AppBar, Container, Toolbar, Typography, Box, IconButton, Menu, MenuItem, Button} from "@mui/material";
-import logo from './../assets/unicorn_logo.png';
-import baseStyles from './../styles/Base.module.scss';
-import styles from './../styles/NavBar.module.scss';
+import logo from '../../assets/unicorn_logo.png';
+import baseStyles from '../../styles/Base.module.scss';
+import styles from './NavBar.module.scss';
 import MenuIcon from '@mui/icons-material/Menu';
 
 const pages = ['Home', 'About', 'Events', 'Contact'];
@@ -20,7 +20,7 @@ function NavBar(){
     }
 
     return (
-        <AppBar position='sticky'>
+        <AppBar position='sticky' style={{boxShadow: "none"}}>
             <Container maxWidth='xl'>
                 <Toolbar disableGutters>
                     <img src={logo} className={baseStyles.UnicornLogo} alt="Unicorn Company Logo"/>
@@ -99,7 +99,7 @@ function NavBar(){
                             fontWeight: 900,
                             fontSize: 25
                         }}
-                        className={styles.CompanyName}>
+                        className={styles.companyName}>
                         McGill | Ventures
                     </Typography>
 
@@ -116,7 +116,11 @@ function NavBar(){
                                     display: 'block',
                                     textTransform: 'capitalize',
                                     fontSize: 18,
-                                    marginRight: 3}}
+                                    marginRight: 3,
+                                    '&:hover': {
+                                        textDecoration: 'underline',
+                                        textUnderlineOffset: '5px',
+                                    }}}
                             >
                                 {page}
                             </Button>
