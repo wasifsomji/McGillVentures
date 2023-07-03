@@ -1,0 +1,69 @@
+.footerBackground {
+    background: #1E1E1E;
+    padding: 30px 40px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+
+.copyrightsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    @media screen and (max-width: 768px) {
+        align-items: center;
+        margin: 10px 0 10px 0;
+    }
+}
+
+.rightLinks {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+
+    @media screen and (max-width: 768px) {
+        justify-content: center;
+    }
+}
+
+.linksContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+
+    @media screen and (max-width: 768px) {
+        align-items: center;
+        margin: 10px
+    }
+}
+
+.linksTitle {
+    color: #FFF;
+    font-size: 16px;
+    font-family: Helvetica Neue, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.linksText {
+    color: #FFF;
+    text-align: right;
+    font-size: 14px;
+    font-family: Helvetica Neue, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
