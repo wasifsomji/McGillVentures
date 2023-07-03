@@ -1,7 +1,6 @@
 import React from 'react';
 import {AppBar, Container, Toolbar, Typography, Box, IconButton, Menu, MenuItem, Button} from "@mui/material";
 import logo from '../../assets/unicorn_logo.png';
-import baseStyles from '../../styles/Base.module.scss';
 import styles from './NavBar.module.scss';
 import MenuIcon from '@mui/icons-material/Menu';
 
@@ -22,28 +21,30 @@ function NavBar(){
     return (
         <AppBar position='sticky' style={{boxShadow: "none"}}>
             <Container maxWidth='xl'>
-                <Toolbar disableGutters>
-                    <img src={logo} className={baseStyles.UnicornLogo} alt="Unicorn Company Logo"/>
+                <Toolbar disableGutters className={styles.navBarContainer}>
 
                     {/*Big Screen*/}
-                    <Typography
-                        variant='h6'
-                        noWrap
-                        component='a'
-                        href='/'
-                        sx={{
-                            mr: 2,
-                            display: { xs: 'none', md: 'flex' },
-                            fontFamily: 'playfair display',
-                            color: 'inherit',
-                            textDecoration: 'none',
-                            fontWeight: 900,
-                            fontSize: 25,
-                            paddingLeft: 2
-                        }}
-                    >
-                        McGill | Ventures
-                    </Typography>
+                    <div className={styles.titleContainer}>
+                        <img src={logo} className={styles.unicornLogoBig} alt="Unicorn Company Logo"/>
+                        <Typography
+                            variant='h6'
+                            noWrap
+                            component='a'
+                            href='/'
+                            sx={{
+                                mr: 2,
+                                display: { xs: 'none', md: 'flex' },
+                                fontFamily: 'playfair display',
+                                color: 'inherit',
+                                textDecoration: 'none',
+                                fontWeight: 900,
+                                fontSize: 25,
+                                paddingLeft: 2
+                            }}
+                        >
+                            McGill | Ventures
+                        </Typography>
+                    </div>
 
                     {/*Small Screen Hamburger*/}
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }}}>
@@ -84,24 +85,27 @@ function NavBar(){
                     </Box>
 
                     {/*Small Screen Title*/}
-                    <Typography
-                        variant='h5'
-                        noWrap
-                        component='a'
-                        href='/'
-                        sx={{
-                            mr: 2,
-                            display: { xs: 'flex', md: 'none' },
-                            flexGrow: 1,
-                            fontFamily: 'playfair display',
-                            color: 'inherit',
-                            textDecoration: 'none',
-                            fontWeight: 900,
-                            fontSize: 25
-                        }}
-                        className={styles.companyName}>
-                        McGill | Ventures
-                    </Typography>
+                    <div className={styles.titleContainer}>
+                        <img src={logo} className={styles.unicornLogoSmall} alt="Unicorn Company Logo"/>
+                        <Typography
+                            variant='h5'
+                            noWrap
+                            component='a'
+                            href='/'
+                            sx={{
+                                mr: 2,
+                                display: { xs: 'flex', md: 'none' },
+                                flexGrow: 1,
+                                fontFamily: 'playfair display',
+                                color: 'inherit',
+                                textDecoration: 'none',
+                                fontWeight: 900,
+                                fontSize: 25
+                            }}
+                            className={styles.companyName}>
+                            McGill | Ventures
+                        </Typography>
+                    </div>
 
                     {/*Big Screen Nav Bar*/}
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'flex-end'}}>

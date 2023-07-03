@@ -1,11 +1,36 @@
+.navBarContainer {
+
+}
+
+.unicornLogoBig {
+  width: 40px;
+
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
+}
+
+.unicornLogoSmall {
+  width: 40px;
+  display: none;
+
+  @media screen and (max-width: 900px) {
+    display: flex;
+    margin-right: 5px;
+  }
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .companyName {
   padding-left: 1%;
   font-size: 25px;
 }
-
-//.navBarMenu {
-//  justify-content: flex-end;
-//}
 
 .navBarButton {
   color: black;
