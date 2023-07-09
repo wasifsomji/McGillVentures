@@ -5,6 +5,7 @@ import {Button, ButtonGroup} from "@mui/material";
 import OurTeam from "./Section/OurTeam/OurTeam";
 import styles from "./About.module.scss";
 import AnalystProgram from "./Section/AnalystProgram/AnalystProgram";
+import Footer from "../../components/Footer/Footer";
 
 
 const About = () => {
@@ -29,37 +30,42 @@ const About = () => {
     return (
         <div>
             <NavBar />
-            <Landing title={"Collaborating Minds,\n" + "Venture Pioneers"}
+            <Landing title={"Collaborating Minds,\nVenture Pioneers"}
                      subtitle={"Our team consists of talented and knowledgeable individuals ready to drive " +
                          "innovation and fuel entrepreneurial success through our Analyst Program."}
                      image={landingImage} />
 
-            <ButtonGroup variant="contained" aria-label="outlined primary button group" className={styles.buttonGroup}>
-                <Button
-                    sx={{
-                        color: "#FFF",
-                        fontSize: "14px",
-                        fontFamily: "Helvetica Neue",
-                        fontWeight: 700,
-                        textTransform: 'capitalize'}}
-                    className={styles.displayOurTeam}
-                    onClick={() => displayContent("ourTeam")}
-                >Our Team</Button>
-                <Button
-                    sx={{
-                        color: "#FFF",
-                        fontSize: "14px",
-                        fontFamily: "Helvetica Neue",
-                        fontWeight: 700,
-                        textTransform: 'capitalize',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        lineHeight: '15px'
-                    }}
-                    className={styles.displayOurProgram}
-                    onClick={() => displayContent("ourProgram")}
-                ><div>Our Analyst</div><div>Program</div></Button>
-            </ButtonGroup>
+            <div className={styles.buttonsContainer}>
+                <ButtonGroup variant="contained" aria-label="outlined primary button group" className={styles.buttonGroup}>
+                    <Button
+                        sx={{
+                            color: "#FFF",
+                            fontSize: "16px",
+                            fontFamily: "Helvetica Neue",
+                            fontWeight: 700,
+                            textTransform: 'capitalize',
+                            padding: '10px 20px 10px 20px'
+                        }}
+                        className={styles.displayOurTeam}
+                        onClick={() => displayContent("ourTeam")}
+                    >Our Team</Button>
+                    <Button
+                        sx={{
+                            color: "#FFF",
+                            fontSize: "16px",
+                            fontFamily: "Helvetica Neue",
+                            fontWeight: 700,
+                            textTransform: 'capitalize',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            lineHeight: '15px',
+                            padding: '10px 20px 10px 20px'
+                        }}
+                        className={styles.displayOurProgram}
+                        onClick={() => displayContent("ourProgram")}
+                    ><div>Our Analyst</div><div>Program</div></Button>
+                </ButtonGroup>
+            </div>
 
             <div id="ourTeam">
                 <OurTeam />
@@ -67,6 +73,8 @@ const About = () => {
             <div id="ourProgram">
                 <AnalystProgram />
             </div>
+
+            <Footer/>
         </div>
     )
 }

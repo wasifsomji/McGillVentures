@@ -1,0 +1,15 @@
+.teamCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 50px 50px 50px;
+}
+
+.cardContent {
+    color: #000;
+    font-family: Helvetica Neue, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 20px;
+}
