@@ -2,9 +2,9 @@ import NavBar from "../../components/NavBar/NavBar";
 import Landing from "../../components/Landing/Landing";
 import landingImage from "../../assets/mcgill.jpeg";
 import {Button, ButtonGroup} from "@mui/material";
-import OurTeam from "./Section/OurTeam/OurTeam";
+import OurTeam from "./Sections/OurTeam/OurTeam";
 import styles from "./About.module.scss";
-import AnalystProgram from "./Section/AnalystProgram/AnalystProgram";
+import AnalystProgram from "./Sections/AnalystProgram/AnalystProgram";
 import Footer from "../../components/Footer/Footer";
 
 
