@@ -1,8 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
-import Home from "./pages/Home/Home";
 import {createTheme, ThemeProvider} from "@mui/material/styles";
+import Router from "./Router";
 
 // Set new color palette
 const theme = createTheme({
@@ -19,9 +18,7 @@ const theme = createTheme({
 function App() {
     return (
         <ThemeProvider theme={theme}>
-            <Router>
-                <Home />
-            </Router>
+            <Router />
         </ThemeProvider>
     );
 }

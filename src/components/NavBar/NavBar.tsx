@@ -3,10 +3,13 @@ import {AppBar, Container, Toolbar, Typography, Box, IconButton, Menu, MenuItem,
 import logo from '../../assets/unicorn_logo.png';
 import styles from './NavBar.module.scss';
 import MenuIcon from '@mui/icons-material/Menu';
+import {useNavigate} from "react-router-dom";
 
 const pages = ['Home', 'About', 'Events', 'Contact'];
 
 function NavBar(){
+
+    const navigate = useNavigate();
 
     const [hamburger, setHamburger] = React.useState<null | HTMLElement>(null);
 
@@ -16,6 +19,17 @@ function NavBar(){
 
     const handleCloseHamburger = () => {
         setHamburger(null);
+    }
+
+    function navigateTo(page : string) {
+        const lowerPage = page.toLowerCase();
+
+        if (lowerPage === 'home') {
+            navigate("/");
+        }
+        else {
+            navigate("/" + lowerPage);
+        }
     }
 
     return (
@@ -78,7 +92,7 @@ function NavBar(){
                         >
                             {pages.map((page) => (
                                 <MenuItem key={page} onClick={handleCloseHamburger}>
-                                    <Typography textAlign="center" className={styles.navBarPages}>{page}</Typography>
+                                    <Typography textAlign="center" className={styles.navBarPages} onClick={() => navigateTo(page)}>{page}</Typography>
                                 </MenuItem>
                             ))}
                         </Menu>
@@ -112,7 +126,7 @@ function NavBar(){
                         {pages.map((page) => (
                             <Button
                                 key={page}
-                                onClick={handleCloseHamburger}
+                                onClick={() => navigateTo(page)}
                                 href=''
                                 sx={{
                                     my: 2,
