@@ -1,0 +1,82 @@
+
+.introTitle {
+    display: flex;
+    flex-direction: column;
+
+    color: #000;
+    font-family: Helvetica Neue, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.introSubtitle {
+    display: flex;
+    max-width: 750px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    color: #000;
+    font-family: Helvetica Neue, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.introImage {
+    border-radius: 400px;
+    box-shadow: 10px 10px 0 0 #370894;
+    width: 350px;
+    height: 350px;
+    margin-left: 5%;
+
+    @media screen and (max-width: 768px) {
+        width: 300px;
+        height: 300px;
+
+        @media screen and (max-width: 600px) {
+            margin: 40px 0 0 0;
+        }
+    }
+}
+
+.whatToExpect {
+    margin-top: 100px;
+}
+
+.expectBoxContainer {
+    width: 70%;
+
+    @media screen and (max-width: 425px){
+        width: 90%;
+    }
+}
+
+.expectBox {
+    background: #370894;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    color: #FFF;
+    font-family: Helvetica Neue, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+    padding: 10px 10px 10px 20px;
+
+    margin-left: 20%;
+    margin-bottom: 25px;
+
+    @media screen and (max-width: 1000px){
+        margin-left: 5%;
+    }
+
+    @media screen and (max-width: 425px){
+        margin-left: 0;
+    }
+}
