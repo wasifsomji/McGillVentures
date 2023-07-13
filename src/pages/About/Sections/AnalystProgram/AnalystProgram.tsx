@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from "./AnalystProgram.module.scss";
-import {Stack} from "@mui/material";
+import {Card, CardContent, Stack, Typography} from "@mui/material";
 import introImage from "../../../../assets/mcgill.jpeg";
+import partnerImage1 from "../../../../assets/mcgill.jpeg";
 
 const AnalystProgram= () => {
     return (
@@ -11,7 +12,7 @@ const AnalystProgram= () => {
             <Stack
                 direction={{ xs: 'column', sm: 'row' }}
                 alignItems="center"
-                justifyContent="flex-start"
+                justifyContent="space-between"
             >
                 <div>
                     <div className={styles.introTitle}>Introducing our Analyst Program</div>
@@ -37,6 +38,79 @@ const AnalystProgram= () => {
                         <div className={styles.expectBox}>Mock-startup building simulator</div>
                         <div className={styles.expectBox}>Cases created by Venture Capital partners</div>
                     </div>
+                </Stack>
+            </Stack>
+
+            {/* Positions */}
+            <Stack
+                direction="column"
+                display="flex"
+                alignItems="center"
+                paddingTop="125px"
+            >
+                <div className={styles.introTitle}>Positions</div>
+                <Stack
+                    direction={{ sm: 'column', md: 'row' }}
+                    justifyContent={{ md: 'center'}}
+                    alignItems={{ sm: 'center'}}
+                    gap="5%"
+                >
+                    <Card
+                        sx={{
+                            width: { sm: "100%", md: "40%"},
+                            height: { md: "425px", lg: "310px" },
+                            border: "5px solid #370894",
+                            boxShadow: "15px 15px 0px 0px #370894",
+                            borderRadius: "0px",
+                            paddingTop: "15px",
+                            marginBottom: "50px"
+                        }}
+                    >
+                        <CardContent>
+                            <Typography variant="h5" gutterBottom={true} sx={{textAlign: "center", fontFamily: "Helvetica Neue, sans-serif", fontWeight: "700"}}>Associates</Typography>
+                            <ul className={styles.listPosition}>
+                                <li>Lead a small team of analysts throughout the program.</li>
+                                <li>Be responsible for company ideation for the startup simulator.</li>
+                                <li>Be responsible for ensuring deliverables are submitted in a timely manner.</li>
+                                <li>Manage team schedules & coordinate workload & analyst bandwidth with the McGill Ventures Executive Team.</li>
+                            </ul>
+                        </CardContent>
+                    </Card>
+                    <Card
+                        sx={{
+                            width: { sm: "100%", md: "40%"},
+                            height: { md: "425px", lg: "310px" },
+                            border: "5px solid #370894",
+                            boxShadow: "15px 15px 0px 0px #370894",
+                            borderRadius: "0px",
+                            paddingTop: "15px",
+                            marginBottom: "50px"
+                        }}>
+                        <CardContent>
+                            <Typography variant="h5" gutterBottom={true} sx={{textAlign: "center", fontFamily: "Helvetica Neue, sans-serif", fontWeight: "700"}}>Analysts</Typography>
+                            <ul className={styles.listPosition}>
+                                <li>Work under Associates to complete deliverables and participate in projects.</li>
+                                <li>Participate in cases hosted by industry partners.</li>
+                                <li>Attend Demo Days hosted by partner companies.</li>
+                                <li>Work under Associates to complete the startup simulator project.</li>
+                            </ul>
+                        </CardContent>
+                    </Card>
+                </Stack>
+            </Stack>
+            <Stack
+                direction="column"
+                display="flex"
+                alignItems="center"
+                paddingTop="125px"
+            >
+                <div className={styles.introTitle}>Our Partners</div>
+                <Stack display="flex" direction="row" flexWrap= "wrap" justifyContent="center">
+                    <img src={partnerImage1} className={styles.partnerImage} alt="logo"/>
+                    <img src={partnerImage1} className={styles.partnerImage} alt="logo"/>
+                    <img src={partnerImage1} className={styles.partnerImage} alt="logo"/>
+                    <img src={partnerImage1} className={styles.partnerImage} alt="logo"/>
+                    <img src={partnerImage1} className={styles.partnerImage} alt="logo"/>
                 </Stack>
             </Stack>
         </Stack>

@@ -6,6 +6,7 @@ import OurTeam from "./Sections/OurTeam/OurTeam";
 import styles from "./About.module.scss";
 import AnalystProgram from "./Sections/AnalystProgram/AnalystProgram";
 import Footer from "../../components/Footer/Footer";
+import {useEffect} from "react";
 
 
 const About = () => {
@@ -26,6 +27,11 @@ const About = () => {
             ourTeam.style.display = "none";
         }
     }
+
+    useEffect(() => {
+            displayContent("ourTeam")
+        }
+    )
 
     return (
         <div>
