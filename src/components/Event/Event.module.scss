@@ -1,0 +1,46 @@
+.eventContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.eventImage {
+    display: flex;
+    width: 40%;
+    height: 40%
+}
+
+.eventContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.eventTitle {
+    display: flex;
+    color: #000;
+    font-family: Helvetica Neue, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.eventDetails {
+    color: #000;
+    font-family: Helvetica Neue, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.eventDescription {
+    color: #000;
+    font-family: Helvetica Neue, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
