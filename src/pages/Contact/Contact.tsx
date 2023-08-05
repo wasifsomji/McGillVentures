@@ -6,6 +6,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedinIcon from '@mui/icons-material/LinkedIn';
 import Footer from "../../components/Footer/Footer";
+import {Link} from "@mui/material";
 
 
 const Contact = () => {
@@ -20,9 +21,15 @@ const Contact = () => {
             <div className={styles.socialsContainer}>
                 <div className={styles.socialsTitle}>Through<br/>Social Medias</div>
                 <div className={styles.socialsIconContainer}>
-                    <FacebookIcon sx={{display: "flex", color: "white", height: {xs: "75px", sm: "125px"}, width: {xs: "75px", sm: "125px"}, padding: {xs:"10px", sm:"40px"}}}/>
-                    <InstagramIcon sx={{display: "flex", color: "white", height: {xs: "75px", sm: "125px"}, width: {xs: "75px", sm: "125px"}, padding: {xs:"10px", sm:"40px"}}}/>
-                    <LinkedinIcon sx={{display: "flex", color: "white", height: {xs: "75px", sm: "125px"}, width: {xs: "75px", sm: "125px"}, padding: {xs:"10px", sm:"40px"}}}/>
+                    <Link href="https://www.facebook.com/mcgillventuresclub" target="_blank" rel="noreferrer">
+                        <FacebookIcon sx={{display: "flex", color: "white", height: {xs: "75px", sm: "125px"}, width: {xs: "75px", sm: "125px"}, padding: {xs:"10px", sm:"40px"}}}/>
+                    </Link>
+                    <Link href="https://www.instagram.com/mcgillvc/" target="_blank" rel="noreferrer">
+                        <InstagramIcon sx={{display: "flex", color: "white", height: {xs: "75px", sm: "125px"}, width: {xs: "75px", sm: "125px"}, padding: {xs:"10px", sm:"40px"}}}/>
+                    </Link>
+                    <Link href="https://www.linkedin.com/company/mcgill-ventures/" target="_blank" rel="noreferrer">
+                        <LinkedinIcon sx={{display: "flex", color: "white", height: {xs: "75px", sm: "125px"}, width: {xs: "75px", sm: "125px"}, padding: {xs:"10px", sm:"40px"}}}/>
+                    </Link>
                 </div>
             </div>
             <Footer />
