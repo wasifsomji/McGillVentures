@@ -5,8 +5,10 @@ import styles from "./Home.module.scss"
 import Landing from "../../components/Landing/Landing";
 import landingImage from "../../assets/mcgill.jpeg";
 import coverImage from "../../assets/mcgill.jpeg";
-import whoWeAreImage from "../../assets/mcgill.jpeg";
 import Footer from "../../components/Footer/Footer";
+import home1 from "../../assets/home/home1.jpeg";
+import home2 from "../../assets/home/home2.jpeg";
+import home3 from "../../assets/home/home3.jpeg";
 
 const Home = () => {
     return (
@@ -23,7 +25,7 @@ const Home = () => {
                     — Joel Solomon, The Clean Money Revolution: Reinventing Power, Purpose and Capitalism
                 </div>
             </div>
-            <img src={coverImage} className={styles.coverImage} />
+            <img src={coverImage} className={styles.coverImage} alt="home cover"/>
             <div className={styles.whoWeAreContainer}>
                 <div className={styles.titleText}>
                     <div className={styles.whoWeAreTitle}>
@@ -47,9 +49,9 @@ const Home = () => {
                     </div>
                 </div>
                 <div className={styles.whoWeAreImagesContainer}>
-                    <img src={whoWeAreImage} className={styles.whoWeAreImage}/>
-                    <img src={whoWeAreImage} className={styles.whoWeAreImage}/>
-                    <img src={whoWeAreImage} className={styles.whoWeAreImage}/>
+                    <img src={home1} className={styles.whoWeAreImage} alt="who we are"/>
+                    <img src={home2} className={styles.whoWeAreImage} alt="who we are"/>
+                    <img src={home3} className={styles.whoWeAreImage} alt="who we are"/>
                 </div>
             </div>
             <Footer />
