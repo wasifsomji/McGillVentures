@@ -19,16 +19,16 @@ const pastEventDescription1 =
 
 const Events = () => {
     return (
-        <div>
+        <div className={styles.eventsContainer}>
             <NavBar />
             <Landing
                 title="Fueling Ideas, Igniting Connections"
                 subtitle="We curate a diverse range of events to cather to the thirst for venture capital knowledge."
                 image={landingImage}
             />
+            {/* Upcoming Events */}
+            <div className={styles.eventsHeader}>Upcoming Events</div>
             <div className={styles.eventsContent}>
-                {/* Upcoming Events */}
-                <div className={styles.eventsHeader}>Upcoming Events</div>
                 <Event
                     image={eventImage1}
                     title="Meet our Speaker: John Smith!"
@@ -37,9 +37,8 @@ const Events = () => {
                     description="Join us for an exclusive event, as we delve into the world of venture capital and private equity with one of the industry's
                     esteemed professionals. John Smith, a renowned figure in the field, brings a wealth of expertise and insights to the table. During this engaging session,
                     attendees will have the unique opportunity to learn from his vast experience, gain valuable industry knowledge, and explore the latest trends shaping the
-                    venture capital landscape. Whether you're an aspiring venture capitalist, an entrepreneur looking for funding, or simply curious about the inner workings
-                    of this dynamic industry, this event promises to be an enriching and enlightening experience. Don't miss this chance to network with like-minded individuals,
-                    expand your horizons, and be inspired by John Smith's journey and invaluable advice. Secure your spot now and embark on a journey of discovery with us!"
+                    venture capital landscape."
+                    link="/"
                 />
                 <Event
                     title="Uncovering the Future of Tech Startups"
@@ -48,23 +47,22 @@ const Events = () => {
                     description="Get ready to embark on an exciting journey into the world of tech startups at our event.Join us as we bring together a panel of visionary
                     entrepreneurs, seasoned investors, and industry experts to share their insights and perspectives on the ever-evolving tech startup ecosystem.
                     From groundbreaking innovations to navigating funding challenges, our esteemed panelists will shed light on the secrets to success in this dynamic landscape.
-                    Discover the latest trends, emerging technologies, and disruptive business models that are reshaping industries. Engage in lively discussions, ask burning questions,
-                    and gain a deeper understanding of the strategies that drive successful tech startups. Whether you're an aspiring entrepreneur, a seasoned investor, or
-                    simply fascinated by the power of technology and innovation, this event promises to be a source of inspiration and knowledge.
-                    Join us for an evening of networking, collaboration, and boundless possibilities. Connect with fellow enthusiasts, industry pioneers, and potential partners,
-                    as we collectively explore the future of tech startups and the transformative impact they have on our world. Don't miss this chance to gain unparalleled
-                    insights and fuel your passion for innovation. Reserve your spot now and be part of this captivating exploration into the future of tech startups!"
+                    Discover the latest trends, emerging technologies, and disruptive business models that are reshaping industries. "
                     image={eventImage1}
+                    link="/"
                 />
+            </div>
 
-                {/* Past Events */}
-                <div className={styles.eventsHeader}>Past Events</div>
+            {/* Past Events */}
+            <div className={styles.eventsHeader}>Past Events</div>
+            <div className={styles.eventsContent}>
                 <Event
                     image={pastEventImage1}
                     title="Breaking Down Venture Capital"
                     date="Wednesday April 6th, 2022"
                     location="Thomson House, 3650 Mc Tavish, Montreal"
                     description={pastEventDescription1}
+                    link="https://www.facebook.com/events/520995496082804?ref=newsfeed"
                 />
             </div>
             <Footer />
