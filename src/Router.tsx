@@ -3,10 +3,12 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import Events from "./pages/Events/Events";
+import ScrollToTop from "./ScrollToTop";
 
 const Router = () => {
     return (
         <BrowserRouter>
+            <ScrollToTop/>
             <Routes>
                 <Route path="/" element={<Home />}/>
                 <Route path="/about" element={<About />} />
