@@ -1,6 +1,6 @@
 import React from 'react';
 import {AppBar, Container, Toolbar, Typography, Box, IconButton, Menu, MenuItem, Button} from "@mui/material";
-import logo from '../../assets/unicorn_logo.png';
+import logo from '../../assets/logo_white.png';
 import styles from './NavBar.module.scss';
 import MenuIcon from '@mui/icons-material/Menu';
 import {useNavigate} from "react-router-dom";

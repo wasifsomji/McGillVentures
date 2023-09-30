@@ -1,6 +1,6 @@
 import styles from "./Footer.module.scss"
 import baseStyle from "../../styles/Base.module.scss";
-import logo from "../../assets/unicorn_logo.png";
+import logo from "../../assets/logo_white.png";
 import {Stack, Typography} from "@mui/material";
 
 const Footer = () => {
@@ -32,17 +32,17 @@ const Footer = () => {
             <div className={styles.rightLinks}>
                 <div className={styles.linksContainer}>
                     <div className={styles.linksTitle}>Quick Links</div>
-                    <a className={styles.linksText} href="www.google.com">Home</a>
-                    <a className={styles.linksText} href="www.google.com">About</a>
-                    <a className={styles.linksText} href="www.google.com">Events</a>
-                    <a className={styles.linksText} href="www.google.com">Contact</a>
+                    <a className={styles.linksText} href="/">Home</a>
+                    <a className={styles.linksText} href="/about">About</a>
+                    <a className={styles.linksText} href="/events">Events</a>
+                    <a className={styles.linksText} href="/contact">Contact</a>
                 </div>
                 <div className={styles.linksContainer}>
                     <div className={styles.linksTitle}>Follow Us</div>
                     <a className={styles.linksText} href="https://www.facebook.com/mcgillventuresclub" target="_blank" rel="noreferrer">Facebook</a>
                     <a className={styles.linksText} href="https://www.instagram.com/mcgillvc/" target="_blank" rel="noreferrer">Instagram</a>
                     <a className={styles.linksText} href="https://www.linkedin.com/company/mcgill-ventures/" target="_blank" rel="noreferrer">LinkedIn</a>
-                    <a className={styles.linksText} href="www.google.com" target="_blank" rel="noreferrer">Website</a>
+                    <a className={styles.linksText} href="/" target="_blank" rel="noreferrer">Website</a>
                 </div>
             </div>
         </div>
