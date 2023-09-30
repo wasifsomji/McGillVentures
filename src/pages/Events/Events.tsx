@@ -31,23 +31,33 @@ const Events = () => {
             <div className={styles.eventsContent}>
                 <Event
                     image={eventImage1}
-                    title="Meet our Speaker: John Smith!"
-                    date="Friday October 18th, 2023"
-                    location="Bronfman Building, 202"
-                    description="Join us for an exclusive event, as we delve into the world of venture capital and private equity with one of the industry's
-                    esteemed professionals. John Smith, a renowned figure in the field, brings a wealth of expertise and insights to the table. During this engaging session,
-                    attendees will have the unique opportunity to learn from his vast experience, gain valuable industry knowledge, and explore the latest trends shaping the
-                    venture capital landscape."
+                    title="A McGill Ventures Welcome and Workshop: Term Sheets and Valuation"
+                    date="TBA"
+                    location="TBA"
+                    description="Join our club for a welcome session and interactive startup workshop. Discover the McGill ventures team and watch them present the upcoming programs,
+                    workshops, office tours, and networking events. In the featured workshop, learn about term sheets, valuation and startup evaluation. Gain insights into funding,
+                    negotiation, and assessing financial health. Connect with fellow members to kickstart your VC journey.
+                    Join our club for a welcome session and interactive startup workshop. Discover the McGill ventures team and watch them present the upcoming programs,
+                    workshops, office tours, and networking events. In the featured workshop, learn about term sheets, valuation and startup evaluation. Gain insights into funding,
+                    negotiation, and assessing financial health. Connect with fellow members to kickstart your VC journey."
                     link="/"
                 />
                 <Event
-                    title="Uncovering the Future of Tech Startups"
-                    date="Friday December 1st, 2023"
-                    location="Bronfman Building, 201"
-                    description="Get ready to embark on an exciting journey into the world of tech startups at our event.Join us as we bring together a panel of visionary
-                    entrepreneurs, seasoned investors, and industry experts to share their insights and perspectives on the ever-evolving tech startup ecosystem.
-                    From groundbreaking innovations to navigating funding challenges, our esteemed panelists will shed light on the secrets to success in this dynamic landscape.
-                    Discover the latest trends, emerging technologies, and disruptive business models that are reshaping industries. "
+                    title="Startup Showcase and Networking Event"
+                    date="TBA"
+                    location="TBA"
+                    description="Join McGill Ventures for a dynamic startup showcase and networking event. Gain insights into startups, learn from successful entrepreneurs,
+                    and expand your network."
+                    image={eventImage1}
+                    link="/"
+                />
+                <Event
+                    title="Panel with McGill's VC Professionals"
+                    date="TBA"
+                    location="TBA"
+                    description="Join McGill Ventures for an exclusive networking event, connecting students with accomplished alumni in venture capital, providing invaluable
+                    insights into career paths, experiences, latest trends, and best practices, while fostering an interactive platform for students to seek advice, ask
+                    questions, and build valuable relationships with industry experts."
                     image={eventImage1}
                     link="/"
                 />

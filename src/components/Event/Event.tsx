@@ -29,7 +29,7 @@ const Event:React.FC<Props> = ({title, date, location, description, image, link}
                     <div className={styles.eventCard}>
                         <Card sx={{ width: 500, height: 450 }}>
                             <CardMedia
-                                sx={{ height: 300 }}
+                                sx={{ height: 275 }}
                                 image={image}
                                 title="event card"
                             />
@@ -43,7 +43,7 @@ const Event:React.FC<Props> = ({title, date, location, description, image, link}
                 </FrontSide>
                 <BackSide style={{boxShadow: "none", width: "500px", height: "450px"}}>
                     <div className={styles.eventCard}>
-                        <Card sx={{ width: 500, height: 450 }}>
+                        <Card sx={{ width: 500, height: 450, overflow: "auto" }}>
                             <CardContent sx={{margin: "10px"}}>
                                 <Typography gutterBottom={true} variant="h5" component="div" align="center">{title}</Typography>
                                 <div className={styles.cardContent}><b>Date</b> {date}</div>
@@ -56,7 +56,8 @@ const Event:React.FC<Props> = ({title, date, location, description, image, link}
                 </BackSide>
             </Flippy>
             <div className={styles.buttonContainer}>
-                <Button variant="contained"
+                {link === "/" ?
+                <Button variant="contained" disabled
                         endIcon={<FacebookIcon/>}
                         href={link}
                         target="_blank"
@@ -64,6 +65,15 @@ const Event:React.FC<Props> = ({title, date, location, description, image, link}
                         sx={{width: "200px"}}>
                     Facebook Link
                 </Button>
+                :
+                <Button variant="contained"
+                        endIcon={<FacebookIcon/>}
+                        href={link}
+                        target="_blank"
+                        rel="noreferrer"
+                        sx={{width: "200px"}}>
+                    Facebook Link
+                </Button>}
             </div>
         </div>
     )
