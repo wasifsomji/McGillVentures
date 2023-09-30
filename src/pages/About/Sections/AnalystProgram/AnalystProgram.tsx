@@ -18,7 +18,7 @@ const AnalystProgram= () => {
                     <div className={styles.introTitle}>Introducing our Analyst Program</div>
                     <div className={styles.introSubtitle}>The goal of the program is to create analysts who are equipped with the skills needed to
                         immediately break into Venture Capital as analysts following graduation.
-                        The program is created in consultation with multiple prominent Montreal Venture Capital Firms
+                        The program is created in consultation with multiple prominent Montreal Venture Capital Firms.
                     </div>
                 </div>
                 <img src={introImage} className={styles.introImage} alt="intro"/>
@@ -58,7 +58,7 @@ const AnalystProgram= () => {
                     <Card
                         sx={{
                             width: { sm: "100%", md: "40%"},
-                            height: { md: "425px", lg: "310px" },
+                            height: { md: "425px", lg: "340px" },
                             border: "5px solid #370894",
                             boxShadow: "15px 15px 0px 0px #370894",
                             borderRadius: "0px",
@@ -79,7 +79,7 @@ const AnalystProgram= () => {
                     <Card
                         sx={{
                             width: { sm: "100%", md: "40%"},
-                            height: { md: "425px", lg: "310px" },
+                            height: { md: "425px", lg: "340px" },
                             border: "5px solid #370894",
                             boxShadow: "15px 15px 0px 0px #370894",
                             borderRadius: "0px",

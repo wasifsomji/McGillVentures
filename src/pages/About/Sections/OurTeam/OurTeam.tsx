@@ -12,13 +12,10 @@ const OurTeam = () => {
                     <TeamMember image={person1} name="Aaron Anandji" role="Co-President" major="Strategic Management" hometown="Vancouver, CA" grad="2025"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Thibault Quelavoine" role="Co-President" major="Investment Management (Honours)" hometown="Belgium" grad="2024"/>
+                    <TeamMember image={person1} name="Thibault Quelavoine" role="Co-President" major="Investment Management" hometown="Belgium" grad="2024"/>
                 </ScrollAnimation>
             </div>
             <div className={styles.teamInnerContainer}>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Vincent Barsalou" role="VP External" major="Finance" hometown="Saint-Burno, CA" grad="2025"/>
-                </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={person1} name="Jaiden Bains" role="VP Events" major="Economics and Finance" hometown="Vancouver, CA" grad="2025"/>
                 </ScrollAnimation>
@@ -34,8 +31,6 @@ const OurTeam = () => {
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={person1} name="Sara Abi Fadel" role="VP Finance" major="Economics and Finance" hometown="Lebanon" grad="2024"/>
                 </ScrollAnimation>
-                </div>
-            <div className={styles.teamInnerContainer}>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={person1} name="Ludovick Bernier-Michaud" role="Director - Analyst Program" major="Earth Science and Economics" hometown="Montreal, CA" grad="2024"/>
                 </ScrollAnimation>
