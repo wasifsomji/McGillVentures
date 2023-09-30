@@ -27,9 +27,9 @@ const Event:React.FC<Props> = ({title, date, location, description, image, link}
             >
                 <FrontSide style={{boxShadow: "none" , width: "500px", height: "450px"}}>
                     <div className={styles.eventCard}>
-                        <Card sx={{ width: 500, height: 450 }}>
+                        <Card sx={{ width: {xs: 350, sm: 500, md: 500, lg: 500}, height: {xs: 400, sm: 450, md: 450, lg: 450} }}>
                             <CardMedia
-                                sx={{ height: 275 }}
+                                sx={{ height: {xs: 200, sm: 275, md: 275, lg: 275} }}
                                 image={image}
                                 title="event card"
                             />
@@ -43,7 +43,7 @@ const Event:React.FC<Props> = ({title, date, location, description, image, link}
                 </FrontSide>
                 <BackSide style={{boxShadow: "none", width: "500px", height: "450px"}}>
                     <div className={styles.eventCard}>
-                        <Card sx={{ width: 500, height: 450, overflow: "auto" }}>
+                        <Card sx={{ width: {xs: 350, sm: 500, md: 500, lg: 500}, height: {xs: 400, sm: 450, md: 450, lg: 450}, overflow: "auto" }}>
                             <CardContent sx={{margin: "10px"}}>
                                 <Typography gutterBottom={true} variant="h5" component="div" align="center">{title}</Typography>
                                 <div className={styles.cardContent}><b>Date</b> {date}</div>
