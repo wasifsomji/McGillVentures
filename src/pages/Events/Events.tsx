@@ -6,6 +6,7 @@ import eventImage1 from "../../assets/mcgill.jpeg";
 import Event from "../../components/Event/Event";
 import Footer from "../../components/Footer/Footer";
 import pastEventImage1 from "../../assets/events/BreakingDownVentureCapital.jpeg"
+import ScrollAnimation from "react-animate-on-scroll";
 
 const pastEventDescription1 =
     <div>
@@ -28,53 +29,65 @@ const Events = () => {
                     image={landingImage}
                 />
                 {/* Upcoming Events */}
-                <div className={styles.eventsHeader}>Upcoming Events</div>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <div className={styles.eventsHeader}>Upcoming Events</div>
+                </ScrollAnimation>
                 <div className={styles.eventsContent}>
-                    <Event
-                        image={eventImage1}
-                        title="A McGill Ventures Welcome and Workshop: Term Sheets and Valuation"
-                        date="TBA"
-                        location="TBA"
-                        description="Join our club for a welcome session and interactive startup workshop. Discover the McGill ventures team and watch them present the upcoming programs,
-                        workshops, office tours, and networking events. In the featured workshop, learn about term sheets, valuation and startup evaluation. Gain insights into funding,
-                        negotiation, and assessing financial health. Connect with fellow members to kickstart your VC journey.
-                        Join our club for a welcome session and interactive startup workshop. Discover the McGill ventures team and watch them present the upcoming programs,
-                        workshops, office tours, and networking events. In the featured workshop, learn about term sheets, valuation and startup evaluation. Gain insights into funding,
-                        negotiation, and assessing financial health. Connect with fellow members to kickstart your VC journey."
-                        link="/"
-                    />
-                    <Event
-                        title="Startup Showcase and Networking Event"
-                        date="TBA"
-                        location="TBA"
-                        description="Join McGill Ventures for a dynamic startup showcase and networking event. Gain insights into startups, learn from successful entrepreneurs,
-                        and expand your network."
-                        image={eventImage1}
-                        link="/"
-                    />
-                    <Event
-                        title="Panel with McGill's VC Professionals"
-                        date="TBA"
-                        location="TBA"
-                        description="Join McGill Ventures for an exclusive networking event, connecting students with accomplished alumni in venture capital, providing invaluable
-                        insights into career paths, experiences, latest trends, and best practices, while fostering an interactive platform for students to seek advice, ask
-                        questions, and build valuable relationships with industry experts."
-                        image={eventImage1}
-                        link="/"
-                    />
+                    <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                        <Event
+                            image={eventImage1}
+                            title="A McGill Ventures Welcome and Workshop: Term Sheets and Valuation"
+                            date="TBA"
+                            location="TBA"
+                            description="Join our club for a welcome session and interactive startup workshop. Discover the McGill ventures team and watch them present the upcoming programs,
+                            workshops, office tours, and networking events. In the featured workshop, learn about term sheets, valuation and startup evaluation. Gain insights into funding,
+                            negotiation, and assessing financial health. Connect with fellow members to kickstart your VC journey.
+                            Join our club for a welcome session and interactive startup workshop. Discover the McGill ventures team and watch them present the upcoming programs,
+                            workshops, office tours, and networking events. In the featured workshop, learn about term sheets, valuation and startup evaluation. Gain insights into funding,
+                            negotiation, and assessing financial health. Connect with fellow members to kickstart your VC journey."
+                            link="/"
+                        />
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                        <Event
+                            title="Startup Showcase and Networking Event"
+                            date="TBA"
+                            location="TBA"
+                            description="Join McGill Ventures for a dynamic startup showcase and networking event. Gain insights into startups, learn from successful entrepreneurs,
+                            and expand your network."
+                            image={eventImage1}
+                            link="/"
+                        />
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                        <Event
+                            title="Panel with McGill's VC Professionals"
+                            date="TBA"
+                            location="TBA"
+                            description="Join McGill Ventures for an exclusive networking event, connecting students with accomplished alumni in venture capital, providing invaluable
+                            insights into career paths, experiences, latest trends, and best practices, while fostering an interactive platform for students to seek advice, ask
+                            questions, and build valuable relationships with industry experts."
+                            image={eventImage1}
+                            link="/"
+                        />
+                    </ScrollAnimation>
                 </div>
 
                 {/* Past Events */}
-                <div className={styles.eventsHeader}>Past Events</div>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <div className={styles.eventsHeader}>Past Events</div>
+                </ScrollAnimation>
                 <div className={styles.eventsContent}>
-                    <Event
-                        image={pastEventImage1}
-                        title="Breaking Down Venture Capital"
-                        date="Wednesday April 6th, 2022"
-                        location="Thomson House, 3650 Mc Tavish, Montreal"
-                        description={pastEventDescription1}
-                        link="https://www.facebook.com/events/520995496082804?ref=newsfeed"
-                    />
+                    <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                        <Event
+                            image={pastEventImage1}
+                            title="Breaking Down Venture Capital"
+                            date="Wednesday April 6th, 2022"
+                            location="Thomson House, 3650 Mc Tavish, Montreal"
+                            description={pastEventDescription1}
+                            link="https://www.facebook.com/events/520995496082804?ref=newsfeed"
+                        />
+                    </ScrollAnimation>
                 </div>
             </div>
             <Footer />
