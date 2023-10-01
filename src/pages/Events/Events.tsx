@@ -2,7 +2,7 @@ import Landing from "../../components/Landing/Landing";
 import landingImage from "../../assets/mcgill.jpeg";
 import NavBar from "../../components/NavBar/NavBar";
 import styles from "./Events.module.scss";
-import eventImage1 from "../../assets/mcgill.jpeg";
+import eventImage1 from "../../assets/logo_name_row.png";
 import Event from "../../components/Event/Event";
 import Footer from "../../components/Footer/Footer";
 import pastEventImage1 from "../../assets/events/BreakingDownVentureCapital.jpeg"

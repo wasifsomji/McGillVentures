@@ -3,7 +3,7 @@ import '@fontsource/roboto/700.css';
 import NavBar from "../../components/NavBar/NavBar";
 import styles from "./Home.module.scss"
 import Landing from "../../components/Landing/Landing";
-import landingImage from "../../assets/mcgill.jpeg";
+import landingImage from "../../assets/logo_name_row.png";
 import coverImage from "../../assets/mcgill.jpeg";
 import Footer from "../../components/Footer/Footer";
 import home1 from "../../assets/home/home1.jpeg";
