@@ -17,14 +17,20 @@ const About = () => {
         const idx = content.indexOf(myID);
         const ourTeam = document.getElementById("ourTeam")!;
         const ourProgram = document.getElementById("ourProgram")!;
+        const ourTeamButton = document.getElementById("ourTeamButton")!;
+        const ourProgramButton = document.getElementById("ourProgramButton")!;
 
         if (idx === 0) {
             ourTeam.style.display = "block";
             ourProgram.style.display = "none";
+            ourTeamButton.style.backgroundColor = "#370894";
+            ourProgramButton.style.backgroundColor = "grey";
         }
         else {
             ourProgram.style.display = "block";
             ourTeam.style.display = "none";
+            ourProgramButton.style.backgroundColor = "#370894";
+            ourTeamButton.style.backgroundColor = "grey";
         }
     }
 
@@ -44,6 +50,7 @@ const About = () => {
             <div className={styles.buttonsContainer}>
                 <ButtonGroup variant="contained" aria-label="outlined primary button group" className={styles.buttonGroup}>
                     <Button
+                        id="ourTeamButton"
                         sx={{
                             color: "#FFF",
                             fontSize: "16px",
@@ -56,6 +63,7 @@ const About = () => {
                         onClick={() => displayContent("ourTeam")}
                     >Our Team</Button>
                     <Button
+                        id="ourProgramButton"
                         sx={{
                             color: "#FFF",
                             fontSize: "16px",
