@@ -4,6 +4,7 @@ import logo from '../../assets/logo_white.png';
 import styles from './NavBar.module.scss';
 import MenuIcon from '@mui/icons-material/Menu';
 import {useNavigate} from "react-router-dom";
+import NavBarMobile from "./NavBarMobile";
 
 const pages = ['Home', 'About', 'Events', 'Contact'];
 
@@ -20,6 +21,18 @@ function NavBar(){
     const handleCloseHamburger = () => {
         setHamburger(null);
     }
+
+    // function handleOpenHamburger() {
+    //     const mobile = document.getElementById("navBarMobile")!;
+    //
+    //     if (mobile.style.display === 'none') {
+    //         mobile.style.display = 'block';
+    //     }
+    //     else {
+    //         mobile.style.display = 'none';
+    //     }
+    //
+    // }
 
     function navigateTo(page : string) {
         const lowerPage = page.toLowerCase();
@@ -72,6 +85,9 @@ function NavBar(){
                         >
                             <MenuIcon />
                         </IconButton>
+                        {/*<div id="navBarMobile">*/}
+                        {/*    <NavBarMobile />*/}
+                        {/*</div>*/}
                         <Menu
                             id="menu-appbar"
                             anchorEl={hamburger}
