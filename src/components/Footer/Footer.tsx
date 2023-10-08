@@ -6,6 +6,23 @@ import {Stack, Typography} from "@mui/material";
 const Footer = () => {
     return (
         <div className={styles.footerBackground}>
+            <div className={styles.rightLinks}>
+                <div className={styles.linksContainer}>
+                    <div className={styles.linksTitle}>Quick Links</div>
+                    <a className={styles.linksText} href="/">Home</a>
+                    <a className={styles.linksText} href="/about">About</a>
+                    <a className={styles.linksText} href="/events">Events</a>
+                    <a className={styles.linksText} href="/contact">Contact</a>
+                </div>
+                <div className={styles.linksContainer}>
+                    <div className={styles.linksTitle}>Follow Us</div>
+                    <a className={styles.linksText} href="https://www.facebook.com/mcgillventuresclub" target="_blank" rel="noreferrer">Facebook</a>
+                    <a className={styles.linksText} href="https://www.instagram.com/mcgillvc/" target="_blank" rel="noreferrer">Instagram</a>
+                    <a className={styles.linksText} href="https://www.linkedin.com/company/mcgill-ventures/" target="_blank" rel="noreferrer">LinkedIn</a>
+                    <a className={styles.linksText} href="/" target="_blank" rel="noreferrer">Website</a>
+                </div>
+            </div>
+
             <Stack className={styles.copyrightsContainer}>
                 <img src={logo} className={baseStyle.UnicornLogo} alt="Company Logo"/>
                 <Typography
@@ -25,26 +42,10 @@ const Footer = () => {
                         fontFamily: 'Helvetica Neue',
                         color: 'white',
                         textDecoration: 'none',
-                        fontSize: { xs: '12px', md: '16px' }}}
+                        fontSize: { xs: '12px', md: '16px' },
+                        textAlign: {xs: 'center'}}}
                 >Proudly part of McGill’s Management Undergraduate Society</Typography>
             </Stack>
-
-            <div className={styles.rightLinks}>
-                <div className={styles.linksContainer}>
-                    <div className={styles.linksTitle}>Quick Links</div>
-                    <a className={styles.linksText} href="/">Home</a>
-                    <a className={styles.linksText} href="/about">About</a>
-                    <a className={styles.linksText} href="/events">Events</a>
-                    <a className={styles.linksText} href="/contact">Contact</a>
-                </div>
-                <div className={styles.linksContainer}>
-                    <div className={styles.linksTitle}>Follow Us</div>
-                    <a className={styles.linksText} href="https://www.facebook.com/mcgillventuresclub" target="_blank" rel="noreferrer">Facebook</a>
-                    <a className={styles.linksText} href="https://www.instagram.com/mcgillvc/" target="_blank" rel="noreferrer">Instagram</a>
-                    <a className={styles.linksText} href="https://www.linkedin.com/company/mcgill-ventures/" target="_blank" rel="noreferrer">LinkedIn</a>
-                    <a className={styles.linksText} href="/" target="_blank" rel="noreferrer">Website</a>
-                </div>
-            </div>
         </div>
     )
 }
