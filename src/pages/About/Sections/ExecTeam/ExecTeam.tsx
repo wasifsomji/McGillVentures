@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from "./OurTeam.module.scss";
+import styles from "./ExecTeam.module.scss";
 import TeamMember from "../../../../components/TeamMember/TeamMember";
 import person1 from "../../../../assets/mcgill.jpeg";
 import ScrollAnimation from 'react-animate-on-scroll';
 
-const OurTeam = () => {
+const ExecTeam = () => {
     return (
         <div className={styles.teamCardsContainer}>
             <div className={styles.teamInnerContainer}>
@@ -39,4 +39,4 @@ const OurTeam = () => {
     )
 }
 
-export default OurTeam;
+export default ExecTeam;

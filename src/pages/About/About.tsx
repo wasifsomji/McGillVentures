@@ -2,9 +2,9 @@ import NavBar from "../../components/NavBar/NavBar";
 import Landing from "../../components/Landing/Landing";
 import landingImage from "../../assets/mcgill.jpeg";
 import {Button, ButtonGroup} from "@mui/material";
-import OurTeam from "./Sections/OurTeam/OurTeam";
+import ExecTeam from "./Sections/ExecTeam/ExecTeam";
 import styles from "./About.module.scss";
-import AnalystProgram from "./Sections/AnalystProgram/AnalystProgram";
+import AnalystTeam from "./Sections/AnalystTeam/AnalystTeam";
 import Footer from "../../components/Footer/Footer";
 import {useEffect} from "react";
 
@@ -24,13 +24,17 @@ const About = () => {
             ourTeam.style.display = "block";
             ourProgram.style.display = "none";
             ourTeamButton.style.backgroundColor = "#370894";
-            ourProgramButton.style.backgroundColor = "grey";
+            ourTeamButton.style.color = "white";
+            ourProgramButton.style.backgroundColor = "white";
+            ourProgramButton.style.color = "#370894";
         }
         else {
             ourProgram.style.display = "block";
             ourTeam.style.display = "none";
             ourProgramButton.style.backgroundColor = "#370894";
-            ourTeamButton.style.backgroundColor = "grey";
+            ourProgramButton.style.color = "white";
+            ourTeamButton.style.backgroundColor = "white";
+            ourTeamButton.style.color = "#370894";
         }
     }
 
@@ -57,11 +61,13 @@ const About = () => {
                             fontFamily: "Helvetica Neue",
                             fontWeight: 700,
                             textTransform: 'capitalize',
-                            padding: '10px 20px 10px 20px'
+                            padding: '10px 20px 10px 20px',
+                            width: "175px",
+                            border: "2px solid #370894"
                         }}
                         className={styles.displayOurTeam}
                         onClick={() => displayContent("ourTeam")}
-                    >Our Team</Button>
+                    >Executive Team</Button>
                     <Button
                         id="ourProgramButton"
                         sx={{
@@ -73,19 +79,21 @@ const About = () => {
                             display: 'flex',
                             flexDirection: 'column',
                             lineHeight: '15px',
-                            padding: '10px 20px 10px 20px'
+                            padding: '10px 20px 10px 20px',
+                            width: "175px",
+                            border: "2px solid #370894"
                         }}
                         className={styles.displayOurProgram}
                         onClick={() => displayContent("ourProgram")}
-                    ><div>Our Analyst</div><div>Program</div></Button>
+                    ><div>Analyst Team</div></Button>
                 </ButtonGroup>
             </div>
 
             <div id="ourTeam">
-                <OurTeam />
+                <ExecTeam />
             </div>
             <div id="ourProgram">
-                <AnalystProgram />
+                <AnalystTeam />
             </div>
 
             <Footer/>
