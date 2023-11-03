@@ -4,6 +4,7 @@ import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import Events from "./pages/Events/Events";
 import ScrollToTop from "./ScrollToTop";
+import AnalystProgram from "./pages/Program/AnalystProgram";
 
 const Router = () => {
     return (
@@ -12,8 +13,9 @@ const Router = () => {
             <Routes>
                 <Route path="/" element={<Home />}/>
                 <Route path="/about" element={<About />} />
-                <Route path="contact" element={<Contact />} />
                 <Route path="/events" element={<Events />} />
+                <Route path="/program" element={<AnalystProgram />} />
+                <Route path="contact" element={<Contact />} />
             </Routes>
         </BrowserRouter>
     )
