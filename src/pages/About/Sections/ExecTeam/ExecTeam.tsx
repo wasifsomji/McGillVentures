@@ -11,6 +11,7 @@ import sun from "../../../../assets/exec_headshots/Sofi Sun (Finance).jpg";
 import quelavoine from "../../../../assets/exec_headshots/Thibault Quelavoine (Co-President).jpg";
 import smedt from "../../../../assets/exec_headshots/Margaux De Smedt (Events Coordinator).jpg";
 import somji from "../../../../assets/exec_headshots/Wasif Somji (Technology Lead).png";
+import ahmed from "../../../../assets/exec_headshots/Naureen Ahmed (VP Staff).jpg"; 
 
 const ExecTeam = () => {
     return (
@@ -40,7 +41,7 @@ const ExecTeam = () => {
                     <TeamMember image={person1} name="François-Xavier Chap. Perr." role="VP Corporate Relations" major="Economics and Social Entrep" hometown="Montreal, QC" grad="2024"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Naureen Ahmed" role="VP Staff" major="Finance and IT Mgnt." hometown="Gatineau, QC" grad="2027"/>
+                    <TeamMember image={ahmed} name="Naureen Ahmed" role="VP Staff" major="Finance and IT Mgnt." hometown="Gatineau, QC" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={fadel} name="Sara Abi Fadel" role="VP Finance" major="Joint Honours Finance + Econ" hometown="Beirut, Lebanon" grad="2024"/>
