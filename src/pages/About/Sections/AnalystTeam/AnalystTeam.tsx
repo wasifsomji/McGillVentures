@@ -3,36 +3,59 @@ import styles from "./AnalystTeam.module.scss";
 import ScrollAnimation from "react-animate-on-scroll";
 import TeamMember from "../../../../components/TeamMember/TeamMember";
 import person1 from "../../../../assets/mcgill.jpeg";
+import van_bergh from "../../../../assets/exec_headshots/Jacob Van Bergh (Analyst).jpg";
+import bernier_michaud from "../../../../assets/exec_headshots/Ludovick Bernier-Michaud (Associate).jpg";
+import goralski from "../../../../assets/exec_headshots/Michael Goralski (Associate).jpg";
 
 const AnalystTeam= () => {
     return (
         <div className={styles.teamCardsContainer}>
             <div className={styles.teamInnerContainer}>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Aaron Anandji" role="Co-President" major="Strategic Management" hometown="Vancouver, CA" grad="2025"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Thibault Quelavoine" role="Co-President" major="Investment Management" hometown="Belgium" grad="2024"/>
+                    <TeamMember image={person1} name="Woo Park" role="Head of Analyst Program" major="undefined" hometown="undefined" grad="undefined"/>
                 </ScrollAnimation>
             </div>
             <div className={styles.teamInnerContainer}>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Jaiden Bains" role="VP Events" major="Economics and Finance" hometown="Vancouver, CA" grad="2025"/>
+                    <TeamMember image={person1} name="Anthony Azrak" role="Associate" major="undefined" hometown="undefined" grad="undefined"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Ethan Wu" role="VP Communications & Media" major="Finance" hometown="Montreal, CA" grad="2026"/>
+                    <TeamMember image={goralski} name="Michael Goralski" role="Associate" major="undefined" hometown="undefined" grad="undefined"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Rio Pesochin" role="VP Communications & Media" major="General Management" hometown="Vancouver, CA" grad="2025"/>
+                    <TeamMember image={bernier_michaud} name="Ludovick Bernier-Michaud" role="Associate" major="undefined" hometown="undefined" grad="undefined"/>
+                </ScrollAnimation>
+            </div>
+            <div className={styles.teamInnerContainer}>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={person1} name="Jackson McIntosh" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Sofi Sun" role="VP Finance" major="Finance and Accounting" hometown="China" grad="2023"/>
+                    <TeamMember image={person1} name="Soso Cowell" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Sara Abi Fadel" role="VP Finance" major="Economics and Finance" hometown="Lebanon" grad="2024"/>
+                    <TeamMember image={person1} name="Tanner Kiss" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Ludovick Bernier-Michaud" role="Director - Analyst Program" major="Earth Science and Economics" hometown="Montreal, CA" grad="2024"/>
+                    <TeamMember image={person1} name="Angelika Popovski" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={person1} name="Jules Donzelot" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={person1} name="Leo Chiasson" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={person1} name="Eran Hakki" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={van_bergh} name="Jacob Van Bergh" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={person1} name="Anae Menand" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={person1} name="Stas Mironov" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
                 </ScrollAnimation>
             </div>
         </div>

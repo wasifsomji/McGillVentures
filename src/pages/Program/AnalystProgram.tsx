@@ -12,9 +12,8 @@ const AnalystProgram= () => {
     return (
         <div>
             <NavBar />
-            <Landing title={"Collaborating Minds,\nVenture Pioneers"}
-                     subtitle={"Our team consists of talented and knowledgeable individuals ready to drive " +
-                         "innovation and fuel entrepreneurial success through our Analyst Program."}
+            <Landing title={"Invest, Analyze,\nSucceed, Excel"}
+                     subtitle={"Our program is your launchpad into the exciting world of Venture Capital. Join us and become a part of the future of venture capital!"}
                      image={landingImage} />
 
             <Stack direction="column" padding="0 10% 10% 10%">
