@@ -5,7 +5,7 @@ import styles from "./Events.module.scss";
 import eventImage1 from "../../assets/events/no_poster_event.png";
 import Event from "../../components/Event/Event";
 import Footer from "../../components/Footer/Footer";
-import pastEventImage1 from "../../assets/events/breaking_down_venture_capital.jpg"; 
+import pastEventImage1 from "../../assets/events/new_breaking_down.jpg"; 
 import ScrollAnimation from "react-animate-on-scroll";
 
 const pastEventDescription1 =
@@ -69,7 +69,7 @@ const Events = () => {
                             image={pastEventImage1}
                             title="Breaking Down Venture Capital"
                             date="Wednesday April 6th, 2022"
-                            location="Thomson House, 3650 Mc Tavish, Montreal"
+                            location="Thomson House, 3650 McTavish, Montreal"
                             description={pastEventDescription1}
                             link="https://www.facebook.com/events/520995496082804?ref=newsfeed"
                         />

@@ -41,7 +41,7 @@ const ExecTeam = () => {
                     <TeamMember image={person1} name="Naureen Ahmed" role="VP Staff" major="Finance and IT Mgnt." hometown="Gatineau, QC" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={fadel} name="Sara Abi Fadel" role="VP Finance" major="undefined" hometown="undefined" grad="undefined"/>
+                    <TeamMember image={fadel} name="Sara Abi Fadel" role="VP Finance" major="Joint Honours Finance + Econ" hometown="Beirut, Lebanon" grad="2024"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={sun} name="Sofi Sun" role="VP Finance" major="undefined" hometown="undefined" grad="undefined"/>
@@ -50,7 +50,7 @@ const ExecTeam = () => {
                     <TeamMember image={wu} name="Ethan Wu" role="VP Marketing" major="Honours in Inv. Mgnt." hometown="Montreal, QC" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Carrie Mun" role="Marketing Coordinator" major="undefined" hometown="undefined" grad="undefined"/>
+                    <TeamMember image={person1} name="Carrie Mun" role="Marketing Coordinator" major="Economics and Mathematics" hometown="New York" grad="2024"/>
                 </ScrollAnimation>
             </div>
         </div>
