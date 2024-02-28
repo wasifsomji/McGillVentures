@@ -2,11 +2,19 @@ import React from 'react';
 import styles from "./AnalystProgram.module.scss";
 import {Card, CardContent, Stack, Typography} from "@mui/material";
 import introImage from "../../assets/mcgill.jpeg";
-import partnerImage1 from "../../assets/mcgill.jpeg";
 import ScrollAnimation from "react-animate-on-scroll";
 import NavBar from "../../components/NavBar/NavBar";
 import Landing from "../../components/Landing/Landing";
 import landingImage from "../../assets/mcgill.jpeg";
+import aqcCapital from "../../assets/partners/aqc_capital.png";
+import blueVisionCapital from "../../assets/partners/blue_vision_capital.png";
+import cycleCapital from "../../assets/partners/cycle_capital.png";
+import dobsonCentre from "../../assets/partners/dobson_centre.png";
+import frontRowVentures from "../../assets/partners/front_row_ventures.png";
+import inovia from "../../assets/partners/inovia.png";
+import panacheVentures from "../../assets/partners/panache_ventures.png";
+import penderVentures from "../../assets/partners/pender_ventures.png";
+import triptyqCapital from "../../assets/partners/triptyq_capital.png";
 
 const AnalystProgram= () => {
     return (
@@ -138,19 +146,31 @@ const AnalystProgram= () => {
                     </ScrollAnimation>
                     <Stack display="flex" direction="row" flexWrap= "wrap" justifyContent="center">
                         <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                            <img src={partnerImage1} className={styles.partnerImage} alt="logo"/>
+                            <img src={triptyqCapital} className={styles.partnerImage} alt="logo"/>
                         </ScrollAnimation>
                         <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                            <img src={partnerImage1} className={styles.partnerImage} alt="logo"/>
+                            <img src={panacheVentures} className={styles.partnerImage} alt="logo"/>
                         </ScrollAnimation>
                         <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                            <img src={partnerImage1} className={styles.partnerImage} alt="logo"/>
+                            <img src={inovia} className={styles.partnerImage} alt="logo"/>
                         </ScrollAnimation>
                         <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                            <img src={partnerImage1} className={styles.partnerImage} alt="logo"/>
+                            <img src={penderVentures} className={styles.partnerImage} alt="logo"/>
                         </ScrollAnimation>
                         <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                            <img src={partnerImage1} className={styles.partnerImage} alt="logo"/>
+                            <img src={frontRowVentures} className={styles.partnerImage} alt="logo"/>
+                        </ScrollAnimation>
+                        <ScrollAnimation animateIn="zoomIn" animateOnce="true">
+                            <img src={dobsonCentre} className={styles.partnerImage} alt="logo"/>
+                        </ScrollAnimation>
+                        <ScrollAnimation animateIn="zoomIn" animateOnce="true">
+                            <img src={blueVisionCapital} className={styles.partnerImage} alt="logo"/>
+                        </ScrollAnimation>
+                        <ScrollAnimation animateIn="zoomIn" animateOnce="true">
+                            <img src={aqcCapital} className={styles.partnerImage} alt="logo"/>
+                        </ScrollAnimation>
+                        <ScrollAnimation animateIn="zoomIn" animateOnce="true">
+                            <img src={cycleCapital} className={styles.partnerImage} alt="logo"/>
                         </ScrollAnimation>
                     </Stack>
                 </Stack>

@@ -36,37 +36,23 @@ const Events = () => {
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                         <Event
                             image={eventImage1}
-                            title="A McGill Ventures Welcome and Workshop: Term Sheets and Valuation"
-                            date="TBA"
+                            title="The Scarlet Pitch"
+                            date="March 2024"
                             location="TBA"
-                            description="Join our club for a welcome session and interactive startup workshop. Discover the McGill ventures team and watch them present the upcoming programs,
-                            workshops, office tours, and networking events. In the featured workshop, learn about term sheets, valuation and startup evaluation. Gain insights into funding,
-                            negotiation, and assessing financial health. Connect with fellow members to kickstart your VC journey.
-                            Join our club for a welcome session and interactive startup workshop. Discover the McGill ventures team and watch them present the upcoming programs,
-                            workshops, office tours, and networking events. In the featured workshop, learn about term sheets, valuation and startup evaluation. Gain insights into funding,
-                            negotiation, and assessing financial health. Connect with fellow members to kickstart your VC journey."
+                            description="Join us for this Dragons’ Den- and Shark Tank- style event that aims to:
+                            1) Connect emerging Montreal startups with other startup/venture capital ecosystem players, and
+                            2) Inspire students to engage with their local tech ecosystem, either from the entrepreneurial or VC side of the table."
                             link="/"
                         />
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                         <Event
-                            title="Startup Showcase and Networking Event"
-                            date="TBA"
+                            title="Startup Showcase (2nd Ed.)"
+                            date="October 2024"
                             location="TBA"
-                            description="Join McGill Ventures for a dynamic startup showcase and networking event. Gain insights into startups, learn from successful entrepreneurs,
-                            and expand your network."
-                            image={eventImage1}
-                            link="/"
-                        />
-                    </ScrollAnimation>
-                    <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                        <Event
-                            title="Panel with McGill's VC Professionals"
-                            date="TBA"
-                            location="TBA"
-                            description="Join McGill Ventures for an exclusive networking event, connecting students with accomplished alumni in venture capital, providing invaluable
-                            insights into career paths, experiences, latest trends, and best practices, while fostering an interactive platform for students to seek advice, ask
-                            questions, and build valuable relationships with industry experts."
+                            description="Seize this exclusive opportunity to meet and learn from local entrepreneurs
+                            and venture capitalists. Discover the missions, product differentiators, and future plans
+                            of the startup founders, as well as the investment perspectives and roles of the venture capitalists."
                             image={eventImage1}
                             link="/"
                         />
