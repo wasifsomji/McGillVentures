@@ -127,3 +127,30 @@
         margin-top: 20px;
     }
 }
+
+
+.introTitle {
+    display: flex;
+    flex-direction: column;
+
+    color: #370894;
+    font-family: Helvetica Neue, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+
+.partnerImage {
+    display: flex;
+    width: 225px;
+    height: 225px;
+    border-radius: 250px;
+    margin: 15px;
+    border: black 1px solid;
+    object-fit: cover;
+}
+
+
