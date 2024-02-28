@@ -5,7 +5,7 @@ import styles from "./Events.module.scss";
 import eventImage1 from "../../assets/events/no_poster_event.png";
 import Event from "../../components/Event/Event";
 import Footer from "../../components/Footer/Footer";
-import pastEventImage1 from "../../assets/events/BreakingDownVentureCapital.jpeg"
+import pastEventImage1 from "../../assets/events/breaking_down_venture_capital.jpg"; 
 import ScrollAnimation from "react-animate-on-scroll";
 
 const pastEventDescription1 =
