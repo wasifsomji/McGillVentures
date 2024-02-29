@@ -12,6 +12,7 @@ import quelavoine from "../../../../assets/exec_headshots/Thibault Quelavoine (C
 import smedt from "../../../../assets/exec_headshots/Margaux De Smedt (Events Coordinator).jpg";
 import somji from "../../../../assets/exec_headshots/Wasif Somji (Technology Lead).png";
 import ahmed from "../../../../assets/exec_headshots/Naureen Ahmed (VP Staff).jpg"; 
+import mun from "../../../../assets/exec_headshots/Carrie Mun (Marketing Coordinator).png";
 
 const ExecTeam = () => {
     return (
@@ -50,7 +51,7 @@ const ExecTeam = () => {
                     <TeamMember image={wu} name="Ethan Wu" role="VP Marketing" major="Honours in Inv. Mgnt." hometown="Montreal, QC" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Carrie Mun" role="Marketing Coordinator" major="Economics and Mathematics" hometown="New York" grad="2024"/>
+                    <TeamMember image={mun} name="Carrie Mun" role="Marketing Coordinator" major="Economics and Mathematics" hometown="New York" grad="2024"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={person1} name="Wasif Somji" role="Director of Technology" major="Computer Engineering" hometown="Vancouver, BC" grad="2025"/>
