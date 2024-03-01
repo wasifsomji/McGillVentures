@@ -13,6 +13,8 @@ import smedt from "../../../../assets/exec_headshots/Margaux De Smedt (Events Co
 import somji from "../../../../assets/exec_headshots/Wasif Somji (Technology Lead).png";
 import ahmed from "../../../../assets/exec_headshots/Naureen Ahmed (VP Staff).jpg"; 
 import mun from "../../../../assets/exec_headshots/Carrie Mun (Marketing Coordinator).png";
+import durra from "../../../../assets/exec_headshots/Hala Durra (Events Coordinator).jpeg";
+import francois from "../../../../assets/exec_headshots/Francois-Wavier Chap. Perr. (VP Corporate Relations).jpg";
 
 const ExecTeam = () => {
     return (
@@ -30,7 +32,7 @@ const ExecTeam = () => {
                     <TeamMember image={bains} name="Jaiden Bains" role="VP Events" major="Economics and Finance" hometown="Vancouver, BC" grad="2025"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Hala Durra" role="Events Coordinator" major="Business Analytics" hometown="Amman, Jordan" grad="2025"/>
+                    <TeamMember image={durra} name="Hala Durra" role="Events Coordinator" major="Business Analytics" hometown="Amman, Jordan" grad="2025"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={smedt} name="Margaux De Smedt" role="Events Coordinator" major="Joint Honours Finance + Econ" hometown="Paris, France" grad="2025"/>
@@ -39,7 +41,7 @@ const ExecTeam = () => {
                     <TeamMember image={farrell} name="Cara-Li Farrell" role="VP Corporate Relations" major="Bus. Analytics and Finance" hometown="Montreal, QC" grad="2024"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="François-Xavier Chap. Perr." role="VP Corporate Relations" major="Economics and Social Entrep" hometown="Montreal, QC" grad="2024"/>
+                    <TeamMember image={francois} name="François-Xavier Chap. Perr." role="VP Corporate Relations" major="Economics and Social Entrep" hometown="Montreal, QC" grad="2024"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={ahmed} name="Naureen Ahmed" role="VP Staff" major="Finance and IT Mgnt." hometown="Gatineau, QC" grad="2027"/>
