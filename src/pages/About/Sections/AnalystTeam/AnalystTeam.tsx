@@ -12,7 +12,7 @@ const AnalystTeam= () => {
         <div className={styles.teamCardsContainer}>
             <div className={styles.teamInnerContainer}>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Woo Park" role="Head of Analyst Program" major="undefined" hometown="undefined" grad="undefined"/>
+                    <TeamMember image={person1} name="Woo Park" role="Head of Analyst Program" major="Strat. Management + Finance" hometown="Victoria, BC" grad="2023"/>
                 </ScrollAnimation>
             </div>
             <div className={styles.teamInnerContainer}>

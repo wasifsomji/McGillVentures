@@ -134,7 +134,7 @@ const AnalystProgram= () => {
                         </Stack>
                     </ScrollAnimation>
                 </Stack>
-                <Stack
+                {/* <Stack
                     direction="column"
                     display="flex"
                     alignItems="center"
@@ -172,7 +172,7 @@ const AnalystProgram= () => {
                             <img src={cycleCapital} className={styles.partnerImage} alt="logo"/>
                         </ScrollAnimation>
                     </Stack>
-                </Stack>
+                </Stack> */}
             </Stack>
         </div>
 

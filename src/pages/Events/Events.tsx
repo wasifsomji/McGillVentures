@@ -5,6 +5,7 @@ import styles from "./Events.module.scss";
 import eventImage1 from "../../assets/events/no_poster_event.png";
 import Event from "../../components/Event/Event";
 import Footer from "../../components/Footer/Footer";
+import pastEventImage1 from "../../assets/events/new_breaking_down.jpg"; 
 import startupShowcaseWithVCInvestors from "../../assets/events/startup_showcase_with_vc_investors.png";
 import vcPanelAndNetworkingEventAtEspaceCDPQ from "../../assets/events/vc_panel_and_networking_event_at_espace_cdpq.png";
 import ScrollAnimation from "react-animate-on-scroll";
