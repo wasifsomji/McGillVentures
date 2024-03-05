@@ -3,12 +3,12 @@ import '@fontsource/roboto/700.css';
 import NavBar from "../../components/NavBar/NavBar";
 import styles from "./Home.module.scss"
 import Landing from "../../components/Landing/Landing";
-import landingImage from "../../assets/logo_name_row.png";
+import landingImage from "../../assets/home/landing_home.png";
 import coverImage from "../../assets/mcgill.jpeg";
 import Footer from "../../components/Footer/Footer";
-import home1 from "../../assets/home/home1.jpeg";
-import home2 from "../../assets/home/home2.jpeg";
-import home3 from "../../assets/home/home3.jpeg";
+import home1 from "../../assets/home/home1.png";
+import home2 from "../../assets/home/home2.png";
+import home3 from "../../assets/home/home3.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
         <div>
             <NavBar/>
             <Landing title="Building Bridges to Tomorrow’s Innovators"
-                     subtitle="We aim to educate students on Venture Capital and Private Equity."
+                     subtitle="At McGill Ventures, we’re igniting tomorrow’s Canadian entrepreneurs and innovation investors."
                      image={landingImage}/>
             <div className={styles.quoteContainer}>
                 <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
