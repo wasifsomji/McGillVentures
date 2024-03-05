@@ -1,7 +1,6 @@
 import React from 'react';
 import { useRef } from 'react';
 import styles from "./Event.module.scss";
-import FacebookIcon from '@mui/icons-material/Facebook';
 import {Button, Card, CardContent, CardMedia, Typography} from "@mui/material";
 import Flippy, { FrontSide, BackSide } from "react-flippy";
 
@@ -25,11 +24,11 @@ const Event:React.FC<Props> = ({title, date, location, description, image, link}
                 flipDirection="horizontal"
                 ref={ref}
             >
-                <FrontSide style={{boxShadow: "none" , width: "500px", height: "450px"}}>
+                <FrontSide style={{boxShadow: "none" , width: "500px", height: "500px"}}>
                     <div className={styles.eventCard}>
-                        <Card sx={{ width: {xs: 350, sm: 500, md: 500, lg: 500}, height: {xs: 400, sm: 450, md: 450, lg: 450} }}>
+                        <Card sx={{ width: {xs: 300, sm: 400, md: 400, lg: 400}, height: {xs: 550, sm: 600, md: 600, lg: 600} }}>
                             <CardMedia
-                                sx={{ height: {xs: 200, sm: 275, md: 275, lg: 275} }}
+                                sx={{ width: {xs: 300, sm: 400, md: 400, lg: 400}, height: {xs: 300, sm: 400, md: 400, lg: 400} }}
                                 image={image}
                                 title="event card"
                             />
@@ -43,7 +42,7 @@ const Event:React.FC<Props> = ({title, date, location, description, image, link}
                 </FrontSide>
                 <BackSide style={{boxShadow: "none", width: "500px", height: "450px"}}>
                     <div className={styles.eventCard}>
-                        <Card sx={{ width: {xs: 350, sm: 500, md: 500, lg: 500}, height: {xs: 400, sm: 450, md: 450, lg: 450}, overflow: "auto" }}>
+                        <Card sx={{ width: {xs: 300, sm: 400, md: 400, lg: 400}, height: {xs: 550, sm: 600, md: 600, lg: 600}, overflow: "auto" }}>
                             <CardContent sx={{margin: "10px"}}>
                                 <Typography gutterBottom={true} variant="h5" component="div" align="center">{title}</Typography>
                                 <div className={styles.cardContent}><b>Date</b> {date}</div>
@@ -58,21 +57,19 @@ const Event:React.FC<Props> = ({title, date, location, description, image, link}
             <div className={styles.buttonContainer}>
                 {link === "/" ?
                 <Button variant="contained" disabled
-                        endIcon={<FacebookIcon/>}
                         href={link}
                         target="_blank"
                         rel="noreferrer"
                         sx={{width: "200px"}}>
-                    Facebook Link
+                    Link
                 </Button>
                 :
                 <Button variant="contained"
-                        endIcon={<FacebookIcon/>}
                         href={link}
                         target="_blank"
                         rel="noreferrer"
                         sx={{width: "200px"}}>
-                    Facebook Link
+                    Link
                 </Button>}
             </div>
         </div>

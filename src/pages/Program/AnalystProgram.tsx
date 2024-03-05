@@ -1,11 +1,10 @@
 import React from 'react';
 import styles from "./AnalystProgram.module.scss";
 import {Card, CardContent, Stack, Typography} from "@mui/material";
-import introImage from "../../assets/mcgill.jpeg";
 import ScrollAnimation from "react-animate-on-scroll";
 import NavBar from "../../components/NavBar/NavBar";
 import Landing from "../../components/Landing/Landing";
-import landingImage from "../../assets/mcgill.jpeg";
+import landingImage from "../../assets/program/landing_program.png";
 import aqcCapital from "../../assets/partners/aqc_capital.png";
 import blueVisionCapital from "../../assets/partners/blue_vision_capital.png";
 import cycleCapital from "../../assets/partners/cycle_capital.png";
@@ -36,15 +35,15 @@ const AnalystProgram= () => {
                     <ScrollAnimation animateIn="slideInLeft" animateOnce="true">
                         <div>
                             <div className={styles.introTitle}>Introducing our Analyst Program</div>
-                            <div className={styles.introSubtitle}>The goal of the program is to create analysts who are equipped with the skills needed to
-                                immediately break into Venture Capital as analysts following graduation.
-                                The program is created in consultation with multiple prominent Montreal Venture Capital Firms.
+                            <div className={styles.introSubtitle}>Our inaugural Analyst Program selects driven
+                                student-analysts to be mentored through exclusive venture capital workshops and case studies,
+                                in collaboration with Blue Vision Capital, Triptyq Capital, and Panache Ventures.
                             </div>
                         </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="slideInRight" animateOnce="true">
-                        <img src={introImage} className={styles.introImage} alt="intro"/>
-                    </ScrollAnimation>
+                    {/*<ScrollAnimation animateIn="slideInRight" animateOnce="true">*/}
+                    {/*    <img src={introImage} className={styles.introImage} alt="intro"/>*/}
+                    {/*</ScrollAnimation>*/}
                 </Stack>
 
                 {/* What to Expect */}

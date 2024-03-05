@@ -1,6 +1,6 @@
 import NavBar from "../../components/NavBar/NavBar";
 import Landing from "../../components/Landing/Landing";
-import landingImage from "../../assets/mcgill.jpeg";
+import landingImage from "../../assets/exec_headshots/landing_about.png";
 import {Button, ButtonGroup} from "@mui/material";
 import ExecTeam from "./Sections/ExecTeam/ExecTeam";
 import styles from "./About.module.scss";
