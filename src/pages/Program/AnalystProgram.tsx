@@ -14,6 +14,7 @@ import inovia from "../../assets/partners/inovia.png";
 import panacheVentures from "../../assets/partners/panache_ventures.png";
 import penderVentures from "../../assets/partners/pender_ventures.png";
 import triptyqCapital from "../../assets/partners/triptyq_capital.png";
+import Footer from '../../components/Footer/Footer';
 
 const AnalystProgram= () => {
     return (
@@ -174,6 +175,7 @@ const AnalystProgram= () => {
                     </Stack>
                 </Stack> */}
             </Stack>
+            <Footer />
         </div>
 
     )
