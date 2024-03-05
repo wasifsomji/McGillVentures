@@ -19,6 +19,8 @@ import inovia from "../../assets/partners/inovia.png";
 import panacheVentures from "../../assets/partners/panache_ventures.png";
 import penderVentures from "../../assets/partners/pender_ventures.png";
 import triptyqCapital from "../../assets/partners/triptyq_capital.png";
+import telus from "../../assets/partners/Telus-Logo-White.png";
+import deloitte from "../../assets/partners/Deloitte-Black-Logo.png";
 import {Card, CardContent, Stack, Typography} from "@mui/material";
 
 const Home = () => {
@@ -105,9 +107,6 @@ const Home = () => {
                         <img src={penderVentures} className={styles.partnerImage} alt="logo"/>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                        <img src={frontRowVentures} className={styles.partnerImage} alt="logo"/>
-                    </ScrollAnimation>
-                    <ScrollAnimation animateIn="zoomIn" animateOnce="true">
                         <img src={dobsonCentre} className={styles.partnerImage} alt="logo"/>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
@@ -118,6 +117,12 @@ const Home = () => {
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
                         <img src={cycleCapital} className={styles.partnerImage} alt="logo"/>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="zoomIn" animateOnce="true">
+                        <img src={telus} className={styles.partnerImage} alt="logo"/>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="zoomIn" animateOnce="true">
+                        <img src={deloitte} className={styles.partnerImage} alt="logo"/>
                     </ScrollAnimation>
                 </Stack>
             </Stack>

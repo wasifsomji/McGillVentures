@@ -50,7 +50,7 @@ const AnalystTeam= () => {
                     <TeamMember image={person1} name="Eran Hakki" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={van_bergh} name="Jacob Van Bergh" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
+                    <TeamMember image={van_bergh} name="Jacob Van Bergh" role="Analyst" major="Economics" hometown="undefined" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={menand} name="Anae Menand" role="Analyst" major="Finance - Concentration Business Analyt." hometown="undefined" grad="2025"/>
