@@ -89,7 +89,7 @@ const Home = () => {
                 paddingTop="125px"
             >
                 <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                    <div className={styles.introTitle}>Our Partners</div>
+                    <div className={styles.introTitle}>Firms We've Worked With</div>
                 </ScrollAnimation>
                 <Stack display="flex" direction="row" flexWrap= "wrap" justifyContent="center">
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
