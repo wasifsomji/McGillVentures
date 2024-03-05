@@ -15,13 +15,14 @@ import ahmed from "../../../../assets/exec_headshots/Naureen Ahmed (VP Staff).jp
 import mun from "../../../../assets/exec_headshots/Carrie Mun (Marketing Coordinator).png";
 import durra from "../../../../assets/exec_headshots/Hala Durra (Events Coordinator).jpeg";
 import francois from "../../../../assets/exec_headshots/Francois-Wavier Chap. Perr. (VP Corporate Relations).jpg";
+import aaron from "../../../../assets/exec_headshots/Aaron Anandji (Executive Director).edited1.png"; 
 
 const ExecTeam = () => {
     return (
         <div className={styles.teamCardsContainer}>
             <div className={styles.teamInnerContainer}>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Aaron Anandji" role="Executive Director" major="Strategic Management" hometown="Vancouver, BC" grad="2025"/>
+                    <TeamMember image={aaron} name="Aaron Anandji" role="Executive Director" major="Strategic Management" hometown="Vancouver, BC" grad="2025"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={quelavoine} name="Thibault Quelavoine" role="Executive Director" major="Investment Management" hometown="The Hague" grad="2024"/>
