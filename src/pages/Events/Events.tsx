@@ -77,8 +77,9 @@ const Events = () => {
                             location="TBA"
                             description="Join us for this Dragons’ Den- and Shark Tank- style event that aims to:
                             1) Connect emerging Montreal startups with other startup/venture capital ecosystem players, and
-                            2) Inspire students to engage with their local tech ecosystem, either from the entrepreneurial or VC side of the table."
-                            link="/"
+                            2) Inspire students to engage with their local tech ecosystem, either from the entrepreneurial or VC side of the table.
+                            Stay tuned for more details!"
+                            link="https://www.instagram.com/p/C4JKB-6uTnX/?img_index=1"
                         />
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">

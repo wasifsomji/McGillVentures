@@ -6,13 +6,14 @@ import person1 from "../../../../assets/mcgill.jpeg";
 import van_bergh from "../../../../assets/exec_headshots/Jacob Van Bergh (Analyst).jpg";
 import bernier_michaud from "../../../../assets/exec_headshots/Ludovick Bernier-Michaud (Associate).jpg";
 import goralski from "../../../../assets/exec_headshots/Michael Goralski (Associate).jpg";
-
+import park from "../../../../assets/analyst_headshots/Woo Park (Head of Analysts).png";
+import menand from "../../../../assets/analyst_headshots/Anae Menand (Analyst).png";
 const AnalystTeam= () => {
     return (
         <div className={styles.teamCardsContainer}>
             <div className={styles.teamInnerContainer}>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Woo Park" role="Head of Analyst Program" major="Strat. Management + Finance" hometown="Victoria, BC" grad="2023"/>
+                    <TeamMember image={park} name="Woo Park" role="Head of Analyst Program" major="Strat. Management + Finance" hometown="Victoria, BC" grad="2023"/>
                 </ScrollAnimation>
             </div>
             <div className={styles.teamInnerContainer}>
@@ -52,7 +53,7 @@ const AnalystTeam= () => {
                     <TeamMember image={van_bergh} name="Jacob Van Bergh" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Anae Menand" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
+                    <TeamMember image={menand} name="Anae Menand" role="Analyst" major="Finance - Concentration Business Analyt." hometown="undefined" grad="2025"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={person1} name="Stas Mironov" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
