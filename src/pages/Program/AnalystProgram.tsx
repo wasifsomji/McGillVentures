@@ -1,11 +1,10 @@
 import React from 'react';
 import styles from "./AnalystProgram.module.scss";
 import {Card, CardContent, Stack, Typography} from "@mui/material";
-import introImage from "../../assets/mcgill.jpeg";
 import ScrollAnimation from "react-animate-on-scroll";
 import NavBar from "../../components/NavBar/NavBar";
 import Landing from "../../components/Landing/Landing";
-import landingImage from "../../assets/mcgill.jpeg";
+import landingImage from "../../assets/program/landing_program.png";
 import aqcCapital from "../../assets/partners/aqc_capital.png";
 import blueVisionCapital from "../../assets/partners/blue_vision_capital.png";
 import cycleCapital from "../../assets/partners/cycle_capital.png";
@@ -42,9 +41,9 @@ const AnalystProgram= () => {
                             </div>
                         </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="slideInRight" animateOnce="true">
-                        <img src={introImage} className={styles.introImage} alt="intro"/>
-                    </ScrollAnimation>
+                    {/*<ScrollAnimation animateIn="slideInRight" animateOnce="true">*/}
+                    {/*    <img src={introImage} className={styles.introImage} alt="intro"/>*/}
+                    {/*</ScrollAnimation>*/}
                 </Stack>
 
                 {/* What to Expect */}

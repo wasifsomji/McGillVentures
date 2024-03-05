@@ -1,5 +1,5 @@
 import Landing from "../../components/Landing/Landing";
-import landingImage from "../../assets/mcgill.jpeg";
+import landingImage from "../../assets/events/landing_events.png";
 import NavBar from "../../components/NavBar/NavBar";
 import styles from "./Events.module.scss";
 import eventImage1 from "../../assets/events/no_poster_event.png";
