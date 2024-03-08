@@ -8,6 +8,9 @@ import bernier_michaud from "../../../../assets/exec_headshots/Ludovick Bernier-
 import goralski from "../../../../assets/exec_headshots/Michael Goralski (Associate).jpg";
 import park from "../../../../assets/analyst_headshots/Woo Park (Head of Analysts).png";
 import menand from "../../../../assets/analyst_headshots/Anae Menand (Analyst).png";
+import donzelot from "../../../../assets/analyst_headshots/Jules Donzelot (Analyst).png"; 
+import mcintosh from "../../../../assets/analyst_headshots/Jackson McIntosh (Analyst).png";
+
 const AnalystTeam= () => {
     return (
         <div className={styles.teamCardsContainer}>
@@ -29,7 +32,7 @@ const AnalystTeam= () => {
             </div>
             <div className={styles.teamInnerContainer}>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Jackson McIntosh" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
+                    <TeamMember image={mcintosh} name="Jackson McIntosh" role="Analyst" major="Finance" hometown="undefined" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={person1} name="Soso Cowell" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
@@ -41,16 +44,16 @@ const AnalystTeam= () => {
                     <TeamMember image={person1} name="Angelika Popovski" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Jules Donzelot" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
+                    <TeamMember image={donzelot} name="Jules Donzelot" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={person1} name="Leo Chiasson" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Eran Hakki" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
+                    <TeamMember image={person1} name="Eran Hakki" role="Analyst" major="Finance" hometown="undefined" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={van_bergh} name="Jacob Van Bergh" role="Analyst" major="Economics" hometown="undefined" grad="2027"/>
+                    <TeamMember image={van_bergh} name="Jacob Van Bergh" role="Analyst" major="Economics" hometown="Toronto, ON" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={menand} name="Anae Menand" role="Analyst" major="Finance - Concentration Business Analyt." hometown="undefined" grad="2025"/>

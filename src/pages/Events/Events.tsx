@@ -9,6 +9,7 @@ import pastEventImage1 from "../../assets/events/new_breaking_down.jpg";
 import startupShowcaseWithVCInvestors from "../../assets/events/startup_showcase_with_vc_investors.png";
 import vcPanelAndNetworkingEventAtEspaceCDPQ from "../../assets/events/vc_panel_and_networking_event_at_espace_cdpq.png";
 import ScrollAnimation from "react-animate-on-scroll";
+import scarlettPitch1 from "../../assets/events/Scarlet_Pitch_img.png"; 
 
 const Description_startupShowcaseWithVCInvestors =
     <div>
@@ -71,14 +72,14 @@ const Events = () => {
                 <div className={styles.eventsContent}>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                         <Event
-                            image={eventImage1}
+                            image={scarlettPitch1}
                             title="The Scarlet Pitch"
-                            date="March 2024"
-                            location="TBA"
+                            date="March 20, 2024"
+                            location="MT Lab (at UQAM)"
                             description="Join us for this Dragons’ Den- and Shark Tank- style event that aims to:
                             1) Connect emerging Montreal startups with other startup/venture capital ecosystem players, and
                             2) Inspire students to engage with their local tech ecosystem, either from the entrepreneurial or VC side of the table.
-                            Stay tuned for more details!"
+                            Featuring one of the actual Dragons from the Canadian TV show Dragons' Den, this event will be a great opportunity to learn from the best and network with other like-minded individuals."
                             link="https://www.instagram.com/p/C4JKB-6uTnX/?img_index=1"
                         />
                     </ScrollAnimation>
