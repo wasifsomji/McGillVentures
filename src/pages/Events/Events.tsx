@@ -62,7 +62,7 @@ const Events = () => {
                 <NavBar />
                 <Landing
                     title="Fueling Ideas, Igniting Connections"
-                    subtitle="We curate a diverse range of events to cather to the thirst for venture capital knowledge."
+                    subtitle="We curate a diverse range of events to cater to the thirst for venture capital knowledge."
                     image={landingImage}
                 />
                 {/* Upcoming Events */}
