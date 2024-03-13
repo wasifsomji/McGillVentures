@@ -11,6 +11,13 @@
     flex-wrap: wrap;
 }
 
+@media (max-width: 768px) {
+    .eventsContent {
+        flex-direction: column; /* Change to column layout for mobile devices */
+        align-items: stretch; /* Stretch items vertically */
+    }
+}
+
 .eventsHeader {
     display: flex;
     justify-content: center;
