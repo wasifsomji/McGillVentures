@@ -10,6 +10,11 @@ import park from "../../../../assets/analyst_headshots/Woo Park (Head of Analyst
 import menand from "../../../../assets/analyst_headshots/Anae Menand (Analyst).png";
 import donzelot from "../../../../assets/analyst_headshots/Jules Donzelot (Analyst).png"; 
 import mcintosh from "../../../../assets/analyst_headshots/Jackson McIntosh (Analyst).png";
+import hakki from "../../../../assets/analyst_headshots/Eran Hakki(Analyst).jpeg"; 
+import chiasson from "../../../../assets/analyst_headshots/Leo Chiasson(Analyst).jpeg"; 
+import kiss from "../../../../assets/analyst_headshots/Tanner Kiss(Analyst).jpeg";
+import pop from "../../../../assets/analyst_headshots/Angelika Popovski.png";
+import stas from "../../../../assets/analyst_headshots/Stas Mironov (Analyst).png"; 
 
 const AnalystTeam= () => {
     return (
@@ -38,19 +43,19 @@ const AnalystTeam= () => {
                     <TeamMember image={person1} name="Soso Cowell" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Tanner Kiss" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
+                    <TeamMember image={kiss} name="Tanner Kiss" role="Analyst" major="Finance + CS" hometown="undefined" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Angelika Popovski" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
+                    <TeamMember image={pop} name="Angelika Popovski" role="Analyst" major="Strategic Management" hometown="undefined" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={donzelot} name="Jules Donzelot" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
+                    <TeamMember image={donzelot} name="Jules Donzelot" role="Analyst" major="Finance" hometown="undefined" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Leo Chiasson" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
+                    <TeamMember image={chiasson} name="Leo Chiasson" role="Analyst" major="Economics" hometown="undefined" grad="2024"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Eran Hakki" role="Analyst" major="Finance" hometown="undefined" grad="2026"/>
+                    <TeamMember image={hakki} name="Eran Hakki" role="Analyst" major="Finance" hometown="undefined" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={van_bergh} name="Jacob Van Bergh" role="Analyst" major="Economics" hometown="Toronto, ON" grad="2027"/>
@@ -59,7 +64,7 @@ const AnalystTeam= () => {
                     <TeamMember image={menand} name="Anae Menand" role="Analyst" major="Finance - Concentration Business Analyt." hometown="undefined" grad="2025"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Stas Mironov" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
+                    <TeamMember image={stas} name="Stas Mironov" role="Analyst" major="Finance" hometown="undefined" grad="2027"/>
                 </ScrollAnimation>
             </div>
         </div>
