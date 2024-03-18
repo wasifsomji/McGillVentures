@@ -49,7 +49,7 @@ const AnalystTeam= () => {
                     <TeamMember image={pop} name="Angelika Popovski" role="Analyst" major="Strategic Management" hometown="Toronto, ON" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={donzelot} name="Jules Donzelot" role="Analyst" major="Finance" hometown="undefined" grad="2026"/>
+                    <TeamMember image={donzelot} name="Jules Donzelot" role="Analyst" major="Finance" hometown="Zurich, Switerzland" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={chiasson} name="Leo Chiasson" role="Analyst" major="Economics" hometown="Montreal, QC" grad="2024"/>
