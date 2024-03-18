@@ -26,13 +26,13 @@ const AnalystTeam= () => {
             </div>
             <div className={styles.teamInnerContainer}>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Anthony Azrak" role="Associate" major="undefined" hometown="undefined" grad="undefined"/>
+                    <TeamMember image={person1} name="Anthony Azrak" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={goralski} name="Michael Goralski" role="Associate" major="undefined" hometown="undefined" grad="undefined"/>
+                    <TeamMember image={goralski} name="Michael Goralski" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={bernier_michaud} name="Ludovick Bernier-Michaud" role="Associate" major="undefined" hometown="undefined" grad="undefined"/>
+                    <TeamMember image={bernier_michaud} name="Ludovick Bernier-Michaud" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
                 </ScrollAnimation>
             </div>
             <div className={styles.teamInnerContainer}>
