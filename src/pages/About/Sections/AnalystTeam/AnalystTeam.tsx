@@ -37,7 +37,7 @@ const AnalystTeam= () => {
             </div>
             <div className={styles.teamInnerContainer}>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={mcintosh} name="Jackson McIntosh" role="Analyst" major="Finance" hometown="undefined" grad="2026"/>
+                    <TeamMember image={mcintosh} name="Jackson McIntosh" role="Analyst" major="Finance" hometown="Montreal, QC" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={person1} name="Soso Cowell" role="Analyst" major="Finance" hometown="2025" grad="undefined"/>
@@ -61,7 +61,7 @@ const AnalystTeam= () => {
                     <TeamMember image={van_bergh} name="Jacob Van Bergh" role="Analyst" major="Economics" hometown="Toronto, ON" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={menand} name="Anae Menand" role="Analyst" major="Finance - Concentration Business Analyt." hometown="undefined" grad="2025"/>
+                    <TeamMember image={menand} name="Anae Menand" role="Analyst" major="Finance - Concentration Business Analyt." hometown="Singapore" grad="2025"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={stas} name="Stas Mironov" role="Analyst" major="Finance" hometown="Toronto, ON" grad="2027"/>
