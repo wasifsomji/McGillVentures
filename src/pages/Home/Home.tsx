@@ -77,13 +77,13 @@ const Home = () => {
                 </div>
                 <div className={styles.whoWeAreImagesContainer}>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                        <LazyLoadImage effect="blur" src={home1} className={styles.whoWeAreImage} alt="who we are"/>
+                        <img src={home1} className={styles.whoWeAreImage} alt="who we are"/>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                        <LazyLoadImage effect="blur" src={home2} className={styles.whoWeAreImage} alt="who we are"/>
+                        <img src={home2} className={styles.whoWeAreImage} alt="who we are"/>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                        <LazyLoadImage effect="blur"src={home3} className={styles.whoWeAreImage} alt="who we are"/>
+                        <img src={home3} className={styles.whoWeAreImage} alt="who we are"/>
                     </ScrollAnimation>
                 </div>
             <Stack
