@@ -40,7 +40,7 @@ const AnalystTeam= () => {
                     <TeamMember image={mcintosh} name="Jackson McIntosh" role="Analyst" major="Finance" hometown="Montreal, QC" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Soso Cowell" role="Analyst" major="Finance" hometown="2025" grad="undefined"/>
+                    <TeamMember image={person1} name="Soso Cowell" role="Analyst" major="Finance" hometown="2025" grad="2025"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={kiss} name="Tanner Kiss" role="Analyst" major="Finance + CS" hometown="Toronto,ON" grad="2026"/>
