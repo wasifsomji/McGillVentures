@@ -29,10 +29,10 @@ const AnalystTeam= () => {
                     <TeamMember image={person1} name="Anthony Azrak" role="Analyst" major="Software Engineering" hometown="Montreal, QC" grad="2024"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={goralski} name="Michael Goralski" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
+                    <TeamMember image={goralski} name="Michael Goralski" role="Analyst" major="Finance + Business Analyt." hometown="Toronto,ON" grad="2025"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={bernier_michaud} name="Ludovick Bernier-Michaud" role="Analyst" major="undefined" hometown="undefined" grad="undefined"/>
+                    <TeamMember image={bernier_michaud} name="Ludovick Bernier-Michaud" role="Analyst" major="Earth Science + Economics" hometown="Bangkok, Thailand" grad="2024"/>
                 </ScrollAnimation>
             </div>
             <div className={styles.teamInnerContainer}>
