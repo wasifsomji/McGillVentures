@@ -43,7 +43,7 @@ const Home = () => {
                 </ScrollAnimation>
             </div>
             <ScrollAnimation animateIn="fadeIn" duration="2">
-                <LazyLoadImage effect="blur" src={coverImage} className={styles.coverImage} alt="home cover"/>
+                <img src={coverImage} className={styles.coverImage} alt="home cover"/>
             </ScrollAnimation>
             <div className={styles.whoWeAreContainer}>
                 <div className={styles.titleText}>
@@ -80,10 +80,10 @@ const Home = () => {
                         <LazyLoadImage effect="blur" src={home1} className={styles.whoWeAreImage} alt="who we are"/>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                        <LazyLoadImage effect="blur" src className={styles.whoWeAreImage} alt="who we are"/>
+                        <LazyLoadImage effect="blur" src={home2} className={styles.whoWeAreImage} alt="who we are"/>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                        <LazyLoadImage effect="blur" src={home3} className={styles.whoWeAreImage} alt="who we are"/>
+                        <LazyLoadImage effect="blur"src={home3} className={styles.whoWeAreImage} alt="who we are"/>
                     </ScrollAnimation>
                 </div>
             <Stack
@@ -100,7 +100,7 @@ const Home = () => {
                         <LazyLoadImage effect="blur" src={triptyqCapital} className={styles.partnerImage} alt="logo"/>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                        <LazyLoadImage effect="blur" src={panacheVentures} className={styles.partnerImage} alt="logo"/>
+                        <LazyLoadImage effect="blur"v src={panacheVentures} className={styles.partnerImage} alt="logo"/>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
                         <LazyLoadImage effect="blur" src={inovia} className={styles.partnerImage} alt="logo"/>
@@ -115,16 +115,16 @@ const Home = () => {
                         <LazyLoadImage effect="blur" src={blueVisionCapital} className={styles.partnerImage} alt="logo"/>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                        <img src={aqcCapital} className={styles.partnerImage} alt="logo"/>
+                        <LazyLoadImage effect="blur" src={aqcCapital} className={styles.partnerImage} alt="logo"/>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                        <img src={cycleCapital} className={styles.partnerImage} alt="logo"/>
+                        <LazyLoadImage effect="blur" src={cycleCapital} className={styles.partnerImage} alt="logo"/>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                        <img src={telus} className={styles.partnerImage} alt="logo"/>
+                        <LazyLoadImage effect="blur" src={telus} className={styles.partnerImage} alt="logo"/>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                        <img src={deloitte} className={styles.partnerImage} alt="logo"/>
+                        <LazyLoadImage effect="blur" src={deloitte} className={styles.partnerImage} alt="logo"/>
                     </ScrollAnimation>
                 </Stack>
             </Stack>
