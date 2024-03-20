@@ -43,7 +43,7 @@ const Home = () => {
                 </ScrollAnimation>
             </div>
             <ScrollAnimation animateIn="fadeIn" duration="2">
-                <img src={coverImage} className={styles.coverImage} alt="home cover"/>
+                <LazyLoadImage effect="blur" src={coverImage} className={styles.coverImage} alt="home cover"/>
             </ScrollAnimation>
             <div className={styles.whoWeAreContainer}>
                 <div className={styles.titleText}>
@@ -77,13 +77,13 @@ const Home = () => {
                 </div>
                 <div className={styles.whoWeAreImagesContainer}>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                        <img src={home1} className={styles.whoWeAreImage} alt="who we are"/>
+                        <LazyLoadImage effect="blur" src={home1} className={styles.whoWeAreImage} alt="who we are"/>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                        <img src={home2} className={styles.whoWeAreImage} alt="who we are"/>
+                        <LazyLoadImage effect="blur" src className={styles.whoWeAreImage} alt="who we are"/>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                        <img src={home3} className={styles.whoWeAreImage} alt="who we are"/>
+                        <LazyLoadImage effect="blur" src={home3} className={styles.whoWeAreImage} alt="who we are"/>
                     </ScrollAnimation>
                 </div>
             <Stack
@@ -97,22 +97,22 @@ const Home = () => {
                 </ScrollAnimation>
                 <Stack display="flex" direction="row" flexWrap= "wrap" justifyContent="center">
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                        <img src={triptyqCapital} className={styles.partnerImage} alt="logo"/>
+                        <LazyLoadImage effect="blur" src={triptyqCapital} className={styles.partnerImage} alt="logo"/>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                        <img src={panacheVentures} className={styles.partnerImage} alt="logo"/>
+                        <LazyLoadImage effect="blur" src={panacheVentures} className={styles.partnerImage} alt="logo"/>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                        <img src={inovia} className={styles.partnerImage} alt="logo"/>
+                        <LazyLoadImage effect="blur" src={inovia} className={styles.partnerImage} alt="logo"/>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                        <img src={penderVentures} className={styles.partnerImage} alt="logo"/>
+                        <LazyLoadImage effect="blur" src={penderVentures} className={styles.partnerImage} alt="logo"/>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                        <img src={dobsonCentre} className={styles.partnerImage} alt="logo"/>
+                        <LazyLoadImage effect="blur" src={dobsonCentre} className={styles.partnerImage} alt="logo"/>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
-                        <img src={blueVisionCapital} className={styles.partnerImage} alt="logo"/>
+                        <LazyLoadImage effect="blur" src={blueVisionCapital} className={styles.partnerImage} alt="logo"/>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="zoomIn" animateOnce="true">
                         <img src={aqcCapital} className={styles.partnerImage} alt="logo"/>
