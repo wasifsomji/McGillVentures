@@ -1,4 +1,5 @@
 import styles from "./Footer.module.scss"
+import { Link } from 'react-router-dom'; 
 import baseStyle from "../../styles/Base.module.scss";
 import logo from "../../assets/logo_white.png";
 import {Stack, Typography} from "@mui/material";
@@ -10,9 +11,9 @@ const Footer = () => {
                 <div className={styles.linksContainer}>
                     <div className={styles.linksTitle}>Quick Links</div>
                     <a className={styles.linksText} href="/">Home</a>
-                    <a className={styles.linksText} href="/about">About</a>
-                    <a className={styles.linksText} href="/events">Events</a>
-                    <a className={styles.linksText} href="/contact">Contact</a>
+                    <Link to="/about" className={styles.linksText}>About</Link>
+                    <Link to="/events" className={styles.linksText}>Events</Link>
+                    <Link to="/contact" className={styles.linksText}>Contact</Link>
                 </div>
                 <div className={styles.linksContainer}>
                     <div className={styles.linksTitle}>Follow Us</div>
