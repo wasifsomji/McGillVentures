@@ -70,19 +70,7 @@ const Events = () => {
                     <div className={styles.eventsHeader}>Upcoming Events</div>
                 </ScrollAnimation>
                 <div className={styles.eventsContent}>
-                    <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                        <Event
-                            image={scarlettPitch1}
-                            title="The Scarlet Pitch"
-                            date="March 20, 2024"
-                            location="Desjardins Lounge"
-                            description="Join us for this Dragons’ Den- and Shark Tank- style event that aims to:
-                            1) Connect emerging Montreal startups with other startup/venture capital ecosystem players, and
-                            2) Inspire students to engage with their local tech ecosystem, either from the entrepreneurial or VC side of the table.
-                            Featuring one of the actual Dragons from the Canadian TV show Dragons' Den, this event will be a great opportunity to learn from the best and network with other like-minded individuals."
-                            link="http://scarletpitch.eventbrite.com"
-                        />
-                    </ScrollAnimation>
+            
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                         <Event
                             title="Startup Showcase (2nd Ed.)"
@@ -102,6 +90,19 @@ const Events = () => {
                     <div className={styles.eventsHeader}>Past Events</div>
                 </ScrollAnimation>
                 <div className={styles.eventsContent}>
+                    <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                            <Event
+                                image={scarlettPitch1}
+                                title="The Scarlet Pitch"
+                                date="March 20, 2024"
+                                location="Desjardins Lounge"
+                                description="Join us for this Dragons’ Den- and Shark Tank- style event that aims to:
+                                1) Connect emerging Montreal startups with other startup/venture capital ecosystem players, and
+                                2) Inspire students to engage with their local tech ecosystem, either from the entrepreneurial or VC side of the table.
+                                Featuring one of the actual Dragons from the Canadian TV show Dragons' Den, this event will be a great opportunity to learn from the best and network with other like-minded individuals."
+                                link="http://scarletpitch.eventbrite.com"
+                        />
+                    </ScrollAnimation>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                         <Event
                             image={vcPanelAndNetworkingEventAtEspaceCDPQ}
