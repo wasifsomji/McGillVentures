@@ -10,12 +10,12 @@ import fadel from "../../../../assets/exec_headshots/Sara Abi Fadel (Finance).jp
 import sun from "../../../../assets/exec_headshots/Sofi Sun (Finance).jpg";
 import quelavoine from "../../../../assets/exec_headshots/Thibault Quelavoine (Co-President).jpg";
 import smedt from "../../../../assets/exec_headshots/Margaux De Smedt (Events Coordinator).jpg";
-import somji from "../../../../assets/exec_headshots/Wasif Somji (Technology Lead).png";
 import ahmed from "../../../../assets/exec_headshots/Naureen Ahmed (VP Staff).jpg"; 
 import mun from "../../../../assets/exec_headshots/Carrie Mun (Marketing Coordinator).png";
 import durra from "../../../../assets/exec_headshots/Hala Durra (Events Coordinator).jpeg";
 import francois from "../../../../assets/exec_headshots/Francois-Wavier Chap. Perr. (VP Corporate Relations).jpg";
 import aaron from "../../../../assets/exec_headshots/Aaron Anandji (Executive Director).edited1.png"; 
+import somji from "../../../../assets/exec_headshots/Somji(DirectorTech).png";
 
 const ExecTeam = () => {
     return (
@@ -57,7 +57,7 @@ const ExecTeam = () => {
                     <TeamMember image={mun} name="Carrie Mun" role="Marketing Coordinator" major="Economics and Mathematics" hometown="New York" grad="2024"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Wasif Somji" role="Director of Technology" major="Computer Engineering" hometown="Vancouver, BC" grad="2025"/>
+                    <TeamMember image={somji} name="Wasif Somji" role="Director of Technology" major="Computer Engineering" hometown="Vancouver, BC" grad="2025"/>
                 </ScrollAnimation>
             </div>
         </div>
