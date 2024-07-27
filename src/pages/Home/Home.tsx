@@ -5,10 +5,10 @@ import styles from "./Home.module.scss"
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import Landing from "../../components/Landing/Landing";
-import landingImage from "../../assets/home/landing_home.png";
+import home1 from "../../assets/home/landing_home.png";
 import coverImage from "../../assets/mcgill.jpeg";
+import landingImage from "../../assets/home/homeLanding.jpg";
 import Footer from "../../components/Footer/Footer";
-import home1 from "../../assets/home/home1.png";
 import home2 from "../../assets/home/home2.png";
 import home3 from "../../assets/home/home3.png";
 import ScrollAnimation from "react-animate-on-scroll";

@@ -14,7 +14,7 @@ interface Props {
 const TeamMember:React.FC<Props> = ({image, name, role, major, hometown, grad}) => {
     return (
         <div className={styles.teamCard}>
-            <Typography variant="h5" align={"center"} gutterBottom={true} fontSize={18}>{role}</Typography>
+            <Typography variant="h5" align={"center"} gutterBottom={true} fontSize={19}>{role}</Typography>
             <Card sx={{ width: { xs: 275, md: 300 } }}>
                 <CardMedia
                     sx={{ height: { xs: 275, md: 300 } }}
