@@ -20,8 +20,8 @@ import goktug from "../../../../assets/exec_headshots/Goktug Bender(Corporate Re
 import jrg from "../.././../../assets/exec_headshots/Janine RG (Marketing Director).jpeg"
 import kaur from "../../../../assets/exec_headshots/Sehajdeep Kaur(Co-Director of Events).png";
 import mikhail from "../../../../assets/exec_headshots/Miriam Mikhail (Corp Relations).jpg";
-import robidoux from "../../../../assets/exec_headshots/Edwa"
-
+import robidoux from "../../../../assets/exec_headshots/Ed Robidoux (Finance).png";
+import syed from "../../../../assets/exec_headshots/Mustafa Syed (Corp Relations).png";
 const ExecTeam = () => {
     return (
         <div className={styles.teamCardsContainer}>
@@ -47,7 +47,16 @@ const ExecTeam = () => {
                     <TeamMember image={mikhail} name="Miriam Mikhaeil" role="Director of Corporate Relations" major="Finance & Accounting" hometown="Cairo, Egypt" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={farrell} name="Cara-Li Farrell" role="Director of Corporate Relations" major="Bus. Analytics and Finance" hometown="Montreal, QC" grad="2024"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={goktug} name="Göktuğ Bender" role="Associate Director of Corporate Relations" major="Psychology" hometown="Tekirdağ/Türkiye" grad="2024"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={francois} name="François-Xavier Chap. Perr." role="Associate Director of Corporate Relations" major="Economics" hometown="Montreal, QC" grad="2024"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={syed} name="Mustafa Syed" role="Associate Director of Corporate Relations" major="Economics, Math & Management" hometown="Tekirdağ/Türkiye" grad="2024"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={ahmed} name="Naureen Ahmed" role="Director of Innovation" major="Finance & IT Mgnt." hometown="Gatineau, QC" grad="2027"/>

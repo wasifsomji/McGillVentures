@@ -28,32 +28,6 @@ const AnalystTeam= () => {
                     <TeamMember image={hamam} name="Alexis Hamam" role="General Manager of Analyst Program" major="Finance" hometown="Montreal, QC" grad="2025"/>
                 </ScrollAnimation>
             </div>
-            <div className={styles.teamInnerContainer}>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={kiss} name="Tanner Kiss" role="Analyst" major="Finance + CS" hometown="Toronto,ON" grad="2026"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={pop} name="Angelika Popovski" role="Analyst" major="Strategic Management" hometown="Toronto, ON" grad="2026"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={donzelot} name="Jules Donzelot" role="Analyst" major="Finance" hometown="Zurich, Switerzland" grad="2026"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={chiasson} name="Leo Chiasson" role="Analyst" major="Economics" hometown="Montreal, QC" grad="2024"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={hakki} name="Eran Hakki" role="Analyst" major="Finance" hometown="Nicosia, Cyprus" grad="2026"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={van_bergh} name="Jacob Van Bergh" role="Analyst" major="Economics" hometown="Toronto, ON" grad="2027"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={menand} name="Anae Menand" role="Analyst" major="Finance - Concentration Business Analyt." hometown="Singapore" grad="2025"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={stas} name="Stas Mironov" role="Analyst" major="Finance" hometown="Toronto, ON" grad="2027"/>
-                </ScrollAnimation>
-            </div>
         </div>
     )
 }
