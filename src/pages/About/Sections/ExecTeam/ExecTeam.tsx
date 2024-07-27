@@ -7,7 +7,6 @@ import farrell from "../../../../assets/exec_headshots/Cara-Li Farrell (Corporat
 import wu from "../../../../assets/exec_headshots/Ethan Wu (Marketing).png";
 import bains from "../../../../assets/exec_headshots/Jaiden Bains (Events).jpg";
 import fadel from "../../../../assets/exec_headshots/Sara Abi Fadel (Finance).jpg";
-import sun from "../../../../assets/exec_headshots/Sofi Sun (Finance).jpg";
 import quelavoine from "../../../../assets/exec_headshots/Thibault Quelavoine (Co-President).jpg";
 import smedt from "../../../../assets/exec_headshots/Margaux De Smedt (Events Coordinator).jpg";
 import ahmed from "../../../../assets/exec_headshots/Naureen Ahmed (VP Staff).jpg"; 
@@ -16,48 +15,57 @@ import durra from "../../../../assets/exec_headshots/Hala Durra (Events Coordina
 import francois from "../../../../assets/exec_headshots/Francois-Wavier Chap. Perr. (VP Corporate Relations).jpg";
 import aaron from "../../../../assets/exec_headshots/Aaron Anandji (Executive Director).edited1.png"; 
 import somji from "../../../../assets/exec_headshots/Somji(DirectorTech).png";
+import pennginton from "../../../../assets/exec_headshots/Emma Pennington (Events).jpeg";
+import goktug from "../../../../assets/exec_headshots/Goktug Bender(Corporate Relations).jpeg";
+import jrg from "../.././../../assets/exec_headshots/Janine RG (Marketing Director).jpeg"
+import kaur from "../../../../assets/exec_headshots/Sehajdeep Kaur(Co-Director of Events).png";
+import mikhail from "../../../../assets/exec_headshots/Miriam Mikhail (Corp Relations).jpg";
+import robidoux from "../../../../assets/exec_headshots/Edwa"
 
 const ExecTeam = () => {
     return (
         <div className={styles.teamCardsContainer}>
             <div className={styles.teamInnerContainer}>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={aaron} name="Aaron Anandji" role="Executive Director" major="Strategic Management" hometown="Vancouver, BC" grad="2025"/>
+                    <TeamMember image={wu} name="Ethan Wu" role="Co-President" major="Honours in Inv. Mgnt." hometown="Montreal, QC" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={quelavoine} name="Thibault Quelavoine" role="Executive Director" major="Investment Management" hometown="The Hague" grad="2024"/>
+                    <TeamMember image={bains} name="Jaiden bains" role="Co-President" major="Economics & Finance" hometown="Vancouver, BC" grad="2025"/>
                 </ScrollAnimation>
             </div>
             <div className={styles.teamInnerContainer}>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={bains} name="Jaiden Bains" role="Director of Events" major="Economics and Finance" hometown="Vancouver, BC" grad="2025"/>
+                    <TeamMember image={durra} name="Hala Durra" role="Co-Director of Events" major="Business Analytics" hometown="Amman, Jordan" grad="2025"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={durra} name="Hala Durra" role="Events Coordinator" major="Business Analytics" hometown="Amman, Jordan" grad="2025"/>
+                    <TeamMember image={kaur} name="Sehajdeep Kaur" role="Co-Director of Events" major="International Development & Religious Studies" hometown="Nabha, India" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={smedt} name="Margaux De Smedt" role="Events Coordinator" major="Joint Honours Finance + Econ" hometown="Paris, France" grad="2025"/>
+                    <TeamMember image={pennginton} name="Emma Pennington" role="Associate Director of Events" major="Finance" hometown="Beijing, China" grad="2024"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={farrell} name="Cara-Li Farrell" role="Director of Corporate Relations" major="Bus. Analytics and Finance" hometown="Montreal, QC" grad="2024"/>
+                    <TeamMember image={mikhail} name="Miriam Mikhaeil" role="Director of Corporate Relations" major="Finance & Accounting" hometown="Cairo, Egypt" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={francois} name="François-Xavier Chap. Perr." role="Director of Corporate Relations" major="Economics and Social Entrep" hometown="Montreal, QC" grad="2024"/>
+                    <TeamMember image={goktug} name="Göktuğ Bender" role="Associate Director of Corporate Relations" major="Psychology" hometown="Tekirdağ/Türkiye" grad="2024"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={ahmed} name="Naureen Ahmed" role="Chief of Staff" major="Finance and IT Mgnt." hometown="Gatineau, QC" grad="2027"/>
+                    <TeamMember image={ahmed} name="Naureen Ahmed" role="Director of Innovation" major="Finance & IT Mgnt." hometown="Gatineau, QC" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={fadel} name="Sara Abi Fadel" role="Director of Finance" major="Joint Honours Finance + Econ" hometown="Beirut, Lebanon" grad="2024"/>
+                    <TeamMember image={robidoux} name="Edward Robidoux" role="Director of Finance" major="Joint Honours Finance + Econ" hometown="Beirut, Lebanon" grad="2024"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={wu} name="Ethan Wu" role="Director of Marketing" major="Honours in Inv. Mgnt." hometown="Montreal, QC" grad="2026"/>
+                    <TeamMember image={jrg} name="Janine Gonzales" role="Director of Marketing" major="Marketing & CS" hometown="Halifax, Nova Scotia" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={mun} name="Carrie Mun" role="Marketing Coordinator" major="Economics and Mathematics" hometown="New York" grad="2024"/>
+                    <TeamMember image={mun} name="Carrie Mun" role="Marketing Coordinator" major="Economics & Mathematics" hometown="New York" grad="2024"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={somji} name="Wasif Somji" role="Director of Technology" major="Computer Engineering" hometown="Vancouver, BC" grad="2025"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={aaron} name="Aaron Anandji" role="Strategic Advisor" major="Strategic Management" hometown="Vancouver, BC" grad="2025"/>
                 </ScrollAnimation>
             </div>
         </div>

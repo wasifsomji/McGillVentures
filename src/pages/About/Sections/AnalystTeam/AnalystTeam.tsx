@@ -15,33 +15,20 @@ import chiasson from "../../../../assets/analyst_headshots/Leo Chiasson(Analyst)
 import kiss from "../../../../assets/analyst_headshots/Tanner Kiss(Analyst).jpeg";
 import pop from "../../../../assets/analyst_headshots/Angelika Popovski.png";
 import stas from "../../../../assets/analyst_headshots/Stas Mironov (Analyst).png"; 
+import hamam from "../../../../assets/analyst_headshots/Alexis Hamam (General Manager).png"
 
 const AnalystTeam= () => {
     return (
         <div className={styles.teamCardsContainer}>
             <div className={styles.teamInnerContainer}>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={park} name="Woo Park" role="Head of Analyst Program" major="Strat. Management + Finance" hometown="Victoria, BC" grad="2023"/>
+                    <TeamMember image={mcintosh} name="Jackson McIntosh" role="General Manager of Analyst Program" major="Finance" hometown="Montreal, QC" grad="2026"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={hamam} name="Alexis Hamam" role="General Manager of Analyst Program" major="Finance" hometown="Montreal, QC" grad="2025"/>
                 </ScrollAnimation>
             </div>
             <div className={styles.teamInnerContainer}>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Anthony Azrak" role="Analyst" major="Software Engineering" hometown="Montreal, QC" grad="2024"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={goralski} name="Michael Goralski" role="Analyst" major="Finance + Business Analyt." hometown="Toronto,ON" grad="2025"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={bernier_michaud} name="Ludovick Bernier-Michaud" role="Analyst" major="Earth Science + Economics" hometown="Bangkok, Thailand" grad="2024"/>
-                </ScrollAnimation>
-            </div>
-            <div className={styles.teamInnerContainer}>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={mcintosh} name="Jackson McIntosh" role="Analyst" major="Finance" hometown="Montreal, QC" grad="2026"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Soso Cowell" role="Analyst" major="Finance" hometown="2025" grad="2025"/>
-                </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={kiss} name="Tanner Kiss" role="Analyst" major="Finance + CS" hometown="Toronto,ON" grad="2026"/>
                 </ScrollAnimation>
