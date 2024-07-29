@@ -22,6 +22,8 @@ import kaur from "../../../../assets/exec_headshots/Sehajdeep Kaur(Co-Director o
 import mikhail from "../../../../assets/exec_headshots/Miriam Mikhail (Corp Relations).jpg";
 import robidoux from "../../../../assets/exec_headshots/Ed Robidoux (Finance).png";
 import syed from "../../../../assets/exec_headshots/Mustafa Syed(Corp Relations).png";
+import bouez from "../../../../assets/exec_headshots/Marc Bouez (Associate Director of Finance).jpeg";
+
 const ExecTeam = () => {
     return (
         <div className={styles.teamCardsContainer}>
@@ -35,10 +37,10 @@ const ExecTeam = () => {
             </div>
             <div className={styles.teamInnerContainer}>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={durra} name="Hala Durra" role="Co-Director of Events" major="Business Analytics" hometown="Amman, Jordan" grad="2025"/>
+                    <TeamMember image={durra} name="Hala Durra" role="Co-Director of Events" major="Economics & Business Analyt." hometown="Amman, Jordan" grad="2025"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={kaur} name="Sehajdeep Kaur" role="Co-Director of Events" major="International Development & Religious Studies" hometown="Nabha, India" grad="2027"/>
+                    <TeamMember image={kaur} name="Sehajdeep Kaur" role="Co-Director of Events" major="International Development" hometown="Nabha, India" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={pennginton} name="Emma Pennington" role="Associate Director of Events" major="Political Science" hometown="Toronto, Ontario" grad="2025"/>
@@ -60,6 +62,9 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={robidoux} name="Edward Robidoux" role="Director of Finance" major="Economics & Finance" hometown="Rosemere, QC" grad="2026"/>
+                </ScrollAnimation>
+                <ScrollAnimation>
+                    <TeamMember image={bouez} name="Marc Bouez" role="Associate Director of Finance" major="Finance" hometown="Ottawa, ON" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={jrg} name="Janine Gonzales" role="Director of Marketing" major="Marketing & CS" hometown="Halifax, Nova Scotia" grad="2027"/>
