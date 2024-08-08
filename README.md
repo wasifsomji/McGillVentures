@@ -1,4 +1,3 @@
-# McGill Ventures
 ![image](https://github.com/user-attachments/assets/e7c502a3-ad08-4e1e-ad23-3737d0e418eb)
 ## Project built in collaboration with the McGill Design Consultancy for the McGill Ventures Club.
 ## Developers:  
