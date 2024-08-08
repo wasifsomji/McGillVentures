@@ -7,3 +7,6 @@
 - ReactJS + Typescript
 - SCSS
 - Netlify + Namecheap for deployment
+
+### Check it out: 
+https://www.mcgillvc.ca
