@@ -16,6 +16,7 @@ import kiss from "../../../../assets/analyst_headshots/Tanner Kiss(Analyst).jpeg
 import pop from "../../../../assets/analyst_headshots/Angelika Popovski.png";
 import stas from "../../../../assets/analyst_headshots/Stas Mironov (Analyst).png"; 
 import hamam from "../../../../assets/analyst_headshots/Alexis Hamam (General Manager).png"
+import { Typography } from '@mui/material';
 
 const AnalystTeam= () => {
     return (
@@ -27,6 +28,10 @@ const AnalystTeam= () => {
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={hamam} name="Alexis Hamam" role="General Manager of Analyst Program" major="Finance" hometown="Montreal, QC" grad="2025"/>
                 </ScrollAnimation>
+            </div> 
+            <div className={styles.teamComingSoonContainer}>
+                <Typography variant="h5" align={"center"} gutterBottom={true} fontSize={19}>Analysts Coming Soon</Typography>
+                <Typography variant="h5" align={"center"} gutterBottom={true} fontSize={19}>Applications open September 2</Typography>
             </div>
         </div>
     )
