@@ -23,7 +23,7 @@ import penderVentures from "../../assets/partners/pender_ventures.png";
 import triptyqCapital from "../../assets/partners/triptyq_capital.png";
 import telus from "../../assets/partners/Telus-Logo-White.png";
 import deloitte from "../../assets/partners/Deloitte-Black-Logo.png";
-import {Card, CardContent, Stack, Typography} from "@mui/material";
+import { Card, CardContent, Stack, Typography } from "@mui/material";
 
 const Home = () => {
     return (

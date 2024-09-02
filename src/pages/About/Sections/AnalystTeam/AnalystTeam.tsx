@@ -16,7 +16,9 @@ import kiss from "../../../../assets/analyst_headshots/Tanner Kiss(Analyst).jpeg
 import pop from "../../../../assets/analyst_headshots/Angelika Popovski.png";
 import stas from "../../../../assets/analyst_headshots/Stas Mironov (Analyst).png"; 
 import hamam from "../../../../assets/analyst_headshots/Alexis Hamam (General Manager).png"
-import { Typography } from '@mui/material';
+import { Card, CardContent, CardMedia, Typography } from '@mui/material';
+
+import program from "../../../../assets/program/analyst_program.jpg";
 
 const AnalystTeam= () => {
     return (
@@ -30,8 +32,18 @@ const AnalystTeam= () => {
                 </ScrollAnimation>
             </div> 
             <div className={styles.teamComingSoonContainer}>
-                <Typography variant="h5" align={"center"} gutterBottom={true} fontSize={19}>Analysts Coming Soon</Typography>
-                <Typography variant="h5" align={"center"} gutterBottom={true} fontSize={19}>Applications open September 2</Typography>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <Typography variant="h5" align={"center"} gutterBottom={true} fontSize={19}>Analyst Sign Up Form</Typography>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdDBP87RwOkYrTAvz2JGXJKP7x2Cn786JaXuvUOAkdmJbG3xQ/viewform" target="_blank" rel="noopener noreferrer">
+                        <Card sx={{ width: { xs: 275, md: 300 } }}>
+                            <CardMedia
+                                sx={{ height: { xs: 275, md: 300 } }}
+                                image={program}
+                                title="face card"
+                            />
+                        </Card>
+                    </a>
+                </ScrollAnimation>
             </div>
         </div>
     )
