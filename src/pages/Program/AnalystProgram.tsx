@@ -86,13 +86,15 @@ const AnalystProgram= () => {
                         <div className={styles.introTitle}>Positions</div>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                        <Card sx={{ width: { xs: 275, md: 300 } }}>
-                            <CardMedia
-                                sx={{ height: { xs: 275, md: 300 } }}
-                                image={programDetails}
-                                title="face card"
-                            />
-                        </Card>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdDBP87RwOkYrTAvz2JGXJKP7x2Cn786JaXuvUOAkdmJbG3xQ/viewform" target="_blank" rel="noopener noreferrer">
+                            <Card sx={{ width: { xs: 275, md: 300 } }}>
+                                <CardMedia
+                                    sx={{ height: { xs: 275, md: 300 } }}
+                                    image={programDetails}
+                                    title="face card"
+                                />
+                            </Card>
+                        </a>
                     </ScrollAnimation>
                 </Stack>
                 {/* <Stack
