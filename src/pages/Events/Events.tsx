@@ -3,6 +3,7 @@ import landingImage from "../../assets/events/landing_events.png";
 import NavBar from "../../components/NavBar/NavBar";
 import styles from "./Events.module.scss";
 import eventImage1 from "../../assets/events/no_poster_event.png";
+import eventImage2 from "../../assets/events/venture_capital_and_beyond.png";
 import Event from "../../components/Event/Event";
 import Footer from "../../components/Footer/Footer";
 import pastEventImage1 from "../../assets/events/new_breaking_down.jpg"; 
@@ -71,6 +72,19 @@ const Events = () => {
                 </ScrollAnimation>
                 <div className={styles.eventsContent}>
             
+                    <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                        <Event
+                            title="Venture Capital and Beyond"
+                            date="September 19, 2024: 5:30 - 7:30 PM"
+                            location="Bronfman Building, Room 151"
+                            description="Join us for an interactive presentation by Professor Jorge Torres from Yale University, where you'll learn the 
+                            essentials of funding a startup, building strong relationships with venture capitalists, and understanding a VC's perspective. 
+                            This event is perfect for aspiring entrepreneurs and anyone interested in the startup ecosystem."
+                            image={eventImage2}
+                            link="https://lnkd.in/dbgNZQDx"
+                        />
+                    </ScrollAnimation>
+
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                         <Event
                             title="Startup Showcase (2nd Ed.)"
