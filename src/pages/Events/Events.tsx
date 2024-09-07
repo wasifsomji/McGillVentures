@@ -85,7 +85,7 @@ const Events = () => {
                         />
                     </ScrollAnimation>
 
-                    <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    {/* <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                         <Event
                             title="Startup Showcase (2nd Ed.)"
                             date="October 2024"
@@ -96,7 +96,7 @@ const Events = () => {
                             image={eventImage1}
                             link="/"
                         />
-                    </ScrollAnimation>
+                    </ScrollAnimation> */}
                 </div>
 
                 {/* Past Events */}
