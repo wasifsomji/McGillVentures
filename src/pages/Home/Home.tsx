@@ -54,7 +54,7 @@ const Home = () => {
                     </div>
                     <div className={styles.whoWeAreText}>
                         <ScrollAnimation animateIn="slideInRight" animateOnce="true">
-                        Founded in 2020, McGill Ventures is a dynamic student-run organization based in Montreal, Quebec.
+                        Founded in 2020 by Aaron Anandji, Woo Park, and Zach Faucillion, McGill Ventures is a dynamic student-run organization based in Montreal, Quebec.
                         Comprised of McGill students passionate about venture capital and private equity, our club offers a supportive community and valuable opportunities for learning and networking.
                         If you are interested in joining our club, collaborating on projects, or learning more about the venture capital and private equity landscape, we encourage you to reach out to us.
                         McGill Ventures looks forward to connecting with you and supporting your journey in this exciting field.
