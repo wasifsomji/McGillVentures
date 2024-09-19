@@ -19,7 +19,7 @@ const Event:React.FC<Props> = ({title, date, location, description, image, link}
     return (
         <div>
             <Flippy
-                flipOnHover={true} // default false
+                flipOnHover={false} // default false
                 flipOnClick={false} // default false
                 flipDirection="horizontal"
                 ref={ref}

@@ -117,26 +117,6 @@ const Events = () => {
                                 link="http://scarletpitch.eventbrite.com"
                         />
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                        <Event
-                            image={vcPanelAndNetworkingEventAtEspaceCDPQ}
-                            title="VC Panel & Networking Event at Espace CDPQ"
-                            date="November 10th 2023, 2:00 - 5:00 PM"
-                            location="Salle CDPQ at Espace CDPQ"
-                            description={Description_vcPanelAndNetworkingEventAtEspaceCDPQ}
-                            link="https://www.instagram.com/p/CzMrksiOtOA/?img_index=1"
-                        />
-                    </ScrollAnimation>
-                    <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                      <Event
-                        image={startupShowcaseWithVCInvestors}
-                        title="Startup Showcase with VC Investors"
-                        date="October 27th 2023, 1:30PM-4:00PM"
-                        location="PGSS Inc. Thomson House (Ballroom, 2nd Floor), 3650 McTavish St"
-                        description={Description_startupShowcaseWithVCInvestors}
-                        link="https://www.instagram.com/p/CycEu1ytWA1/?img_index=1"
-                      />
-                    </ScrollAnimation>
                 </div>
             </div>
             <Footer />
