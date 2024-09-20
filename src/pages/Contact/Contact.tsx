@@ -1,12 +1,12 @@
 import styles from "./Contact.module.scss";
 import NavBar from "../../components/NavBar/NavBar";
 import Landing from "../../components/Landing/Landing";
-import landingImage from "../../assets/contact/landing_contact.png";
+import landingImage from "../../assets/contact/landingContact.png";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedinIcon from '@mui/icons-material/LinkedIn';
 import Footer from "../../components/Footer/Footer";
-import {Link} from "@mui/material";
+import { Link } from "@mui/material";
 import ScrollAnimation from "react-animate-on-scroll";
 
 
