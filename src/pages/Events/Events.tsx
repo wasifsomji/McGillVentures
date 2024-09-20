@@ -71,7 +71,25 @@ const Events = () => {
                     <div className={styles.eventsHeader}>Upcoming Events</div>
                 </ScrollAnimation>
                 <div className={styles.eventsContent}>
-            
+                    <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                        <Event
+                            title="Startup Showcase (2nd Ed.)"
+                            date="October 2024"
+                            location="TBA"
+                            description="Seize this exclusive opportunity to meet and learn from local entrepreneurs
+                            and venture capitalists. Discover the missions, product differentiators, and future plans
+                            of the startup founders, as well as the investment perspectives and roles of the venture capitalists."
+                            image={eventImage1}
+                            link="/"
+                        />
+                    </ScrollAnimation>
+                </div>
+
+                {/* Past Events */}
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <div className={styles.eventsHeader}>Past Events</div>
+                </ScrollAnimation>
+                <div className={styles.eventsContent}>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                         <Event
                             title="Venture Capital and Beyond"
@@ -84,26 +102,6 @@ const Events = () => {
                             link="https://lnkd.in/dbgNZQDx"
                         />
                     </ScrollAnimation>
-
-                    {/* <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                        <Event
-                            title="Startup Showcase (2nd Ed.)"
-                            date="October 2024"
-                            location="TBA"
-                            description="Seize this exclusive opportunity to meet and learn from local entrepreneurs
-                            and venture capitalists. Discover the missions, product differentiators, and future plans
-                            of the startup founders, as well as the investment perspectives and roles of the venture capitalists."
-                            image={eventImage1}
-                            link="/"
-                        />
-                    </ScrollAnimation> */}
-                </div>
-
-                {/* Past Events */}
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <div className={styles.eventsHeader}>Past Events</div>
-                </ScrollAnimation>
-                <div className={styles.eventsContent}>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                             <Event
                                 image={scarlettPitch1}

@@ -40,19 +40,6 @@ const Event:React.FC<Props> = ({title, date, location, description, image, link}
                         </Card>
                     </div>
                 </FrontSide>
-                <BackSide style={{boxShadow: "none", width: "500px", height: "450px"}}>
-                    <div className={styles.eventCard}>
-                        <Card sx={{ width: {xs: 300, sm: 400, md: 400, lg: 400}, height: {xs: 550, sm: 600, md: 600, lg: 600}, overflow: "auto" }}>
-                            <CardContent sx={{margin: "10px"}}>
-                                <Typography gutterBottom={true} variant="h5" component="div" align="center">{title}</Typography>
-                                <div className={styles.cardContent}><b>Date</b> {date}</div>
-                                <div className={styles.cardContent}><b>Location</b> {location}</div>
-                                <br/>
-                                <div className={styles.cardContent}>{description}</div>
-                            </CardContent>
-                        </Card>
-                    </div>
-                </BackSide>
             </Flippy>
             <div className={styles.buttonContainer}>
                 {link === "/" ?
