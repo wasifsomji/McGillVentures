@@ -23,6 +23,7 @@ import mikhail from "../../../../assets/exec_headshots/Miriam Mikhail (Corp Rela
 import robidoux from "../../../../assets/exec_headshots/Ed Robidoux (Finance).png";
 import syed from "../../../../assets/exec_headshots/Mustafa Syed(Corp Relations).png";
 import bouez from "../../../../assets/exec_headshots/Marc Bouez (Associate Director of Finance).jpeg";
+import cwu from "../../../../assets/exec_headshots/Canyu Wu (Events Coordinator).jpg";
 
 const ExecTeam = () => {
     return (
@@ -44,6 +45,9 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={pennginton} name="Emma Pennington" role="Associate Director of Events" major="Political Science" hometown="Toronto, Ontario" grad="2025"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={cwu} name="Canyu Wu" role="Events Coordinator" major="Bioengineering" hometown="Montreal, QC" grad="2028"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={mikhail} name="Miriam Mikhaeil" role="Director of Corporate Relations" major="Finance & Accounting" hometown="Cairo, Egypt" grad="2026"/>
