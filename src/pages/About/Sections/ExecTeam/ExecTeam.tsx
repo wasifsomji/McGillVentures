@@ -24,6 +24,7 @@ import robidoux from "../../../../assets/exec_headshots/Ed Robidoux (Finance).pn
 import syed from "../../../../assets/exec_headshots/Mustafa Syed(Corp Relations).png";
 import bouez from "../../../../assets/exec_headshots/Marc Bouez (Associate Director of Finance).jpeg";
 import cwu from "../../../../assets/exec_headshots/Canyu Wu (Events Coordinator).jpg";
+import lee from "../../../../assets/exec_headshots/Nikola Lee (Executive Assistant).jpg";
 
 const ExecTeam = () => {
     return (
@@ -81,6 +82,9 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={aaron} name="Aaron Anandji" role="Strategic Advisor" major="Strategic Management" hometown="Vancouver, BC" grad="2025"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={lee} name="Nikola Lee" role="Executive Assistant" major="Finance & Entrepeneurship" hometown="Toronto, ON" grad="2027"/>
                 </ScrollAnimation>
             </div>
         </div>
