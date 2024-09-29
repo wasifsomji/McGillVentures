@@ -26,6 +26,7 @@ import bouez from "../../../../assets/exec_headshots/Marc Bouez (Associate Direc
 import cwu from "../../../../assets/exec_headshots/Canyu Wu (Events Coordinator).jpg";
 import lee from "../../../../assets/exec_headshots/Nikola Lee (Executive Assistant).jpg";
 import park from "../../../../assets/exec_headshots/Woo Park (Strategic Advisor).png";
+import lu from "../../../../assets/exec_headshots/Charlyne Lu (Director of Events).jpeg";
 
 const ExecTeam = () => {
     return (
@@ -41,6 +42,9 @@ const ExecTeam = () => {
             <div className={styles.teamInnerContainer}>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={ahmed} name="Naureen Ahmed" role="Chief of Staff" major="Finance & IT Mgnt." hometown="Gatineau, QC" grad="2027"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={lu} name="Charlyne Luu" role="Director of Events" major="Finance" hometown="Montreal, QC" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={durra} name="Hala Durra" role="Events Coordinator" major="Economics & Business Analyt." hometown="Amman, Jordan" grad="2025"/>
