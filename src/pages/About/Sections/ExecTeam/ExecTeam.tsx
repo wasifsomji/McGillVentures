@@ -25,6 +25,7 @@ import syed from "../../../../assets/exec_headshots/Mustafa Syed(Corp Relations)
 import bouez from "../../../../assets/exec_headshots/Marc Bouez (Associate Director of Finance).jpeg";
 import cwu from "../../../../assets/exec_headshots/Canyu Wu (Events Coordinator).jpg";
 import lee from "../../../../assets/exec_headshots/Nikola Lee (Executive Assistant).jpg";
+import park from "../../../../assets/exec_headshots/Woo Park (Strategic Advisor).png";
 
 const ExecTeam = () => {
     return (
@@ -39,13 +40,13 @@ const ExecTeam = () => {
             </div>
             <div className={styles.teamInnerContainer}>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={durra} name="Hala Durra" role="Co-Director of Events" major="Economics & Business Analyt." hometown="Amman, Jordan" grad="2025"/>
+                    <TeamMember image={ahmed} name="Naureen Ahmed" role="Chief of Staff" major="Finance & IT Mgnt." hometown="Gatineau, QC" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={kaur} name="Sehajdeep Kaur" role="Co-Director of Events" major="International Development" hometown="Nabha, India" grad="2027"/>
+                    <TeamMember image={durra} name="Hala Durra" role="Events Coordinator" major="Economics & Business Analyt." hometown="Amman, Jordan" grad="2025"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={pennginton} name="Emma Pennington" role="Associate Director of Events" major="Political Science" hometown="Toronto, Ontario" grad="2025"/>
+                    <TeamMember image={kaur} name="Sehajdeep Kaur" role="Events Coordinator" major="International Development" hometown="Nabha, India" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={cwu} name="Canyu Wu" role="Events Coordinator" major="Bioengineering" hometown="Montreal, QC" grad="2028"/>
@@ -57,13 +58,7 @@ const ExecTeam = () => {
                     <TeamMember image={goktug} name="Göktuğ Bender" role="Associate Director of Corporate Relations" major="Psychology" hometown="Tekirdağ/Türkiye" grad="2024"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={francois} name="François-Xavier Chap. Perr." role="Associate Director of Corporate Relations" major="Economics" hometown="Montreal, QC" grad="2024"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={syed} name="Mustafa Syed" role="Associate Director of Corporate Relations" major="Economics, Math & Mgmt." hometown="Tekirdağ/Türkiye" grad="2024"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={ahmed} name="Naureen Ahmed" role="Chief of Staff" major="Finance & IT Mgnt." hometown="Gatineau, QC" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={robidoux} name="Edward Robidoux" role="Director of Finance" major="Economics & Finance" hometown="Rosemere, QC" grad="2026"/>
@@ -75,13 +70,16 @@ const ExecTeam = () => {
                     <TeamMember image={jrg} name="Janine Gonzales" role="Director of Marketing" major="Marketing & CS" hometown="Halifax, Nova Scotia" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={mun} name="Carrie Mun" role="Marketing Coordinator" major="Economics & Mathematics" hometown="New York" grad="2024"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={somji} name="Wasif Somji" role="Director of Technology" major="Computer Engineering" hometown="Vancouver, BC" grad="2025"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={aaron} name="Aaron Anandji" role="Strategic Advisor" major="Strategic Management" hometown="Vancouver, BC" grad="2025"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={park} name="Woo Park" role="Strategic Advisor" major="Strategic Management + Finance" hometown="Vancouver, BC" grad="2024"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={francois} name="François-Xavier Chap. Perr." role="Strategic Advisor" major="Economics" hometown="Montreal, QC" grad="2024"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={lee} name="Nikola Lee" role="Executive Assistant" major="Finance & Entrepeneurship" hometown="Toronto, ON" grad="2027"/>

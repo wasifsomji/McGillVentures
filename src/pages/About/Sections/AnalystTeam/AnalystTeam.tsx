@@ -16,6 +16,8 @@ import kiss from "../../../../assets/analyst_headshots/Tanner Kiss(Analyst).jpeg
 import pop from "../../../../assets/analyst_headshots/Angelika Popovski.png";
 import stas from "../../../../assets/analyst_headshots/Stas Mironov (Analyst).png"; 
 import hamam from "../../../../assets/analyst_headshots/Alexis Hamam (General Manager).png"
+import sun from "../../../../assets/analyst_headshots/Iris Sun (General Manager).png";
+
 import { Card, CardContent, CardMedia, Typography } from '@mui/material';
 
 import program from "../../../../assets/program/analyst_program.jpg";
@@ -29,6 +31,9 @@ const AnalystTeam= () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={hamam} name="Alexis Hamam" role="General Manager of Analyst Program" major="Finance" hometown="Montreal, QC" grad="2025"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={sun} name="Iris Sun" role="General Manager of Analyst Program" major="Bioengineering" hometown="Vancouver, BC" grad="2026"/>
                 </ScrollAnimation>
             </div> 
             <div className={styles.teamComingSoonContainer}>
