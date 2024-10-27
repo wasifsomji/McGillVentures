@@ -14,7 +14,6 @@ import mun from "../../../../assets/exec_headshots/Carrie Mun (Marketing Coordin
 import durra from "../../../../assets/exec_headshots/Hala Durra (Events Coordinator).jpeg";
 import francois from "../../../../assets/exec_headshots/Francois-Wavier Chap. Perr. (VP Corporate Relations).jpg";
 import aaron from "../../../../assets/exec_headshots/Aaron Anandji (Executive Director).edited1.png"; 
-import somji from "../../../../assets/exec_headshots/Somji(DirectorTech).png";
 import pennginton from "../../../../assets/exec_headshots/Emma Pennington (Events).jpeg";
 import goktug from "../../../../assets/exec_headshots/Goktug Bender(Corporate Relations).jpeg";
 import jrg from "../.././../../assets/exec_headshots/Janine RG (Marketing Director).jpeg"
@@ -73,9 +72,7 @@ const ExecTeam = () => {
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={jrg} name="Janine Gonzales" role="Director of Marketing" major="Marketing & CS" hometown="Halifax, Nova Scotia" grad="2027"/>
                 </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={somji} name="Wasif Somji" role="Director of Technology" major="Computer Engineering" hometown="Vancouver, BC" grad="2025"/>
-                </ScrollAnimation>
+
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={aaron} name="Aaron Anandji" role="Strategic Advisor" major="Strategic Management" hometown="Vancouver, BC" grad="2025"/>
                 </ScrollAnimation>
