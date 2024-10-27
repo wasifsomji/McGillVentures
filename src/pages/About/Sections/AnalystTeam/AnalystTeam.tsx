@@ -36,7 +36,7 @@ const AnalystTeam= () => {
                     <TeamMember image={sun} name="Iris Sun" role="General Manager of Analyst Program" major="Bioengineering" hometown="Vancouver, BC" grad="2026"/>
                 </ScrollAnimation>
             </div> 
-            <div className={styles.teamComingSoonContainer}>
+            {/* <div className={styles.teamComingSoonContainer}>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <Typography variant="h5" align={"center"} gutterBottom={true} fontSize={19}>Analyst Sign Up Form</Typography>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdDBP87RwOkYrTAvz2JGXJKP7x2Cn786JaXuvUOAkdmJbG3xQ/viewform" target="_blank" rel="noopener noreferrer">
@@ -49,7 +49,7 @@ const AnalystTeam= () => {
                         </Card>
                     </a>
                 </ScrollAnimation>
-            </div>
+            </div> */}
         </div>
     )
 }
