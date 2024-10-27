@@ -4,11 +4,11 @@ import styles from "./TeamMember.module.scss";
 
 interface Props {
     image: string;
-    name: string;
+    name?: string;
     role: string;
     major: string;
     hometown: string;
-    grad: string;
+    grad?: string;
 }
 
 const TeamMember:React.FC<Props> = ({image, name, role, major, hometown, grad}) => {
@@ -25,7 +25,7 @@ const TeamMember:React.FC<Props> = ({image, name, role, major, hometown, grad}) 
                     <Typography gutterBottom={true} variant="h6" component="div" align="center">{name}</Typography>
                     <div className={styles.cardContent}><b>Major</b> {major}</div>
                     <div className={styles.cardContent}><b>Hometown</b> {hometown}</div>
-                    <div className={styles.cardContent}><b>Expected Graduation</b> {grad}</div>
+                    {grad && <div className={styles.cardContent}><b>Expected Graduation</b> {grad}</div>}
                 </CardContent>
             </Card>
         </div>

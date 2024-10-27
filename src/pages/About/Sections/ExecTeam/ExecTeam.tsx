@@ -46,6 +46,9 @@ const ExecTeam = () => {
                     <TeamMember image={lu} name="Charlyne Luu" role="Director of Events" major="Finance" hometown="Montreal, QC" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={jrg} name="Janine Gonzales" role="Director of Marketing" major="Marketing & CS" hometown="Halifax, Nova Scotia" grad="2027"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={durra} name="Hala Durra" role="Events Coordinator" major="Economics & Business Analyt." hometown="Amman, Jordan" grad="2025"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
@@ -70,17 +73,13 @@ const ExecTeam = () => {
                     <TeamMember image={bouez} name="Marc Bouez" role="Associate Director of Finance" major="Finance" hometown="Ottawa, ON" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={jrg} name="Janine Gonzales" role="Director of Marketing" major="Marketing & CS" hometown="Halifax, Nova Scotia" grad="2027"/>
-                </ScrollAnimation>
-
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={aaron} name="Aaron Anandji" role="Strategic Advisor" major="Strategic Management" hometown="Vancouver, BC" grad="2025"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={park} name="Woo Park" role="Strategic Advisor" major="Strategic Management + Finance" hometown="Vancouver, BC" grad="2024"/>
+                    <TeamMember image={park} name="Woo Park" role="Strategic Advisor" major="Strat. Management + Finance" hometown="Vancouver, BC"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={francois} name="François-Xavier Chap. Perr." role="Strategic Advisor" major="Economics" hometown="Montreal, QC" grad="2024"/>
+                    <TeamMember image={francois} name="François-Xavier Chap. Perr." role="Strategic Advisor" major="Economics" hometown="Montreal, QC"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={lee} name="Nikola Lee" role="Executive Assistant" major="Finance & Entrepeneurship" hometown="Toronto, ON" grad="2027"/>
