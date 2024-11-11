@@ -6,7 +6,7 @@ import TeamMember from "../../../../components/TeamMember/TeamMember";
 import person1 from "../../../../assets/mcgill.jpeg";
 import ScrollAnimation from 'react-animate-on-scroll';
 
-import somji from "../../../../assets/exec_headshots/Somji(DirectorTech).png";
+import somji from "../../../../assets/exec_headshots/Wasif Somji (Dtech).jpeg";
 
 
 
