@@ -31,3 +31,25 @@
     padding: 50px;
 }
 
+.highlightsContainer {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 20px;
+}
+
+.highlightImage {
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width as needed */
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .highlightImage {
+        max-width: 200px; /* Adjust the max-width as needed */
+    }
+}
