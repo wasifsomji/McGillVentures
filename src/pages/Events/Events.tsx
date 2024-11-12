@@ -2,13 +2,10 @@ import Landing from "../../components/Landing/Landing";
 import landingImage from "../../assets/events/landing_events.png";
 import NavBar from "../../components/NavBar/NavBar";
 import styles from "./Events.module.scss";
-import eventImage1 from "../../assets/events/no_poster_event.png";
+import futureEvent from "../../assets/events/navigating_ai.jpg";
 import eventImage2 from "../../assets/events/venture_capital_and_beyond.png";
 import Event from "../../components/Event/Event";
 import Footer from "../../components/Footer/Footer";
-import pastEventImage1 from "../../assets/events/new_breaking_down.jpg"; 
-import startupShowcaseWithVCInvestors from "../../assets/events/startup_showcase_with_vc_investors.png";
-import vcPanelAndNetworkingEventAtEspaceCDPQ from "../../assets/events/vc_panel_and_networking_event_at_espace_cdpq.png";
 import ScrollAnimation from "react-animate-on-scroll";
 import scarlettPitch1 from "../../assets/events/Scarlet_Pitch_img.png";
 
@@ -70,24 +67,21 @@ const Events = () => {
                     subtitle="We curate a diverse range of events to cater to the thirst for venture capital knowledge."
                     image={landingImage}
                 />
-                {/* Upcoming Events */}
-                {/* <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                Upcoming Events
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <div className={styles.eventsHeader}>Upcoming Events</div>
                 </ScrollAnimation>
                 <div className={styles.eventsContent}>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                         <Event
                             title="Startup Showcase (2nd Ed.)"
-                            date="October 2024"
-                            location="TBA"
-                            description="Seize this exclusive opportunity to meet and learn from local entrepreneurs
-                            and venture capitalists. Discover the missions, product differentiators, and future plans
-                            of the startup founders, as well as the investment perspectives and roles of the venture capitalists."
-                            image={eventImage1}
-                            link="/"
+                            date="November 2024"
+                            location="Brofman Building"
+                            image={futureEvent}
+                            link="https://www.eventbrite.com/e/ethics-of-innovation-navigating-responsiblity-in-ai-driven-startups-tickets-1073146924339?aff=oddtdtcreator"
                         />
                     </ScrollAnimation>
-                </div> */}
+                </div>
 
                 {/* Past Events */}
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
@@ -121,7 +115,7 @@ const Events = () => {
                     </ScrollAnimation>
                 </div>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                        <div className={styles.eventsHeader}>Highlights</div>
+                        <div className={styles.eventsHeader}>Highlights '24-25</div>
                     </ScrollAnimation>
                     <div className={styles.highlightsContainer}>
                         <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
