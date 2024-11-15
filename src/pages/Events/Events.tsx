@@ -3,6 +3,7 @@ import landingImage from "../../assets/events/landing_events.png";
 import NavBar from "../../components/NavBar/NavBar";
 import styles from "./Events.module.scss";
 import futureEvent from "../../assets/events/navigating_ai.jpg";
+import futureEvent1 from "../../assets/events/intro_vc_panel.jpg";
 import eventImage2 from "../../assets/events/venture_capital_and_beyond.png";
 import Event from "../../components/Event/Event";
 import Footer from "../../components/Footer/Footer";
@@ -74,8 +75,17 @@ const Events = () => {
                 <div className={styles.eventsContent}>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                         <Event
-                            title="Startup Showcase (2nd Ed.)"
-                            date="November 2024"
+                            title="Bolt x McGill VC: Intro to VC Panel"
+                            date="November 21, 2024"
+                            location="Brofman Building, Room 340"
+                            image={futureEvent1}
+                            link="https://www.zeffy.com/en-CA/ticketing/bolt-x-mcgill-ventures-intro-to-vc-panel?fbclid=IwY2xjawGjJwhleHRuA2FlbQIxMQABHbiZdT4PlrJbjH78_ubY9va-Z1_V2i_A3uehIZOmt19MD_KwpHI1haR-KQ_aem_6GvjDd9e6wbj5eR9WxIEXw"
+                        />
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                        <Event
+                            title="Navigating Responsibility in AI Startups"
+                            date="November 28, 2024"
                             location="Brofman Building"
                             image={futureEvent}
                             link="https://www.eventbrite.com/e/ethics-of-innovation-navigating-responsiblity-in-ai-driven-startups-tickets-1073146924339?aff=oddtdtcreator"
@@ -97,7 +107,7 @@ const Events = () => {
                             essentials of funding a startup, building strong relationships with venture capitalists, and understanding a VC's perspective. 
                             This event is perfect for aspiring entrepreneurs and anyone interested in the startup ecosystem."
                             image={eventImage2}
-                            link="https://lnkd.in/dbgNZQDx"
+                            link="/"
                         />
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
@@ -110,7 +120,7 @@ const Events = () => {
                                 1) Connect emerging Montreal startups with other startup/venture capital ecosystem players, and
                                 2) Inspire students to engage with their local tech ecosystem, either from the entrepreneurial or VC side of the table.
                                 Featuring one of the actual Dragons from the Canadian TV show Dragons' Den, this event will be a great opportunity to learn from the best and network with other like-minded individuals."
-                                link="http://scarletpitch.eventbrite.com"
+                                link="/"
                         />
                     </ScrollAnimation>
                 </div>
