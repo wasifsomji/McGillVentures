@@ -73,7 +73,7 @@ const ExecTeam = () => {
                     <TeamMember image={bouez} name="Marc Bouez" role="Associate Director of Finance" major="Finance" hometown="Ottawa, ON" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={aaron} name="Aaron Anandji" role="Strategic Advisor" major="Strategic Management" hometown="Vancouver, BC" grad="2025"/>
+                    <TeamMember image={aaron} name="Aaron Anandji" role="Strategic Advisor" major="Strategic Management" hometown="Vancouver, BC" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={park} name="Woo Park" role="Strategic Advisor" major="Strat. Management + Finance" hometown="Vancouver, BC"/>

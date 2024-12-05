@@ -12,6 +12,7 @@ import joseph from "../../../../assets/devTeam/darlie_joseph_headshot.jpg";
 import dmytro from "../../../../assets/devTeam/dmytro_martyniuk_headshot.png";
 import hum from "../../../../assets/devTeam/jaden_hum_headshot.jpg";
 import heng from "../../../../assets/devTeam/julien_heng_headshot.jpg";
+import chen from "../../../../assets/devTeam/noah_chen_headshot.jpeg";
 
 
 
@@ -20,7 +21,7 @@ const ExecTeam = () => {
         <div className={styles.teamCardsContainer}>
             <div className={styles.teamInnerContainer}>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={somji} name="Wasif Somji" role="Lead Product Manager" major="Computer Engineering" hometown="Vancouver, BC" grad="2025"/>
+                    <TeamMember image={somji} name="Wasif Somji" role="Lead Product Manager" major="Computer Engineering" hometown="Vancouver, BC" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={person1} name="Yassine Mimet" role="Associate Product Manager" major="Computer Engineering" hometown="Tetouan, Morocco" grad="2025"/>
@@ -32,6 +33,9 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={heng} name="Julien Heng" role="Fullstack Developer" major="Software Engineering" hometown="Paris, France" grad="2027"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={chen} name="Noah Chen" role="Fullstack Developer" major="CS + Mgmt." hometown="Toronto, ON" grad='2027'/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={hum} name="Jaden Hum" role="Frontend Developer" major="Software Engineering" hometown="Montreal, QC" grad="2025"/>
