@@ -27,7 +27,6 @@ const managers = [
 
 const analysts = [
     { image: scodigor, name: "Elisabeth Scodigor", role: "Analyst", major: "Strat. Management + Operations", hometown: "Belfort, France", grad: "2026" },
-    { image: sadid, name: "Urfaan Sadid", role: "Analyst", major: "Joint Honours Econ + Finance", hometown: "Calgary, AB", grad: "2028" },
     { image: cartier, name: "Charles Cartier", role: "Analyst", major: "Finance", hometown: "Montreal, QC", grad: "2026" },
     { image: chung, name: "Celine Chung", role: "Analyst", major: "International Management", hometown: "Dallas, TX", grad: "2027" },
     { image: comtois, name: "Alexandre Comtois", role: "Analyst", major: "Finance", hometown: "Montreal, QC", grad: "2027" },
@@ -35,6 +34,7 @@ const analysts = [
     { image: kirin, name: "Kirin DeJacobson", role: "Analyst", major: "Finance", hometown: "Seattle, WA", grad: "2027" },
     { image: gonzalez, name: "Gael Gonzalez", role: "Analyst", major: "Strat. Management + Finance", hometown: "Saltillo, Mexico", grad: "2027" },
     { image: ham, name: "Oscar Ham", role: "Analyst", major: "Civil Engineering", hometown: "Montreal, QC", grad: "2027" },
+    { image: sadid, name: "Urfaan Sadid", role: "Analyst", major: "Joint Honours Econ + Finance", hometown: "Calgary, AB", grad: "2028" },
     { image: rabbath, name: "Jonathan Rabbath", role: "Analyst", major: "Joint Honours Econ + Finance", hometown: "Boca Raton, Florida", grad: "2028" },
     { image: vaillancourt, name: "Noah Vaillancourt", role: "Analyst", major: "Software Engineering", hometown: "Lac-Mégantic, QC", grad: "2028" },
     { image: xu, name: "Violet Xu", role: "Analyst", major: "Management", hometown: "Markham, ON", grad: "2028" },
