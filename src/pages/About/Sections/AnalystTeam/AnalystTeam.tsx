@@ -2,56 +2,78 @@ import React from 'react';
 import styles from "./AnalystTeam.module.scss";
 import ScrollAnimation from "react-animate-on-scroll";
 import TeamMember from "../../../../components/TeamMember/TeamMember";
-import person1 from "../../../../assets/mcgill.jpeg";
-import van_bergh from "../../../../assets/exec_headshots/Jacob Van Bergh (Analyst).jpg";
-import bernier_michaud from "../../../../assets/exec_headshots/Ludovick Bernier-Michaud (Associate).jpg";
-import goralski from "../../../../assets/exec_headshots/Michael Goralski (Associate).jpg";
-import park from "../../../../assets/analyst_headshots/Woo Park (Head of Analysts).png";
-import menand from "../../../../assets/analyst_headshots/Anae Menand (Analyst).png";
-import donzelot from "../../../../assets/analyst_headshots/Jules Donzelot (Analyst).png"; 
-import mcintosh from "../../../../assets/analyst_headshots/Jackson McIntosh (Analyst).png";
-import hakki from "../../../../assets/analyst_headshots/Eran Hakki(Analyst).jpeg"; 
-import chiasson from "../../../../assets/analyst_headshots/Leo Chiasson(Analyst).jpeg"; 
-import kiss from "../../../../assets/analyst_headshots/Tanner Kiss(Analyst).jpeg";
-import pop from "../../../../assets/analyst_headshots/Angelika Popovski.png";
-import stas from "../../../../assets/analyst_headshots/Stas Mironov (Analyst).png"; 
-import hamam from "../../../../assets/analyst_headshots/Alexis Hamam (General Manager).png"
+import mcintosh from "../../../../assets/analyst_headshots/Jackson McIntosh (General Manager).png";
+import hamam from "../../../../assets/analyst_headshots/Alexis Hamam (General Manager).png";
 import sun from "../../../../assets/analyst_headshots/Iris Sun (General Manager).png";
+import vaillancourt from "../../../../assets/analyst_headshots/Noah Vaillancourt(Analyst).jpg";
+import chung from "../../../../assets/analyst_headshots/Celine Chung (Analyst).jpg";
+import sadid from "../../../../assets/analyst_headshots/Urfaan Sadid (Analyst).jpg";
+import rabbath from "../../../../assets/analyst_headshots/Jonathan Rabbath (Analyst).jpg";
+import scodigor from "../../../../assets/analyst_headshots/Elisabeth Scodigor.jpg";
+import comtois from "../../../../assets/analyst_headshots/Alexandre Comtois (Analyst).jpg";
+import xu from "../../../../assets/analyst_headshots/Violet Xu (Analyst).jpg";
+import gaspar from "../../../../assets/analyst_headshots/Gaspar Billerault (Analyst).jpg";
+import almir from "../../../../assets/analyst_headshots/Almir Hajdarevic (Analyst).jpg";
+import kirin from "../../../../assets/analyst_headshots/Kirin Dejacobson (Analyst).jpg";
+import gonzalez from "../../../../assets/analyst_headshots/Gael Gonzalez (Analyst).jpg";
+import ham from "../../../../assets/analyst_headshots/Oscar Ham (Analyst).jpg";
+import cartier from "../../../../assets/analyst_headshots/Charles Cartier (Analyst).jpg";
 
-import { Card, CardContent, CardMedia, Typography } from '@mui/material';
+const managers = [
+    { image: mcintosh, name: "Jackson McIntosh", role: "General Manager", major: "Finance", hometown: "Montreal, QC", grad: "2026" },
+    { image: hamam, name: "Alexis Hamam", role: "General Manager", major: "Finance", hometown: "Montreal, QC", grad: "2025" },
+    { image: sun, name: "Iris Sun", role: "General Manager", major: "Bioengineering", hometown: "Vancouver, BC", grad: "2026" },
+];
 
-import program from "../../../../assets/program/analyst_program.jpg";
+const analysts = [
+    { image: scodigor, name: "Elisabeth Scodigor", role: "Analyst", major: "Strat. Management + Operations", hometown: "Belfort, France", grad: "2026" },
+    { image: sadid, name: "Urfaan Sadid", role: "Analyst", major: "Joint Honours Econ + Finance", hometown: "Calgary, AB", grad: "2026" },
+    { image: cartier, name: "Charles Cartier", role: "Analyst", major: "Finance", hometown: "Montreal, QC", grad: "2026" },
+    { image: chung, name: "Celine Chung", role: "Analyst", major: "International Management", hometown: "Dallas, TX", grad: "2027" },
+    { image: comtois, name: "Alexandre Comtois", role: "Analyst", major: "Finance", hometown: "Montreal, QC", grad: "2027" },
+    { image: gaspar, name: "Violet Xu", role: "Analyst", major: "Gaspar Billerault", hometown: "Alicante, Spain", grad: "2027" },
+    { image: kirin, name: "Kirin DeJacobson", role: "Analyst", major: "Finance", hometown: "Seattle, WA", grad: "2027" },
+    { image: gonzalez, name: "Gael Gonzalez", role: "Analyst", major: "Strat. Management + Finance", hometown: "Saltillo, Mexico", grad: "2027" },
+    { image: ham, name: "Oscar Ham", role: "Analyst", major: "Civil Engineering", hometown: "Montreal, QC", grad: "2027" },
+    { image: rabbath, name: "Jonathan Rabbath", role: "Analyst", major: "Joint Honours Econ + Finance", hometown: "Boca Raton, Florida", grad: "2028" },
+    { image: vaillancourt, name: "Noah Vaillancourt", role: "Analyst", major: "Software Engineering", hometown: "Lac-Mégantic, QC", grad: "2028" },
+    { image: xu, name: "Violet Xu", role: "Analyst", major: "Management", hometown: "Markham, ON", grad: "2028" },
+    { image: almir, name: "Almir Hajdarevic", role: "Analyst", major: "International Management", hometown: "Chicago, IL", grad: "2028" },
+];
 
-const AnalystTeam= () => {
+const AnalystTeam = () => {
     return (
         <div className={styles.teamCardsContainer}>
             <div className={styles.teamInnerContainer}>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={mcintosh} name="Jackson McIntosh" role="General Manager of Analyst Program" major="Finance" hometown="Montreal, QC" grad="2026"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={hamam} name="Alexis Hamam" role="General Manager of Analyst Program" major="Finance" hometown="Montreal, QC" grad="2025"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={sun} name="Iris Sun" role="General Manager of Analyst Program" major="Bioengineering" hometown="Vancouver, BC" grad="2026"/>
-                </ScrollAnimation>
-            </div> 
-            {/* <div className={styles.teamComingSoonContainer}>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <Typography variant="h5" align={"center"} gutterBottom={true} fontSize={19}>Analyst Sign Up Form</Typography>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdDBP87RwOkYrTAvz2JGXJKP7x2Cn786JaXuvUOAkdmJbG3xQ/viewform" target="_blank" rel="noopener noreferrer">
-                        <Card sx={{ width: { xs: 275, md: 300 } }}>
-                            <CardMedia
-                                sx={{ height: { xs: 275, md: 300 } }}
-                                image={program}
-                                title="face card"
-                            />
-                        </Card>
-                    </a>
-                </ScrollAnimation>
-            </div> */}
+                {managers.map((manager, index) => (
+                    <ScrollAnimation key={index} animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                        <TeamMember
+                            image={manager.image}
+                            name={manager.name}
+                            role={manager.role}
+                            major={manager.major}
+                            hometown={manager.hometown}
+                            grad={manager.grad}
+                        />
+                    </ScrollAnimation>
+                ))}
+            </div>
+            <div className={styles.teamInnerContainer}>
+                {analysts.map((analyst, index) => (
+                    <ScrollAnimation key={index} animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                        <TeamMember
+                            image={analyst.image}
+                            name={analyst.name}
+                            role={analyst.role}
+                            major={analyst.major}
+                            hometown={analyst.hometown}
+                            grad={analyst.grad}
+                        />
+                    </ScrollAnimation>
+                ))}
+            </div>
         </div>
-    )
+    );
 }
 
 export default AnalystTeam;
