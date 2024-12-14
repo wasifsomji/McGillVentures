@@ -19,6 +19,7 @@ import gonzalez from "../../../../assets/analyst_headshots/Gael Gonzalez (Analys
 import ham from "../../../../assets/analyst_headshots/Oscar Ham (Analyst).jpg";
 import cartier from "../../../../assets/analyst_headshots/Charles Cartier (Analyst).jpg";
 import harris from "../../../../assets/analyst_headshots/Alhan Harris(Analyst).png";
+import margaux from "../../../../assets/analyst_headshots/Margaux Ghazzoui (Analyst).jpg";
 
 const managers = [
     { image: mcintosh, name: "Jackson McIntosh", role: "General Manager", major: "Finance", hometown: "Montreal, QC", grad: "2026" },
@@ -27,6 +28,7 @@ const managers = [
 ];
 
 const analysts = [
+    { image: margaux, name: "Margaux Ghazzoui", role: "Analyst", major: "International Development", hometown: "London, ON", grad: "2025" },
     { image: scodigor, name: "Elisabeth Scodigor", role: "Analyst", major: "Strat. Management + Operations", hometown: "Belfort, France", grad: "2026" },
     { image: cartier, name: "Charles Cartier", role: "Analyst", major: "Finance", hometown: "Montreal, QC", grad: "2026" },
     { image: harris, name: "Alhaan Harris", role: "Analyst", major: "Joint Honours Econ + Finance", hometown: "Karachi, Pakistan", grad: "2026" },
