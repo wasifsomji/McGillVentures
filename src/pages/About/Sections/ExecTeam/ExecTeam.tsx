@@ -4,7 +4,7 @@ import TeamMember from "../../../../components/TeamMember/TeamMember";
 import person1 from "../../../../assets/mcgill.jpeg";
 import ScrollAnimation from 'react-animate-on-scroll';
 import farrell from "../../../../assets/exec_headshots/Cara-Li Farrell (Corporate Relations).jpg";
-import wu from "../../../../assets/exec_headshots/Ethan Wu (Marketing).png";
+import wu from "../../../../assets/exec_headshots/EthanWu.jpeg";
 import bains from "../../../../assets/exec_headshots/Jaiden Bains (Events).jpg";
 import fadel from "../../../../assets/exec_headshots/Sara Abi Fadel (Finance).jpg";
 import quelavoine from "../../../../assets/exec_headshots/Thibault Quelavoine (Co-President).jpg";
