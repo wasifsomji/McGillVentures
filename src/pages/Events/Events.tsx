@@ -10,6 +10,7 @@ import Event from "../../components/Event/Event";
 import Footer from "../../components/Footer/Footer";
 import ScrollAnimation from "react-animate-on-scroll";
 import scarlettPitch1 from "../../assets/events/Scarlet_Pitch_img.png";
+import northstar from "../../assets/events/north_star.png";
 
 import highlight2 from "../../assets/event_highlights_24-25/img3.jpg";
 import higlight1 from "../../assets/event_highlights_24-25/img1.jpg";
@@ -25,9 +26,25 @@ const Events = () => {
                     subtitle="We curate a diverse range of events to cater to the thirst for venture capital knowledge."
                     image={landingImage}
                 />
-                Upcoming Events
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <div className={styles.eventsHeader}>Upcoming Events</div>
+                </ScrollAnimation>
+                <div className={styles.eventsContent}>
+                    <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                        <Event
+                            title="North Star: Inspiring Entrepeneurs"
+                            date="Jan 23, 2025"
+                            location="HEC Montréal"
+                            image={northstar}
+                            link="/"
+                        />
+                    </ScrollAnimation>
+                </div>
+
+
+                {/* Past Events */}
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <div className={styles.eventsHeader}>Past Events</div>
                 </ScrollAnimation>
                 <div className={styles.eventsContent}>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
@@ -36,7 +53,7 @@ const Events = () => {
                             date="November 21, 2024"
                             location="Brofman Building, Room 340"
                             image={futureEvent1}
-                            link="https://www.zeffy.com/en-CA/ticketing/bolt-x-mcgill-ventures-intro-to-vc-panel?fbclid=IwY2xjawGjJwhleHRuA2FlbQIxMQABHbiZdT4PlrJbjH78_ubY9va-Z1_V2i_A3uehIZOmt19MD_KwpHI1haR-KQ_aem_6GvjDd9e6wbj5eR9WxIEXw"
+                            link="/"
                         />
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
@@ -45,7 +62,7 @@ const Events = () => {
                             date="November 28, 2024"
                             location="Brofman Building"
                             image={futureEvent}
-                            link="https://www.eventbrite.com/e/ethics-of-innovation-navigating-responsiblity-in-ai-driven-startups-tickets-1073146924339?aff=oddtdtcreator"
+                            link="/"
                         />
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
@@ -54,16 +71,9 @@ const Events = () => {
                             date="November 29, 2024"
                             location="Espace CDPQ"
                             image={futureEvent2}
-                            link="https://www.eventbrite.ca/e/ventures-summit-tickets-1057814233849?aff=oddtdtcreator"
+                            link="/"
                         />
                     </ScrollAnimation>
-                </div>
-
-                {/* Past Events */}
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <div className={styles.eventsHeader}>Past Events</div>
-                </ScrollAnimation>
-                <div className={styles.eventsContent}>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                         <Event
                             title="Venture Capital and Beyond"
