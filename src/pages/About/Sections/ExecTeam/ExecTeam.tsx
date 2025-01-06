@@ -31,17 +31,11 @@ const ExecTeam = () => {
     return (
         <div className={styles.teamCardsContainer}>
             <div className={styles.teamInnerContainer}>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={wu} name="Ethan Wu" role="Co-President" major="Honours in Inv. Mgnt." hometown="Montreal, QC" grad="2027"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={bains} name="Jaiden Bains" role="Co-President" major="Economics & Finance" hometown="Vancouver, BC" grad="2025"/>
+            <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={ahmed} name="Naureen Ahmed" role="President" major="Finance & IT Mgnt." hometown="Gatineau, QC" grad="2027"/>
                 </ScrollAnimation>
             </div>
             <div className={styles.teamInnerContainer}>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={ahmed} name="Naureen Ahmed" role="Chief of Staff" major="Finance & IT Mgnt." hometown="Gatineau, QC" grad="2027"/>
-                </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={lu} name="Charlyne Luu" role="Director of Events" major="Finance" hometown="Montreal, QC" grad="2026"/>
                 </ScrollAnimation>
@@ -71,6 +65,9 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={bouez} name="Marc Bouez" role="Associate Director of Finance" major="Finance" hometown="Ottawa, ON" grad="2027"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={bains} name="Jaiden Bains" role="Strategic Advisor" major="Economics & Finance" hometown="Vancouver, BC" grad="2025"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={aaron} name="Aaron Anandji" role="Strategic Advisor" major="Strategic Management" hometown="Vancouver, BC" grad="2026"/>
