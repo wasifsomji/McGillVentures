@@ -20,6 +20,7 @@ import ham from "../../../../assets/analyst_headshots/Oscar Ham (Analyst).jpg";
 import cartier from "../../../../assets/analyst_headshots/Charles Cartier (Analyst).jpg";
 import harris from "../../../../assets/analyst_headshots/Alhan Harris(Analyst).png";
 import margaux from "../../../../assets/analyst_headshots/Margaux Ghazzoui (Analyst).jpg";
+import clarke from "../../../../assets/analyst_headshots/Nathaniel Clarke (Analyst).jpg";
 
 const managers = [
     { image: mcintosh, name: "Jackson McIntosh", role: "General Manager", major: "Finance", hometown: "Montreal, QC", grad: "2026" },
@@ -43,6 +44,7 @@ const analysts = [
     { image: vaillancourt, name: "Noah Vaillancourt", role: "Analyst", major: "Software Engineering", hometown: "Lac-Mégantic, QC", grad: "2028" },
     { image: xu, name: "Violet Xu", role: "Analyst", major: "Management", hometown: "Markham, ON", grad: "2028" },
     { image: almir, name: "Almir Hajdarevic", role: "Analyst", major: "International Management", hometown: "Chicago, IL", grad: "2028" },
+    { image: clarke, name: "Nathaniel Clarke", role: "Analyst", major: "Finance", hometown: "Vancouver, BC", grad: "2028" },
 ];
 
 const AnalystTeam = () => {
