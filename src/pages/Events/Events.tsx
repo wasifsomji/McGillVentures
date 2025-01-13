@@ -36,7 +36,7 @@ const Events = () => {
                             date="Jan 23, 2025"
                             location="HEC Montréal"
                             image={northstar}
-                            link="/"
+                            link="https://docs.google.com/forms/d/e/1FAIpQLScm-YtT3DgPKNGUbu9BcUyMEmaXNYxtUHL0_a5Q7UXauxfvrQ/viewform"
                         />
                     </ScrollAnimation>
                 </div>
