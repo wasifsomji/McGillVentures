@@ -40,15 +40,6 @@ const Events = () => {
                             link="https://lu.ma/5ldi5z93"
                         />
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                        <Event
-                            title="Bolt x McGill VC: Intro to VC Panel"
-                            date="November 21, 2024"
-                            location="Brofman Building, Room 340"
-                            image={futureEvent1}
-                            link="/"
-                        />
-                    </ScrollAnimation>
                 </div>
 
 
