@@ -37,7 +37,7 @@ const Events = () => {
                             date="February 6, 2025"
                             location="1000 Sherbrooke West"
                             image={watchmojo}
-                            link="/"
+                            link="https://lu.ma/5ldi5z93"
                         />
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
