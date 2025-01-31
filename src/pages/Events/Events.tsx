@@ -11,6 +11,7 @@ import Footer from "../../components/Footer/Footer";
 import ScrollAnimation from "react-animate-on-scroll";
 import scarlettPitch1 from "../../assets/events/Scarlet_Pitch_img.png";
 import northstar from "../../assets/events/north_star.png";
+import watchmojo from "../../assets/events/watch_mojo.jpg";
 
 import highlight2 from "../../assets/event_highlights_24-25/img3.jpg";
 import higlight1 from "../../assets/event_highlights_24-25/img1.jpg";
@@ -32,11 +33,20 @@ const Events = () => {
                 <div className={styles.eventsContent}>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                         <Event
-                            title="North Star: Inspiring Entrepeneurs"
-                            date="Jan 23, 2025"
-                            location="HEC Montréal"
-                            image={northstar}
-                            link="https://docs.google.com/forms/d/e/1FAIpQLScm-YtT3DgPKNGUbu9BcUyMEmaXNYxtUHL0_a5Q7UXauxfvrQ/viewform"
+                            title="MVC x MES x McMillan Present: A Top 10 Event You Can’t Miss!"
+                            date="February 6, 2025"
+                            location="1000 Sherbrooke West"
+                            image={watchmojo}
+                            link="/"
+                        />
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                        <Event
+                            title="Bolt x McGill VC: Intro to VC Panel"
+                            date="November 21, 2024"
+                            location="Brofman Building, Room 340"
+                            image={futureEvent1}
+                            link="/"
                         />
                     </ScrollAnimation>
                 </div>
@@ -47,6 +57,15 @@ const Events = () => {
                     <div className={styles.eventsHeader}>Past Events</div>
                 </ScrollAnimation>
                 <div className={styles.eventsContent}>
+                    <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                        <Event
+                            title="North Star: Inspiring Entrepeneurs"
+                            date="Jan 23, 2025"
+                            location="HEC Montréal"
+                            image={northstar}
+                            link="/"
+                        />
+                    </ScrollAnimation>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                         <Event
                             title="Bolt x McGill VC: Intro to VC Panel"
