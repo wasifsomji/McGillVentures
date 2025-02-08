@@ -6,7 +6,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import {useNavigate} from "react-router-dom";
 import NavBarMobile from "./NavBarMobile";
 
-const pages = ['Home', 'About', 'Events', 'Program', 'Contact'];
+const pages = ['Home', 'About', 'Events', 'Programs', 'Contact'];
 
 function NavBar(){
 
