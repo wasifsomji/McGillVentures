@@ -3,7 +3,7 @@ import styles from "./ExecTeam.module.scss";
 import TeamMember from "../../../../components/TeamMember/TeamMember";
 import person1 from "../../../../assets/mcgill.jpeg";
 import ScrollAnimation from 'react-animate-on-scroll';
-import farrell from "../../../../assets/exec_headshots/Cara-Li Farrell (Corporate Relations).jpg";
+import farrell from "../../../../assets/exec_headshots/Cara-Li Farrell (Strategic Advisor).jpeg";
 import wu from "../../../../assets/exec_headshots/EthanWu.jpeg";
 import bains from "../../../../assets/exec_headshots/Jaiden Bains (Events).jpg";
 import fadel from "../../../../assets/exec_headshots/Sara Abi Fadel (Finance).jpg";
@@ -66,6 +66,9 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={bouez} name="Marc Bouez" role="Associate Director of Finance" major="Finance" hometown="Ottawa, ON" grad="2027"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={farrell} name="Cara-Li Farrell" role="Strategic Advisor" major="Analytics" hometown="Montreal, QC" grad="2024"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={bains} name="Jaiden Bains" role="Strategic Advisor" major="Economics & Finance" hometown="Vancouver, BC" grad="2025"/>
