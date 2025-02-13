@@ -9,7 +9,7 @@ import bains from "../../../../assets/exec_headshots/Jaiden Bains (Events).jpg";
 import fadel from "../../../../assets/exec_headshots/Sara Abi Fadel (Finance).jpg";
 import quelavoine from "../../../../assets/exec_headshots/Thibault Quelavoine (Co-President).jpg";
 import smedt from "../../../../assets/exec_headshots/Margaux De Smedt (Events Coordinator).jpg";
-import ahmed from "../../../../assets/exec_headshots/Naureen Ahmed (VP Staff).jpg"; 
+import ahmed from "../../../../assets/exec_headshots/Naureen Ahmed (President).jpeg"; 
 import mun from "../../../../assets/exec_headshots/Carrie Mun (Marketing Coordinator).png";
 import durra from "../../../../assets/exec_headshots/Hala Durra (Events Coordinator).jpeg";
 import francois from "../../../../assets/exec_headshots/Francois-Wavier Chap. Perr. (VP Corporate Relations).jpg";
@@ -33,7 +33,7 @@ const ExecTeam = () => {
         <div className={styles.teamCardsContainer}>
             <div className={styles.teamInnerContainer}>
             <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={ahmed} name="Naureen Ahmed" role="President" major="Finance & IT Mgnt." hometown="Gatineau, QC" grad="2027"/>
+                    <TeamMember image={ahmed} name="Naureen Ahmed" role="President" major="Finance & IT Mgnt." hometown="Gatineau, QC" grad="2026"/>
                 </ScrollAnimation>
             </div>
             <div className={styles.teamInnerContainer}>
