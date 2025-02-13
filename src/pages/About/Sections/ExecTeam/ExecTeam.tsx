@@ -27,6 +27,7 @@ import lee from "../../../../assets/exec_headshots/Nikola Lee (Executive Assista
 import park from "../../../../assets/exec_headshots/Woo Park (Strategic Advisor).png";
 import lu from "../../../../assets/exec_headshots/Charlyne Lu (Director of Events).jpeg";
 import sultana from "../../../../assets/exec_headshots/Tanjin Sultana (Executive Assistant).jpeg";
+import lukas from "../../../../assets/exec_headshots/Paul Lukas (Director of Corporate Relations).jpg";
 
 const ExecTeam = () => {
     return (
@@ -51,6 +52,9 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={cwu} name="Canyu Wu" role="Events Coordinator" major="Bioengineering" hometown="Montreal, QC" grad="2028"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={lukas} name="Paul Lukas" role="Director of Corporate Relations" major="Strategy, International Management, Sustainability" hometown="North Bethesda, MD" grad="2025"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={mikhail} name="Miriam Mikhaeil" role="Director of Corporate Relations" major="Finance & Accounting" hometown="Cairo, Egypt" grad="2026"/>
