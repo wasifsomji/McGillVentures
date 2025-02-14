@@ -49,6 +49,9 @@ const ExecTeam = () => {
                     <TeamMember image={durra} name="Hala Durra" role="Events Coordinator" major="Economics & Business Analyt." hometown="Amman, Jordan" grad="2025"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={smedt} name="Margaux De Smedt" role="Events Coordinator" major="Honors in Economics and Finance" hometown="Paris, France" grad="2025"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={kaur} name="Sehajdeep Kaur" role="Events Coordinator" major="International Development" hometown="Nabha, India" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
