@@ -28,6 +28,7 @@ import park from "../../../../assets/exec_headshots/Woo Park (Strategic Advisor)
 import lu from "../../../../assets/exec_headshots/Charlyne Lu (Director of Events).jpeg";
 import sultana from "../../../../assets/exec_headshots/Tanjin Sultana (Executive Assistant).jpeg";
 import lukas from "../../../../assets/exec_headshots/Paul Lukas (Director of Corporate Relations).jpg";
+import abbas from "../../../../assets/exec_headshots/Tasmia Abbas (HealthTech Innovation Lab Manager).jpg";
 
 const ExecTeam = () => {
     return (
@@ -91,6 +92,9 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={sultana} name="Tanjin Sultana" role="Executive Assistant" major="Bioengineering" hometown="Montreal, QC" grad="2027"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={abbas} name="Tasmia Abbas" role="HealthTech Innovation Lab Manager" major="Finance & Entrepreneurship " hometown="Toronto, ON" grad="2025"/>
                 </ScrollAnimation>
             </div>
         </div>
