@@ -40,6 +40,7 @@ import rivard from "../../../../assets/exec_headshots/Makena Rivard (Marketing C
 import zhang from "../../../../assets/exec_headshots/Xin Yu Zhang (Events Coordinator).jpeg";
 import roufid from "../../../../assets/exec_headshots/Sakina Roufid (Corporate Relations Coordinator).png";
 import logan from "../../../../assets/exec_headshots/Angus Logan (Corporate Relations Coordinator).jpg";
+import torres from "../../../../assets/exec_headshots/Alexandra Torres (Marketing Coordinator).jpeg";
 
 const ExecTeam = () => {
     return (
@@ -85,6 +86,9 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={rivard} name="Makena Rivard" role="Marketing Coordinator" major="Psychology" hometown="Montreal, QC" grad="2027"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={torres} name="Alexandra Torres" role="Marketing Coordinator" major="Economics" hometown="Escazu, Costa Rica" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={lukas} name="Paul Lukas" role="Director of Corporate Relations" major="Strategy, International Management, Sustainability" hometown="North Bethesda, MD" grad="2025"/>
