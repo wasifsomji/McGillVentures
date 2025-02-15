@@ -4,7 +4,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import TeamMember from "../../../../components/TeamMember/TeamMember";
 import mcintosh from "../../../../assets/analyst_headshots/Jackson McIntosh (Analyst Program Manager).jpeg";
 import hamam from "../../../../assets/analyst_headshots/Alexis Hamam (General Manager).png";
-import sun from "../../../../assets/analyst_headshots/Iris Sun (General Manager).png";
+import sun from "../../../../assets/analyst_headshots/Iris Sun (Analyst Program Manager).jpeg";
 import vaillancourt from "../../../../assets/analyst_headshots/Noah Vaillancourt(Analyst).jpg";
 import chung from "../../../../assets/analyst_headshots/Celine Chung (Analyst).jpg";
 import sadid from "../../../../assets/analyst_headshots/Urfaan Sadid (Analyst).jpg";
@@ -25,7 +25,7 @@ import clarke from "../../../../assets/analyst_headshots/Nathaniel Clarke (Analy
 const managers = [
     { image: mcintosh, name: "Jackson McIntosh", role: "Analyst Program Manager", major: "Finance", hometown: "Montreal, QC", grad: "2026" },
     { image: hamam, name: "Alexis Hamam", role: "General Manager", major: "Finance", hometown: "Montreal, QC", grad: "2025" },
-    { image: sun, name: "Iris Sun", role: "General Manager", major: "Bioengineering", hometown: "Vancouver, BC", grad: "2026" },
+    { image: sun, name: "Iris Sun", role: "Analyst Program Manager", major: "Bioengineering", hometown: "Vancouver, BC", grad: "2026" },
 ];
 
 const analysts = [
