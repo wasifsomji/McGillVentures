@@ -4,7 +4,7 @@ import TeamMember from "../../../../components/TeamMember/TeamMember";
 import person1 from "../../../../assets/mcgill.jpeg";
 import ScrollAnimation from 'react-animate-on-scroll';
 import farrell from "../../../../assets/exec_headshots/Cara-Li Farrell (Strategic Advisor).jpeg";
-import wu from "../../../../assets/exec_headshots/EthanWu.jpeg";
+import wu from "../../../../assets/exec_headshots/Ethan Wu (Strategic Advisor).jpeg";
 import bains from "../../../../assets/exec_headshots/Jaiden Bains (Events).jpg";
 import fadel from "../../../../assets/exec_headshots/Sara Abi Fadel (Finance).jpg";
 import quelavoine from "../../../../assets/exec_headshots/Thibault Quelavoine (Co-President).jpg";
@@ -120,6 +120,9 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={aaron} name="Aaron Anandji" role="Strategic Advisor" major="Strategic Management" hometown="Vancouver, BC" grad="2026"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={wu} name="Ethan Wu" role="Strategic Advisor" major="Honours in Investment Management" hometown="Montreal, QC" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={park} name="Woo Park" role="Strategic Advisor" major="Strat. Management + Finance" hometown="Vancouver, BC"/>
