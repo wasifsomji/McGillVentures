@@ -23,7 +23,7 @@ import robidoux from "../../../../assets/exec_headshots/Edward Robidoux (Directo
 import syed from "../../../../assets/exec_headshots/Mustafa Syed(Corp Relations).png";
 import bouez from "../../../../assets/exec_headshots/Marc Bouez (Finance Coordinator).jpeg";
 import cwu from "../../../../assets/exec_headshots/Canyu Wu (Events Coordinator).jpg";
-import lee from "../../../../assets/exec_headshots/Nikola Lee (Executive Assistant).jpg";
+import lee from "../../../../assets/exec_headshots/Nikola Lee (Venture Advisory Manager).jpg";
 import park from "../../../../assets/exec_headshots/Woo Park (Strategic Advisor).png";
 import luu from "../../../../assets/exec_headshots/Charlyne Luu (Director of Events).jpeg";
 import sultana from "../../../../assets/exec_headshots/Tanjin Sultana (Executive Assistant).jpeg";
@@ -107,9 +107,6 @@ const ExecTeam = () => {
                     <TeamMember image={francois} name="François-Xavier Chap. Perr." role="Strategic Advisor" major="Economics" hometown="Montreal, QC"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={lee} name="Nikola Lee" role="Executive Assistant" major="Finance & Entrepeneurship" hometown="Toronto, ON" grad="2027"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={sultana} name="Tanjin Sultana" role="Executive Assistant" major="Bioengineering" hometown="Montreal, QC" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
@@ -117,6 +114,9 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={nakouzi} name="Martin Nakouzi" role="HealthTech Innovation Lab Manager" major="Neuroscience" hometown="Beirut, Lebanon" grad="2025"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={lee} name="Nikola Lee" role="Venture Advisory Manager" major="Finance" hometown="Toronto, ON" grad="2027"/>
                 </ScrollAnimation>
             </div>
         </div>
