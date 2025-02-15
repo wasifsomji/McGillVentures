@@ -16,7 +16,7 @@ import francois from "../../../../assets/exec_headshots/Francois-Wavier Chap. Pe
 import aaron from "../../../../assets/exec_headshots/Aaron Anandji (Executive Director).edited1.png"; 
 import pennginton from "../../../../assets/exec_headshots/Emma Pennington (Events).jpeg";
 import goktug from "../../../../assets/exec_headshots/Goktug Bender(Corporate Relations).jpeg";
-import jrg from "../.././../../assets/exec_headshots/Janine RG (Marketing Director).jpeg"
+import gonzales from "../.././../../assets/exec_headshots/Janine Gonzales (Director of Marketing).jpeg"
 import kaur from "../../../../assets/exec_headshots/Sehajdeep Kaur(Co-Director of Events).png";
 import mikhaeil from "../../../../assets/exec_headshots/Miriam Mikhaeil (Director of Corporate Relations).jpg";
 import robidoux from "../../../../assets/exec_headshots/Edward Robidoux (Director of Finance).jpeg";
@@ -71,7 +71,7 @@ const ExecTeam = () => {
                     <TeamMember image={cwu} name="Canyu Wu" role="Events Coordinator" major="Bioengineering" hometown="Montreal, QC" grad="2028"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={jrg} name="Janine Gonzales" role="Director of Marketing" major="Marketing & CS" hometown="Halifax, Nova Scotia" grad="2027"/>
+                    <TeamMember image={gonzales} name="Janine Gonzales" role="Director of Marketing" major="Marketing & Information Technology Management" hometown="Halifax, Nova Scotia" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={wang} name="Jennifer Wang" role="Marketing Coordinator" major="Marketing, IT Management" hometown="Montreal, QC" grad="2026"/>
