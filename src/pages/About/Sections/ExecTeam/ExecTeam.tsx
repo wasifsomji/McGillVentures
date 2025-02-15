@@ -22,7 +22,7 @@ import mikhaeil from "../../../../assets/exec_headshots/Miriam Mikhaeil (Directo
 import robidoux from "../../../../assets/exec_headshots/Edward Robidoux (Director of Finance).jpeg";
 import syed from "../../../../assets/exec_headshots/Mustafa Syed(Corp Relations).png";
 import bouez from "../../../../assets/exec_headshots/Marc Bouez (Finance Coordinator).jpeg";
-import cwu from "../../../../assets/exec_headshots/Canyu Wu (Events Coordinator).jpg";
+import cwu from "../../../../assets/exec_headshots/Canyu Wu (Executive Assistant).jpeg";
 import lee from "../../../../assets/exec_headshots/Nikola Lee (Venture Advisory Manager).jpg";
 import park from "../../../../assets/exec_headshots/Woo Park (Strategic Advisor).png";
 import luu from "../../../../assets/exec_headshots/Charlyne Luu (Director of Events).jpeg";
@@ -74,9 +74,6 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={zhang} name="Xin Yu Zhang" role="Events Coordinator" major="Finance" hometown="Montreal, QC" grad="2027"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={cwu} name="Canyu Wu" role="Events Coordinator" major="Bioengineering" hometown="Montreal, QC" grad="2028"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={gonzales} name="Janine Gonzales" role="Director of Marketing" major="Marketing & Information Technology Management" hometown="Halifax, Nova Scotia" grad="2027"/>
@@ -140,6 +137,9 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={sultana} name="Tanjin Sultana" role="Executive Assistant" major="Bioengineering" hometown="Montreal, QC" grad="2027"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={cwu} name="Canyu Wu" role="Executive Assistant" major="Bioengineering" hometown="Montreal, QC" grad="2028"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={abbas} name="Tasmia Abbas" role="HealthTech Innovation Lab Manager" major="Finance & Entrepreneurship" hometown="Toronto, ON" grad="2025"/>
