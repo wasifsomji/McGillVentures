@@ -30,6 +30,7 @@ import sultana from "../../../../assets/exec_headshots/Tanjin Sultana (Executive
 import lukas from "../../../../assets/exec_headshots/Paul Lukas (Director of Corporate Relations).jpg";
 import abbas from "../../../../assets/exec_headshots/Tasmia Abbas (HealthTech Innovation Lab Manager).jpg";
 import nakouzi from "../../../../assets/exec_headshots/Martin Nakouzi (HealthTech Innovation Lead).jpeg";
+import wang from "../../../../assets/exec_headshots/Jennifer Wang (Marketing Coordinator).jpg";
 
 const ExecTeam = () => {
     return (
@@ -47,9 +48,6 @@ const ExecTeam = () => {
                     <TeamMember image={person1} name="Christine Wu" role="Director of Events" major="Finance, Entrepreneurship, Strategic Management" hometown="Montreal, QC" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={jrg} name="Janine Gonzales" role="Director of Marketing" major="Marketing & CS" hometown="Halifax, Nova Scotia" grad="2027"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={durra} name="Hala Durra" role="Events Coordinator" major="Economics & Business Analyt." hometown="Amman, Jordan" grad="2025"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
@@ -60,6 +58,12 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={cwu} name="Canyu Wu" role="Events Coordinator" major="Bioengineering" hometown="Montreal, QC" grad="2028"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={jrg} name="Janine Gonzales" role="Director of Marketing" major="Marketing & CS" hometown="Halifax, Nova Scotia" grad="2027"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={wang} name="Jennifer Wang" role="Marketing Coordinator" major="Marketing, IT Management" hometown="Montreal, QC" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={lukas} name="Paul Lukas" role="Director of Corporate Relations" major="Strategy, International Management, Sustainability" hometown="North Bethesda, MD" grad="2025"/>
