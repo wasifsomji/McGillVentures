@@ -32,6 +32,7 @@ import abbas from "../../../../assets/exec_headshots/Tasmia Abbas (HealthTech In
 import nakouzi from "../../../../assets/exec_headshots/Martin Nakouzi (HealthTech Innovation Lead).jpeg";
 import wang from "../../../../assets/exec_headshots/Jennifer Wang (Marketing Coordinator).jpg";
 import sun from "../../../../assets/exec_headshots/Kevin Sun (Event Coordinator).jpg";
+import chung from "../../../../assets/exec_headshots/Celine Chung (Corporate Relations Coordinate).jpg";
 
 const ExecTeam = () => {
     return (
@@ -80,6 +81,9 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={syed} name="Mustafa Syed" role="Associate Director of Corporate Relations" major="Economics, Math & Mgmt." hometown="Tekirdağ/Türkiye" grad="2024"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={chung} name="Celine Chung" role="Corporate Relations Coordinator" major="International Management" hometown="Dallas, TX" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={robidoux} name="Edward Robidoux" role="Director of Finance" major="Finance" hometown="Rosemere, QC" grad="2026"/>
