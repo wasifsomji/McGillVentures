@@ -33,6 +33,7 @@ import nakouzi from "../../../../assets/exec_headshots/Martin Nakouzi (HealthTec
 import wang from "../../../../assets/exec_headshots/Jennifer Wang (Marketing Coordinator).jpg";
 import sun from "../../../../assets/exec_headshots/Kevin Sun (Event Coordinator).jpg";
 import chung from "../../../../assets/exec_headshots/Celine Chung (Corporate Relations Coordinate).jpg";
+import mebane from "../../../../assets/exec_headshots/Jasper Mebane (Venture Advisory Manager).jpg";
 
 const ExecTeam = () => {
     return (
@@ -117,6 +118,9 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={lee} name="Nikola Lee" role="Venture Advisory Manager" major="Finance" hometown="Toronto, ON" grad="2027"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={mebane} name="Jasper Mebane" role="Venture Advisory Manager" major="Finance" hometown="Brooklyn, NY" grad="2027"/>
                 </ScrollAnimation>
             </div>
         </div>
