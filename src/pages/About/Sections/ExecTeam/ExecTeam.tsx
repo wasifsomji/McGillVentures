@@ -31,6 +31,7 @@ import lukas from "../../../../assets/exec_headshots/Paul Lukas (Director of Cor
 import abbas from "../../../../assets/exec_headshots/Tasmia Abbas (HealthTech Innovation Lab Manager).jpg";
 import nakouzi from "../../../../assets/exec_headshots/Martin Nakouzi (HealthTech Innovation Lead).jpeg";
 import wang from "../../../../assets/exec_headshots/Jennifer Wang (Marketing Coordinator).jpg";
+import sun from "../../../../assets/exec_headshots/Kevin Sun (Event Coordinator).jpg";
 
 const ExecTeam = () => {
     return (
@@ -52,6 +53,9 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={smedt} name="Margaux De Smedt" role="Events Coordinator" major="Honors in Economics and Finance" hometown="Paris, France" grad="2025"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={sun} name="Kevin Sun" role="Events Coordinator" major="Finance, Accounting & Business Analytics" hometown="Montreal, QC" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={kaur} name="Sehajdeep Kaur" role="Events Coordinator" major="International Development" hometown="Nabha, India" grad="2027"/>
