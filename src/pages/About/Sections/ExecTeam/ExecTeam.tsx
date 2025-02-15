@@ -31,7 +31,7 @@ import lukas from "../../../../assets/exec_headshots/Paul Lukas (Director of Cor
 import abbas from "../../../../assets/exec_headshots/Tasmia Abbas (HealthTech Innovation Lab Manager).jpg";
 import nakouzi from "../../../../assets/exec_headshots/Martin Nakouzi (HealthTech Innovation Lead).jpeg";
 import wang from "../../../../assets/exec_headshots/Jennifer Wang (Marketing Coordinator).jpg";
-import sun from "../../../../assets/exec_headshots/Kevin Sun (Event Coordinator).jpg";
+import sun from "../../../../assets/exec_headshots/Kevin Sun (Events Coordinator).jpg";
 import chung from "../../../../assets/exec_headshots/Celine Chung (Corporate Relations Coordinate).jpg";
 import mebane from "../../../../assets/exec_headshots/Jasper Mebane (Venture Advisory Manager).jpg";
 import lu from "../../../../assets/exec_headshots/Catherine Lu (Events Coordinator).jpeg";
