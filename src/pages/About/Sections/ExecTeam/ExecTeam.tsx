@@ -37,6 +37,7 @@ import mebane from "../../../../assets/exec_headshots/Jasper Mebane (Venture Adv
 import lu from "../../../../assets/exec_headshots/Catherine Lu (Events Coordinator).jpeg";
 import witowski from "../../../../assets/exec_headshots/Eduard Witowski (Finance Coordinator).jpeg";
 import rivard from "../../../../assets/exec_headshots/Makena Rivard (Marketing Coordinator).jpeg";
+import zhang from "../../../../assets/exec_headshots/Xin Yu Zhang (Events Coordinator).jpeg";
 
 const ExecTeam = () => {
     return (
@@ -67,6 +68,9 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={lu} name="Catherine Lu" role="Events Coordinator" major="Honours Economics" hometown="Boston, MA" grad="2027"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={zhang} name="Xin Yu Zhang" role="Events Coordinator" major="Finance" hometown="Montreal, QC" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={cwu} name="Canyu Wu" role="Events Coordinator" major="Bioengineering" hometown="Montreal, QC" grad="2028"/>
