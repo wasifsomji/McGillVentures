@@ -39,6 +39,7 @@ import witowski from "../../../../assets/exec_headshots/Eduard Witowski (Finance
 import rivard from "../../../../assets/exec_headshots/Makena Rivard (Marketing Coordinator).jpeg";
 import zhang from "../../../../assets/exec_headshots/Xin Yu Zhang (Events Coordinator).jpeg";
 import roufid from "../../../../assets/exec_headshots/Sakina Roufid (Corporate Relations Coordinator).png";
+import logan from "../../../../assets/exec_headshots/Angus Logan (Corporate Relations Coordinator).jpg";
 
 const ExecTeam = () => {
     return (
@@ -102,6 +103,9 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={roufid} name="Sakina Roufid" role="Corporate Relations Coordinator" major="Joint Honours Economics and Finance" hometown="Montreal, QC" grad="2027"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={logan} name="Angus Logan" role="Corporate Relations Coordinator" major="Finance" hometown="Aberdeen, Scotland" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={robidoux} name="Edward Robidoux" role="Director of Finance" major="Finance" hometown="Rosemere, QC" grad="2026"/>
