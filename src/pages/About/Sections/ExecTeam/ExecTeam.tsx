@@ -25,7 +25,7 @@ import bouez from "../../../../assets/exec_headshots/Marc Bouez (Associate Direc
 import cwu from "../../../../assets/exec_headshots/Canyu Wu (Events Coordinator).jpg";
 import lee from "../../../../assets/exec_headshots/Nikola Lee (Executive Assistant).jpg";
 import park from "../../../../assets/exec_headshots/Woo Park (Strategic Advisor).png";
-import lu from "../../../../assets/exec_headshots/Charlyne Lu (Director of Events).jpeg";
+import luu from "../../../../assets/exec_headshots/Charlyne Luu (Director of Events).jpeg";
 import sultana from "../../../../assets/exec_headshots/Tanjin Sultana (Executive Assistant).jpeg";
 import lukas from "../../../../assets/exec_headshots/Paul Lukas (Director of Corporate Relations).jpg";
 import abbas from "../../../../assets/exec_headshots/Tasmia Abbas (HealthTech Innovation Lab Manager).jpg";
@@ -43,7 +43,7 @@ const ExecTeam = () => {
             </div>
             <div className={styles.teamInnerContainer}>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={lu} name="Charlyne Lu" role="Director of Events" major="Finance" hometown="Montreal, QC" grad="2026"/>
+                    <TeamMember image={luu} name="Charlyne Luu" role="Director of Events" major="Finance" hometown="Montreal, QC" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={person1} name="Christine Wu" role="Director of Events" major="Finance, Entrepreneurship, Strategic Management" hometown="Montreal, QC" grad="2026"/>
