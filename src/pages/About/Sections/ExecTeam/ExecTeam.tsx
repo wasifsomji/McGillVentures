@@ -35,6 +35,7 @@ import sun from "../../../../assets/exec_headshots/Kevin Sun (Event Coordinator)
 import chung from "../../../../assets/exec_headshots/Celine Chung (Corporate Relations Coordinate).jpg";
 import mebane from "../../../../assets/exec_headshots/Jasper Mebane (Venture Advisory Manager).jpg";
 import lu from "../../../../assets/exec_headshots/Catherine Lu (Events Coordinator).jpeg";
+import witowski from "../../../../assets/exec_headshots/Eduard Witowski (Finance Coordinator).jpeg";
 
 const ExecTeam = () => {
     return (
@@ -95,6 +96,9 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={bouez} name="Marc Bouez" role="Finance Coordinator" major="Finance" hometown="Ottawa, ON" grad="2027"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={witowski} name="Eduard Witowski" role="Finance Coordinator" major="Finance" hometown="Montreal, QC" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={farrell} name="Cara-Li Farrell" role="Strategic Advisor" major="Analytics" hometown="Montreal, QC" grad="2024"/>
