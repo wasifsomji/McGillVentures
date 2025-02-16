@@ -41,6 +41,7 @@ import zhang from "../../../../assets/exec_headshots/Xin Yu Zhang (Events Coordi
 import roufid from "../../../../assets/exec_headshots/Sakina Roufid (Corporate Relations Coordinator).png";
 import logan from "../../../../assets/exec_headshots/Angus Logan (Corporate Relations Coordinator).jpg";
 import torres from "../../../../assets/exec_headshots/Alexandra Torres (Marketing Coordinator).jpeg";
+import preschez from "../../../../assets/exec_headshots/Auriane Preschez (Events Coordinator).jpeg";
 
 const ExecTeam = () => {
     return (
@@ -62,6 +63,9 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={smedt} name="Margaux De Smedt" role="Events Coordinator" major="Honors in Economics and Finance" hometown="Paris, France" grad="2025"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={preschez} name="Auriane Preschez " role="Events Coordinator" major="Finance and Strategic Management" hometown="Paris, France" grad="2025"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={sun} name="Kevin Sun" role="Events Coordinator" major="Finance, Accounting & Business Analytics" hometown="Montreal, QC" grad="2026"/>
