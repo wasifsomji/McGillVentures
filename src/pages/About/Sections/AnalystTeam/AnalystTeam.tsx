@@ -9,7 +9,6 @@ import vaillancourt from "../../../../assets/analyst_headshots/Noah Vaillancourt
 import chung from "../../../../assets/analyst_headshots/Celine Chung (Analyst).jpg";
 import sadid from "../../../../assets/analyst_headshots/Urfaan Sadid (Analyst).jpg";
 import rabbath from "../../../../assets/analyst_headshots/Jonathan Rabbath (Analyst).jpg";
-import scodigor from "../../../../assets/analyst_headshots/Elisabeth Scodigor.jpg";
 import comtois from "../../../../assets/analyst_headshots/Alexandre Comtois (Analyst).jpg";
 import xu from "../../../../assets/analyst_headshots/Violet Xu (Analyst).jpg";
 import gaspar from "../../../../assets/analyst_headshots/Gaspar Billerault (Analyst).jpg";
@@ -30,7 +29,6 @@ const managers = [
 
 const analysts = [
     { image: ghazzoui, name: "Margaux Ghazzoui", role: "Analyst", major: "International Development", hometown: "London, ON", grad: "2025" },
-    { image: scodigor, name: "Elisabeth Scodigor", role: "Analyst", major: "Strat. Management + Operations", hometown: "Belfort, France", grad: "2026" },
     { image: cartier, name: "Charles Cartier", role: "Analyst", major: "Finance", hometown: "Montreal, QC", grad: "2026" },
     { image: harris, name: "Alhaan Harris", role: "Analyst", major: "Joint Honours Econ + Finance", hometown: "Karachi, Pakistan", grad: "2026" },
     { image: chung, name: "Celine Chung", role: "Analyst", major: "International Management", hometown: "Dallas, TX", grad: "2027" },

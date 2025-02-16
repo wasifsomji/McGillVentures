@@ -42,6 +42,7 @@ import roufid from "../../../../assets/exec_headshots/Sakina Roufid (Corporate R
 import logan from "../../../../assets/exec_headshots/Angus Logan (Corporate Relations Coordinator).jpg";
 import torres from "../../../../assets/exec_headshots/Alexandra Torres (Marketing Coordinator).jpeg";
 import preschez from "../../../../assets/exec_headshots/Auriane Preschez (Events Coordinator).jpeg";
+import scodigor from "../../../../assets/exec_headshots/Elisabeth Scodigor (Executive Assistant).png";
 
 const ExecTeam = () => {
     return (
@@ -138,6 +139,9 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={francois} name="François-Xavier Chap. Perr." role="Strategic Advisor" major="Economics" hometown="Montreal, QC"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={scodigor} name="Elisabeth Scodigor" role="Executive Assistant" major="Strategic, Operations Management & Business Analytics" hometown="Belfort, France" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={sultana} name="Tanjin Sultana" role="Executive Assistant" major="Bioengineering" hometown="Montreal, QC" grad="2027"/>
