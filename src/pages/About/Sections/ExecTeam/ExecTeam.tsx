@@ -15,7 +15,6 @@ import durra from "../../../../assets/exec_headshots/Hala Durra (Events Coordina
 import francois from "../../../../assets/exec_headshots/Francois-Wavier Chap. Perr. (VP Corporate Relations).jpg";
 import aaron from "../../../../assets/exec_headshots/Aaron Anandji (Executive Director).edited1.png"; 
 import pennginton from "../../../../assets/exec_headshots/Emma Pennington (Events).jpeg";
-import goktug from "../../../../assets/exec_headshots/Goktug Bender(Corporate Relations).jpeg";
 import gonzales from "../.././../../assets/exec_headshots/Janine Gonzales (Director of Marketing).jpeg"
 import mikhaeil from "../../../../assets/exec_headshots/Miriam Mikhaeil (Director of Corporate Relations).jpg";
 import robidoux from "../../../../assets/exec_headshots/Edward Robidoux (Director of Finance).jpeg";
@@ -92,9 +91,6 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={mikhaeil} name="Miriam Mikhaeil" role="Director of Corporate Relations" major="Finance" hometown="Cairo, Egypt" grad="2026"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={goktug} name="Göktuğ Bender" role="Associate Director of Corporate Relations" major="Psychology" hometown="Tekirdağ/Türkiye" grad="2024"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={chung} name="Celine Chung" role="Corporate Relations Coordinator" major="International Management" hometown="Dallas, TX" grad="2027"/>
