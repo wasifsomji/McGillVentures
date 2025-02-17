@@ -17,7 +17,6 @@ import aaron from "../../../../assets/exec_headshots/Aaron Anandji (Executive Di
 import pennginton from "../../../../assets/exec_headshots/Emma Pennington (Events).jpeg";
 import goktug from "../../../../assets/exec_headshots/Goktug Bender(Corporate Relations).jpeg";
 import gonzales from "../.././../../assets/exec_headshots/Janine Gonzales (Director of Marketing).jpeg"
-import kaur from "../../../../assets/exec_headshots/Sehajdeep Kaur(Co-Director of Events).png";
 import mikhaeil from "../../../../assets/exec_headshots/Miriam Mikhaeil (Director of Corporate Relations).jpg";
 import robidoux from "../../../../assets/exec_headshots/Edward Robidoux (Director of Finance).jpeg";
 import bouez from "../../../../assets/exec_headshots/Marc Bouez (Finance Coordinator).jpeg";
@@ -69,9 +68,6 @@ const ExecTeam = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={sun} name="Kevin Sun" role="Events Coordinator" major="Finance, Accounting & Business Analytics" hometown="Montreal, QC" grad="2026"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={kaur} name="Sehajdeep Kaur" role="Events Coordinator" major="International Development" hometown="Nabha, India" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={lu} name="Catherine Lu" role="Events Coordinator" major="Honours Economics" hometown="Boston, MA" grad="2027"/>
