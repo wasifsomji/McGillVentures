@@ -2,14 +2,13 @@ import React from 'react';
 import styles from "./AnalystTeam.module.scss";
 import ScrollAnimation from "react-animate-on-scroll";
 import TeamMember from "../../../../components/TeamMember/TeamMember";
-import mcintosh from "../../../../assets/analyst_headshots/Jackson McIntosh (General Manager).png";
-import hamam from "../../../../assets/analyst_headshots/Alexis Hamam (General Manager).png";
-import sun from "../../../../assets/analyst_headshots/Iris Sun (General Manager).png";
+import mcintosh from "../../../../assets/analyst_headshots/Jackson McIntosh (Analyst Program Manager).jpeg";
+import hamam from "../../../../assets/analyst_headshots/Alexis Hamam (Fund Manager).jpg";
+import sun from "../../../../assets/analyst_headshots/Iris Sun (Analyst Program Manager).jpeg";
 import vaillancourt from "../../../../assets/analyst_headshots/Noah Vaillancourt(Analyst).jpg";
 import chung from "../../../../assets/analyst_headshots/Celine Chung (Analyst).jpg";
 import sadid from "../../../../assets/analyst_headshots/Urfaan Sadid (Analyst).jpg";
 import rabbath from "../../../../assets/analyst_headshots/Jonathan Rabbath (Analyst).jpg";
-import scodigor from "../../../../assets/analyst_headshots/Elisabeth Scodigor.jpg";
 import comtois from "../../../../assets/analyst_headshots/Alexandre Comtois (Analyst).jpg";
 import xu from "../../../../assets/analyst_headshots/Violet Xu (Analyst).jpg";
 import gaspar from "../../../../assets/analyst_headshots/Gaspar Billerault (Analyst).jpg";
@@ -19,18 +18,17 @@ import gonzalez from "../../../../assets/analyst_headshots/Gael Gonzalez (Analys
 import ham from "../../../../assets/analyst_headshots/Oscar Ham (Analyst).jpg";
 import cartier from "../../../../assets/analyst_headshots/Charles Cartier (Analyst).jpg";
 import harris from "../../../../assets/analyst_headshots/Alhan Harris(Analyst).png";
-import margaux from "../../../../assets/analyst_headshots/Margaux Ghazzoui (Analyst).jpg";
+import ghazzoui from "../../../../assets/analyst_headshots/Margaux Ghazzoui (Analyst).jpg";
 import clarke from "../../../../assets/analyst_headshots/Nathaniel Clarke (Analyst).jpg";
 
 const managers = [
-    { image: mcintosh, name: "Jackson McIntosh", role: "General Manager", major: "Finance", hometown: "Montreal, QC", grad: "2026" },
-    { image: hamam, name: "Alexis Hamam", role: "General Manager", major: "Finance", hometown: "Montreal, QC", grad: "2025" },
-    { image: sun, name: "Iris Sun", role: "General Manager", major: "Bioengineering", hometown: "Vancouver, BC", grad: "2026" },
+    { image: mcintosh, name: "Jackson McIntosh", role: "Analyst Program Manager", major: "Finance", hometown: "Montreal, QC", grad: "2026" },
+    { image: hamam, name: "Alexis Hamam", role: "Fund Manager", major: "Finance", hometown: "Montreal, QC", grad: "2025" },
+    { image: sun, name: "Iris Sun", role: "Analyst Program Manager", major: "Bioengineering", hometown: "Vancouver, BC", grad: "2026" },
 ];
 
 const analysts = [
-    { image: margaux, name: "Margaux Ghazzoui", role: "Analyst", major: "International Development", hometown: "London, ON", grad: "2025" },
-    { image: scodigor, name: "Elisabeth Scodigor", role: "Analyst", major: "Strat. Management + Operations", hometown: "Belfort, France", grad: "2026" },
+    { image: ghazzoui, name: "Margaux Ghazzoui", role: "Analyst", major: "International Development", hometown: "London, ON", grad: "2025" },
     { image: cartier, name: "Charles Cartier", role: "Analyst", major: "Finance", hometown: "Montreal, QC", grad: "2026" },
     { image: harris, name: "Alhaan Harris", role: "Analyst", major: "Joint Honours Econ + Finance", hometown: "Karachi, Pakistan", grad: "2026" },
     { image: chung, name: "Celine Chung", role: "Analyst", major: "International Management", hometown: "Dallas, TX", grad: "2027" },
