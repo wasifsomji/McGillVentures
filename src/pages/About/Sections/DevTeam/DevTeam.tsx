@@ -21,24 +21,21 @@ const ExecTeam = () => {
         <div className={styles.teamCardsContainer}>
             <div className={styles.teamInnerContainer}>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={somji} name="Wasif Somji" role="Lead Product Manager" major="Computer Engineering" hometown="Vancouver, BC" grad="2026"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={person1} name="Yassine Mimet" role="Associate Product Manager" major="Computer Engineering" hometown="Tetouan, Morocco" grad="2025"/>
+                    <TeamMember image={somji} name="Wasif Somji" role="Director of Engineering" major="Computer Engineering" hometown="Vancouver, BC" grad="2026"/>
                 </ScrollAnimation>
             </div>
             <div className={styles.teamInnerContainer}>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={dmytro} name="Dmytro Martyniuk" role="Backend Developer" major="Software Engineering" hometown="Montreal, QC" grad="2026"/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={heng} name="Julien Heng" role="Fullstack Developer" major="Software Engineering" hometown="Paris, France" grad="2027"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <TeamMember image={chen} name="Noah Chen" role="Fullstack Developer" major="CS + Mgmt." hometown="Toronto, ON" grad='2027'/>
+                    <TeamMember image={dmytro} name="Dmytro Martyniuk" role="Backend Developer" major="Software Engineering" hometown="Montreal, QC" grad="2026"/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={hum} name="Jaden Hum" role="Frontend Developer" major="Software Engineering" hometown="Montreal, QC" grad="2025"/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={chen} name="Noah Chen" role="Frontend Developer" major="CS + Mgmt." hometown="Toronto, ON" grad='2027'/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={joseph} name="Darlie Joseph" role="Product Designer" major="Psychology" hometown="Montreal, QC"/>
