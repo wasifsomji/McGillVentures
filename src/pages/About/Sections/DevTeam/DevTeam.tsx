@@ -23,6 +23,9 @@ const ExecTeam = () => {
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                     <TeamMember image={somji} name="Wasif Somji" role="Director of Engineering" major="Computer Engineering" hometown="Vancouver, BC" grad="2026"/>
                 </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                    <TeamMember image={person1} name="Yassine Mimet" role="Associate Director of Engineering" major="Computer Engineering" hometown="Tetouan, Morocco" grad="2025"/>
+                </ScrollAnimation>
             </div>
             <div className={styles.teamInnerContainer}>
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
