@@ -9,7 +9,7 @@ import eventImage2 from "../../assets/events/venture_capital_and_beyond.png";
 import Event from "../../components/Event/Event";
 import Footer from "../../components/Footer/Footer";
 import ScrollAnimation from "react-animate-on-scroll";
-import scarlettPitch1 from "../../assets/events/Scarlet_Pitch_img.png";
+import scarletPitch from "../../assets/events/scarlet_pitch_2025.jpeg";
 import northstar from "../../assets/events/north_star.png";
 import watchmojo from "../../assets/events/watch_mojo.jpg";
 
@@ -33,12 +33,16 @@ const Events = () => {
                 <div className={styles.eventsContent}>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                         <Event
-                            title="MVC x MES x McMillan Present: A Top 10 Event You Can’t Miss!"
-                            date="February 6, 2025"
-                            location="1000 Sherbrooke West"
-                            image={watchmojo}
-                            link="https://lu.ma/5ldi5z93"
-                        />
+                            image={scarletPitch}
+                            title="The Scarlet Pitch"
+                            date="March 27, 2025, 5:00 - 9:00 PM"
+                            location="EY Offices, 23rd Floor"
+                            description="Join us for this Dragons’ Den- and Shark Tank- style event that aims to:
+                            1) Connect emerging Montreal startups with other startup/venture capital ecosystem players, and
+                            2) Inspire students to engage with their local tech ecosystem, either from the entrepreneurial or VC side of the table.
+                            Featuring one of the actual Dragons from the Canadian TV show Dragons' Den, this event will be a great opportunity to learn from the best and network with other like-minded individuals."
+                            link="https://lu.ma/p2zi21ru"
+                    />
                     </ScrollAnimation>
                 </div>
 
@@ -48,6 +52,15 @@ const Events = () => {
                     <div className={styles.eventsHeader}>Past Events</div>
                 </ScrollAnimation>
                 <div className={styles.eventsContent}>
+                    <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
+                        <Event
+                            title="MVC x MES x McMillan Present: A Top 10 Event You Can’t Miss!"
+                            date="February 6, 2025"
+                            location="1000 Sherbrooke West"
+                            image={watchmojo}
+                            link="/"
+                        />
+                    </ScrollAnimation>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                         <Event
                             title="North Star: Inspiring Entrepeneurs"
@@ -94,19 +107,6 @@ const Events = () => {
                             This event is perfect for aspiring entrepreneurs and anyone interested in the startup ecosystem."
                             image={eventImage2}
                             link="/"
-                        />
-                    </ScrollAnimation>
-                    <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                            <Event
-                                image={scarlettPitch1}
-                                title="The Scarlet Pitch"
-                                date="March 20, 2024"
-                                location="Desjardins Lounge"
-                                description="Join us for this Dragons’ Den- and Shark Tank- style event that aims to:
-                                1) Connect emerging Montreal startups with other startup/venture capital ecosystem players, and
-                                2) Inspire students to engage with their local tech ecosystem, either from the entrepreneurial or VC side of the table.
-                                Featuring one of the actual Dragons from the Canadian TV show Dragons' Den, this event will be a great opportunity to learn from the best and network with other like-minded individuals."
-                                link="/"
                         />
                     </ScrollAnimation>
                 </div>
