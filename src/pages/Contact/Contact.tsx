@@ -42,6 +42,7 @@ const Contact = () => {
                             placeholder="Your email" 
                             variant="outlined" 
                             className={styles.emailInput}
+                            fullWidth
                         />
                         <Button 
                             variant="contained" 
@@ -52,7 +53,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className={styles.newsletterImageContainer}>
-                    {/* Images will be displayed here using background images in CSS */}
+                    {/* Images displayed via background image in CSS */}
                 </div>
             </div>
 
