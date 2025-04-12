@@ -27,8 +27,9 @@ const Events = () => {
                     subtitle="We curate a diverse range of events to cater to the thirst for venture capital knowledge."
                     image={landingImage}
                 />
+                {/* Past Events */}
                 <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <div className={styles.eventsHeader}>Upcoming Events</div>
+                    <div className={styles.eventsHeader}>Past Events</div>
                 </ScrollAnimation>
                 <div className={styles.eventsContent}>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
@@ -41,17 +42,9 @@ const Events = () => {
                             1) Connect emerging Montreal startups with other startup/venture capital ecosystem players, and
                             2) Inspire students to engage with their local tech ecosystem, either from the entrepreneurial or VC side of the table.
                             Featuring one of the actual Dragons from the Canadian TV show Dragons' Den, this event will be a great opportunity to learn from the best and network with other like-minded individuals."
-                            link="https://lu.ma/p2zi21ru"
+                            link="/"
                     />
                     </ScrollAnimation>
-                </div>
-
-
-                {/* Past Events */}
-                <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
-                    <div className={styles.eventsHeader}>Past Events</div>
-                </ScrollAnimation>
-                <div className={styles.eventsContent}>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" animateOnce="true">
                         <Event
                             title="MVC x MES x McMillan Present: A Top 10 Event You Can’t Miss!"
