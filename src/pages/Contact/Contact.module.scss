@@ -1,4 +1,4 @@
-
+// Existing styles
 .socialsContainer {
     background: #1E1E1E;
     height: 200px;
@@ -33,4 +33,143 @@
 .socialsIconContainer {
     display: flex;
     flex-direction: row;
+}
+
+// New newsletter styles
+.newsletterContainer {
+    display: flex;
+    padding: 0;
+    background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    min-height: 500px;
+
+    @media screen and (max-width: 1024px) {
+        flex-direction: column;
+        min-height: auto;
+    }
+}
+
+.newsletterContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 60px 8%;
+    z-index: 1;
+
+    @media screen and (max-width: 1024px) {
+        width: 100%;
+        padding: 40px 8%;
+    }
+}
+
+.newsletterTextContent {
+    margin-bottom: 30px;
+}
+
+.newsletterTitle {
+    font-size: 48px;
+    font-weight: bold;
+    color: #3b146e;
+    margin-bottom: 20px;
+    line-height: 1.1;
+    
+    @media screen and (max-width: 768px) {
+        font-size: 36px;
+    }
+}
+
+.venturesText {
+    color: #3b146e;
+}
+
+.handwrittenText {
+    font-family: 'Reenie Beanie', cursive;
+    font-weight: normal;
+    color: #3b146e;
+}
+
+.newsletterDescription {
+    font-size: 18px;
+    margin-bottom: 20px;
+    max-width: 90%;
+    line-height: 1.5;
+}
+
+.newsletterBenefit {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 90%;
+}
+
+.signupForm {
+    position: relative;
+    margin-top: 20px;
+    max-width: 500px;
+}
+
+.emailInput {
+    width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 50px;
+
+    & .MuiOutlinedInput-root {
+        padding-right: 150px;
+
+        & fieldset {
+            border: none;
+        }
+    }
+
+    & input {
+        padding: 15px 20px;
+    }
+
+    @media screen and (max-width: 600px) {
+        & .MuiOutlinedInput-root {
+            padding-right: 120px;
+        }
+    }
+}
+
+.subscribeButton {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #6543ab !important;
+    color: white !important;
+    border-radius: 50px !important;
+    padding: 10px 30px !important;
+    text-transform: none !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    min-width: initial !important;
+    
+    &:hover {
+        background-color: #553692 !important;
+    }
+
+    @media screen and (max-width: 600px) {
+        padding: 8px 20px !important;
+        font-size: 14px !important;
+    }
+}
+
+.newsletterImageContainer {
+    width: 54%;
+    position: relative;
+    background-image: url('../../assets/newsletter/newsletter-images.png');
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    min-height: 100%;
+
+    @media screen and (max-width: 1024px) {
+        width: 100%;
+        min-height: 300px;
+        background-position: center;
+    }
 }
