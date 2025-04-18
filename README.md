@@ -3,6 +3,8 @@
 ## Developers:  
 - Sandy Nguyen  
 - Wasif Somji
+- Noah Chen
+  
 ## Tools Used:
 - ReactJS + Typescript
 - SCSS
