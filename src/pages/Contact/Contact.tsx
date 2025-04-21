@@ -45,35 +45,35 @@ const Contact = () => {
             return;
         }
 
-        try {
-            const { data, error } = await supabase
-                .from('newsletter')
-                .insert([{ email }]);
+        // try {
+        //     const { data, error } = await supabase
+        //         .from('newsletter')
+        //         .insert([{ email }]);
             
-            console.log('data:', data, 'error:', error);
+        //     console.log('data:', data, 'error:', error);
 
-            if (error) {
-                setError('Error subscribing to the newsletter');
-                setModalTitle('Subscription Error');
-                setModalMessage('There was an error subscribing to the newsletter. Please try again.');
-                setSuccess(false);
-                setOpen(true);
-            } else {
-                setEmail('');
-                setError('');
-                setModalTitle('Subscribed Successfully!');
-                setModalMessage('Thank you for subscribing to the newsletter. To confirm your subscription, please click "Continue" and follow payment instructions.');
-                setSuccess(true);
-                setOpen(true);
-            }
-        } catch (error) {
-            console.error('Error:', error);
-            setError('An unexpected error occurred');
-            setModalTitle('Subscription Error');
-            setModalMessage('An unexpected error occurred. Please try again.');
-            setSuccess(false);
-            setOpen(true);
-        }
+        //     if (error) {
+        //         setError('Error subscribing to the newsletter');
+        //         setModalTitle('Subscription Error');
+        //         setModalMessage('There was an error subscribing to the newsletter. Please try again.');
+        //         setSuccess(false);
+        //         setOpen(true);
+        //     } else {
+        setEmail('');
+        setError('');
+        setModalTitle('Subscribed Successfully!');
+        setModalMessage('Thank you for subscribing to the newsletter. To confirm your subscription, please click "Continue" and follow payment instructions.');
+        setSuccess(true);
+        setOpen(true);
+            // }
+        // } catch (error) {
+        //     console.error('Error:', error);
+        //     setError('An unexpected error occurred');
+        //     setModalTitle('Subscription Error');
+        //     setModalMessage('An unexpected error occurred. Please try again.');
+        //     setSuccess(false);
+        //     setOpen(true);
+        // }
     };
 
     return (
