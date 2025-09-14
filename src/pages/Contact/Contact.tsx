@@ -86,7 +86,7 @@ const Contact = () => {
                 image={landingImage} />
             
             {/* Newsletter Signup Component */}
-            <div className={styles.newsletterContainer}>
+            {/* <div className={styles.newsletterContainer}>
                 <div className={styles.newsletterContent}>
                     <div className={styles.newsletterTextContent}>
                         <h1 className={styles.newsletterTitle}>
@@ -124,8 +124,8 @@ const Contact = () => {
                 </div>
                 <div className={styles.newsletterImageContainer}>
                     {/* Images displayed via background image in CSS */}
-                </div>
-            </div>
+                {/* </div>
+            </div> */} 
 
             {/* Social Media Links */}
             <div className={styles.socialsContainer}>
@@ -153,7 +153,7 @@ const Contact = () => {
             <Footer />
 
             {/* Modal for success / error messages */}
-            <Dialog
+            {/* <Dialog
                 open={open}
                 onClose={handleModalClose}
             >
@@ -168,7 +168,7 @@ const Contact = () => {
                         {success ? "Continue" : "Close"}
                     </Button>
                 </DialogActions>
-            </Dialog>
+            </Dialog> */}
         </div>
     );
 }
