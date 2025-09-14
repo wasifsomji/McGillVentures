@@ -275,7 +275,6 @@ const Program = () => {
             <Stack direction="column" padding="0 10% 10% 10%">
                 <VenturesFund/>
                 <HealthTechInnovation />
-                <McGillVenturesNewsletter />
                 <AnalystProgram />
                 <VenturesAdvisory />
             </Stack>
