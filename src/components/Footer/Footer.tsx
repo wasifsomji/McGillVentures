@@ -35,7 +35,7 @@ const Footer = () => {
                     textDecoration: 'none',
                     fontWeight: 700,
                     fontSize: { xs: '12px', md: '16px' }}}
-                >© McGill Ventures 2024</Typography>
+                >© McGill Ventures 2025</Typography>
                 <Typography
                     sx={{
                         mr: 2,
